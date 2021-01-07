@@ -1,0 +1,220 @@
+all:
+  lastname:
+  firstname:
+  title:
+  faculty: F03/F10
+nn:
+  lastname: N.N.
+  firstname:
+  title:
+  faculty: F03/F10/...
+tbb:
+  lastname: Bartz-Beielstein
+  firstname: Thomas
+  title: Prof. Dr.
+  faculty: F10
+sbe:
+  lastname: Bente
+  firstname: Stefan
+  title: Prof. Dr.
+  faculty: F10
+bbe:
+  lastname: Bertelsmeier
+  firstname: Birgit
+  title: Prof. Dr.
+  faculty: F10
+mbl:
+  lastname: Blümm
+  firstname: Mirjam
+  title: Prof. Dr.
+  faculty: F03/F10
+mboe:
+  lastname: Böhmer
+  firstname: Matthias
+  title: Prof. Dr.
+  faculty: F10
+jbo:
+  lastname: Bollenbacher
+  firstname: Jan
+  title:
+  faculty: F07
+sec:
+  lastname: Eckstein
+  firstname: Stefan
+  title: Prof. Dr.
+  faculty: F10
+men:
+  lastname: Engelen
+  firstname: Monika
+  title: Prof. Dr.
+  faculty: F10
+hfw:
+  lastname: Faeskorn-Woyke
+  firstname: Heide
+  title: Prof. Dr.
+  faculty: F10
+kfoe:
+  lastname: Förstner
+  firstname: Konrad
+  title: Prof. Dr.
+  faculty: F03
+cfr:
+  lastname: Frick
+  firstname: Claudia
+  title: Prof. Dr.
+  faculty: F03
+sfue:
+  lastname: Fühles-Ubach
+  firstname: Simone
+  title: Prof. Dr.
+  faculty: F03
+tga:
+  lastname: Galliat
+  firstname: Tobias
+  title: Prof. Dr.
+  faculty: F03
+hgue:
+  lastname: Günther
+  firstname: Holger
+  title: Prof. Dr.
+  faculty: F10
+agr:
+  lastname: Grebe
+  firstname: Andreas
+  title: Prof. Dr.
+  faculty: F07
+gha:
+  lastname: Hartmann
+  firstname: Gerhard
+  title: Prof. Dr.
+  faculty: F10
+ghe:
+  lastname: Heisenberg
+  firstname: Gernot
+  title: Prof. Dr.
+  faculty: F03
+jka:
+  lastname: Karpe
+  firstname: Jan
+  title: Prof. Dr.
+  faculty: F10
+ska:
+  lastname: Karsch
+  firstname: Stefan
+  title: Prof. Dr.
+  faculty: F10
+tkl:
+  lastname: Klein
+  firstname: Torsten
+  title: Prof. Dr.
+  faculty: F10
+lkoe:
+  lastname: Köhler
+  firstname: Lutz
+  title: Prof. Dr.
+  faculty: F10
+cko:
+  lastname: Kohls
+  firstname: Christian
+  title: Prof. Dr.
+  faculty: F10
+wko:
+  lastname: Konen
+  firstname: Wolfgang
+  title: Prof. Dr.
+  faculty: F10
+ela:
+  lastname: Lau
+  firstname: Elmar
+  title: Dr.
+  faculty: F10
+kle:
+  lastname: Lepsky
+  firstname: Klaus
+  title: Prof. Dr.
+  faculty: F03
+fli:
+  lastname: Linde
+  firstname: Frank
+  title: Prof. Dr.
+  faculty: F03
+ili:
+  lastname: Lindt
+  firstname: Irma
+  title: Prof. Dr.
+  faculty: F10
+rma:
+  lastname: Majewski
+  firstname: Roman
+  title: Prof. Dr.
+  faculty: F10
+ome:
+  lastname: Mersmann
+  firstname: Olaf
+  title: Prof. Dr.
+  faculty: F10
+bna:
+  lastname: Naujoks
+  firstname: Boris
+  title: Prof. Dr.
+  faculty: F10
+cno:
+  lastname: Noss
+  firstname: Christian
+  title: Prof.
+  faculty: F10
+psc:
+  lastname: Schaer
+  firstname: Philipp
+  title: Prof. Dr.
+  faculty: F03
+esc:
+  lastname: Schenk
+  firstname: Eberhard
+  title:
+  faculty: F10
+hst:
+  lastname: Stahl
+  firstname: Hans-Ludwig
+  title: Prof. Dr.
+  faculty: F10
+sst:
+  lastname: Stumpf
+  firstname: Siegfried
+  title: Prof. Dr.
+  faculty: F10
+fvi:
+  lastname: Victor
+  firstname: Frank
+  title: Prof. Dr.
+  faculty: F10
+cwe:
+  lastname: Werner
+  firstname: Christina
+  title: Prof. Dr.
+  faculty: F10
+hwe:
+  lastname: Westenberger
+  firstname: Hartmut
+  title: Prof. Dr.
+  faculty: F10
+mwi:
+  lastname: Winter
+  firstname: Mario
+  title: Prof. Dr.
+  faculty: F10
+rwoe:
+  lastname: Wörzberger
+  firstname: René
+  title: Prof. Dr.
+  faculty: F07
+mza:
+  lastname: Zapp
+  firstname: Matthias
+  title: Prof. Dr.
+  faculty: F10
+dzue:
+  lastname: Zühlke
+  firstname: Dietlind
+  title: Prof. Dr.
+  faculty: F10

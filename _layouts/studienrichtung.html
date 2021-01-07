@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section class="section modulfacts">
+
+  <div class="container">
+    <div class="content">
+      <div class="columns">
+        <div class="column is-8">
+          <h1>{{ page.title }} ({{ page.kuerzel }})</h1>
+          <h3>{% t global.specialization %}</h3>
+        </div>
+        <div class="column is-4 has-text-right">
+          <a target="_blank" href="{{site.edit-base}}{{ page.path }}"><span class="icon"><i class="fa fa-edit"></i></span>
+            Bearbeiten</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section modulbeschreibung">
+  <div class="container">
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+key: writtenexam
+d:
+  short: Klausur
+  long: >
+    Die Studierenden absolvieren eine schriftlichen Klausur, in der sie nachweisen, dass sie in begrenzter
+    Zeit und mit beschränkten Hilfsmitteln Lösungen für Probleme aus dem Gebiet des jeweiligen Moduls
+    erarbeiten können. Dabei werden die im Modul vermittelten wissenschaftlichen Methoden angewendet,
+    exploriert, analysiert und reflektiert.
+e:
+  short: Written exam
+  long: >
+

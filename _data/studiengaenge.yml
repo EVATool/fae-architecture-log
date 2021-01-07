@@ -1,0 +1,13 @@
+cc-regulaer:
+  name: 6 Semester
+  studiendauer: 6
+  cp: 180
+  beginn-zum: ws
+  feld-semesterzuordnung: studiensemester
+
+cc-praxissemester:
+  name: 7 Semester (mit Praxissemester)
+  studiendauer: 7
+  cp: 210
+  beginn-zum: ws
+  feld-semesterzuordnung: studiensemester-ps

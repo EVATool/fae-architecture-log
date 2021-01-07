@@ -1,0 +1,172 @@
+---
+layout: default
+---
+
+{% assign kompetenzbereiche=site.kompetenzbereiche %}
+{% assign examtypes=site.data.examtypes %}
+
+<section class="section modulfacts">
+  <div class="container">
+    <div class="content">
+
+      <div class="columns">
+        <div class="column is-8">
+          {% assign module = page %}
+          <h1>{% t moduledescription.module %} »{{ module.title }}« ({{module.acronym}})</h1>
+        </div>
+        <div class="column is-4 has-text-right">
+          <a target="_blank" href="{{site.edit-base}}{{ page.path }}{{site.edit-params}}">
+              <span class="icon"><i class="fa fa-edit"></i></span>{% t global.edit %}
+          </a>
+        </div>
+      </div>
+
+      {% if site.developer %}
+        {% include /functions/find-module-errors.html mymodule=module formatting="long" %}
+        {% if err_warn_flags.size > 0 %}
+            <div class="modulbeschreibung">
+              <h2>{% t moduledescription.errors_warnings_header %}</h2>
+              <p>{% t moduledescription.errors_warnings_description %}</p>
+            </div>
+            {{ err_warn_flags }}
+        {% endif %}
+      {% endif %}
+
+      <div class="modulbeschreibung">
+        <h2>{% t moduledescription.organizational_details_header %}</h2>
+      </div>
+
+      <dl class="overview">
+
+        {% include /functions/resolve-lecturer-list.html responsible=page.responsible detailed="true" %}
+        <dt>{% t modules.responsible.module_management.trans %}</dt>
+        <dd>{{ module_mgmt_info }}</dd>
+
+        {% if lecturer_info.size > 0 %}
+          <dt>{% t modules.responsible.lecturers.trans %}</dt>
+          <dd>{{ lecturer_info }}</dd>
+        {% endif %}
+
+        <!--
+        <dt>{% t modules.status.trans %}</dt>
+        {% assign cur_index = page.status | split: "." | last %}
+        <dd><abbr title="{{ site.translations[site.lang].modules.status.options_doc[cur_index] }}">{% t page.status %}</abbr></dd>
+        -->
+
+        <dt>{% t modules.language.trans %}</dt>
+        <dd>{% t page.language %}</dd>
+
+        <dt>{% t modules.semester.trans %}</dt>
+        {% include /functions/resolve-semester.html semester=page.semester %}
+        <dd>{{ semester_string }} ({% t modules.duration.trans %} {{ page.duration }} {% t moduledescription.duration_unit %})</dd>
+
+        <dt>{% t modules.location.trans %}</dt>
+        <dd>{% t page.location %}</dd>
+
+        <dt>{% t modules.participants.trans %}</dt>
+        {% include /functions/get-participants.html mymodule=page %}
+        <dd>{{ participants_info }}</dd>
+
+
+        {% assign check_precondition = page.precondition | strip_newlines %}
+        <dt>{% t modules.precondition.trans %}</dt>
+        <dd>
+          {% if check_precondition != "" %}
+            {{ page.precondition }}
+          {% else %}
+            {% t moduledescription.none %}
+          {% endif %}
+        </dd>
+
+        {% assign check_recommendation = page.recommendation | strip_newlines %}
+        <dt>{% t modules.recommendation.trans %}</dt>
+        <dd>
+          {% if check_recommendation != "" %}
+            {{ page.recommendation }}
+          {% else %}
+            {% t moduledescription.none %}
+          {% endif %}
+        </dd>
+
+        <dt>{% t modules.ects.trans %}</dt>
+        {% include /functions/total-ects.html mymodule=page %}
+        <dd>{{ total_ects }}</dd>
+
+        <dt>{% t modules.effort.trans %}</dt>
+        <dd>
+          {% assign total_hours = total_ects | times: 30 %}
+          {% t moduledescription.total_effort %} {{total_hours}}h
+        </dd>
+
+        <!-- Kontaktzeit: only show the elements that are defined / >0 -->
+        {% include /functions/calc-efforts.html mymodule=page my_total_hours=total_hours %}
+        <dt>{% t moduledescription.contact_time %}</dt>
+        <dd>{{ contact_time }}h {{ contact_time_details }}</dd>
+
+        <dt>{% t moduledescription.self_learning_time %}</dt>
+        <dd>{{ selfstudy_time }}h {{ selfstudy_time_details }}</dd>
+
+        <!-- Prüfungen im Detail, kann ich eine funktion draus machen -->
+        <dt>{% t modules.exam.trans %}</dt>
+        <dd>
+          {% include /functions/print-exam.html mymodule=page %}
+          {{ exam_output_string }}
+        </dd>
+
+      </dl>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section modulbeschreibung">
+  <div class="container">
+    <div class="content">
+
+      <h2>{% t moduledescription.contribution_to_focus_areas_header %}</h2>
+      <p>{% t moduledescription.contribution_to_focus_areas_description %}</p>
+      <table>
+        <thead>
+          <tr>
+            <td width="20%" style="font-weight: bold;color: #BB2585;">{% t moduledescription.focus_area %}</td>
+            <td width="10%" style="font-weight: bold;color: #BB2585;">{% t moduledescription.ects_proportional %}</td>
+            <td width="70%" style="font-weight: bold;color: #BB2585;">{% t moduledescription.contribution %}</td>
+          </tr>
+        </thead>
+
+        <!-- print contributions to Handlungsfelder, only the non-zero ones -->
+        {% if module.ects.contributions_to_focus_areas %}
+          {% assign linklist = "" | split: "." %}
+          {% for contrib in module.ects.contributions_to_focus_areas %}
+            {% if contrib[1].num > 0 %}
+              <tr>
+                {% assign _acronym = contrib[0] | upcase %}
+                {% assign _focus_area = site.handlungsfelder | where: "kuerzel", _acronym %}
+                <td><a href="{{site.baseurl}}/handlungsfelder/#{{ _focus_area[0].id | slugify }}">{{_focus_area[0].title}}</a></td>
+                <td>{{ contrib[1].num }}</td>
+                <td>{{ contrib[1].desc }}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </table>
+
+
+      {% if page.instanceof %}
+        {% comment %} This is in case of an "abstract" module providing a generic description, which is just
+            copied into any "instanceof" module. Applies e.g. to Guided Projects. {% endcomment %}
+          {% assign parent_list = site.module | where: "acronym", page.instanceof %}
+          {% if parent_list.size == 0 %}
+            *** FEHLER: kein Parent-Modul mit Kürzel {{ page.instanceof }} gefunden! ***
+          {% elsif parent_list.size > 1 %}
+            *** FEHLER: mehr als 1 Parent-Modul mit Kürzel {{ page.instanceof }} gefunden! ***
+          {% else %}
+            {{ parent_list[0].content }}
+          {% endif %}
+        {% else %}
+          {{ content }}
+        {% endif %}
+    </div>
+  </div>
+</section>

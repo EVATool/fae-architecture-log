@@ -23,7 +23,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   This is an Architecture Decision Log for the the WS 20/21 FAE Master course, working on a backend for EVATool
   as a case study, following Domain-Driven Design principles.
-baseurl: "/fae-architecture-log" # the subpath of your site, e.g. /blog
+baseurl: "https://evatool.github.io/fae-architecture-log" # the subpath of your site, e.g. /blog
 url: "https://evatool.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

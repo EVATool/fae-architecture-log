@@ -1,0 +1,9 @@
+{% if include.mydecision.decision_type == "must" %}
+	{% assign status_filename = "/assets/letter-m-16.png" %}
+{% elsif include.mydecision.decision_type == "should" %}
+	{% assign status_filename = "/assets/letter-s-16.png" %}
+{% elsif include.mydecision.decision_type == "team" %}
+	{% assign status_filename = "/assets/letter-t-16.png" %}
+{% endif %}
+
+{% assign status_class = include.mydecision.status %}

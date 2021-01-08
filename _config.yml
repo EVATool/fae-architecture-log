@@ -54,6 +54,9 @@ plugins:
 #   - vendor/ruby/
 
 collections:
+  decisions:
+    output: true
+    layout: default
   teams:
     output: true
     layout: decision_list
@@ -63,3 +66,29 @@ collections:
   overview:
     output: true
     layout: decision_list
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "decisions"
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "teams"
+    values:
+      layout: decision_list
+  -
+    scope:
+      path: ""
+      type: "sigs"
+    values:
+      layout: decision_list
+  -
+    scope:
+      path: ""
+      type: "overview"
+    values:
+      layout: decision_list

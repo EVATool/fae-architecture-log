@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{{ page.content }}
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="10%">Akronym</th>
+        <th width="20%">Team</th>
+        <th width="20%">SIG</th>
+        <th width="50%">Decisions</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for person in site.data.people %}
+        <tr>
+            <td>{{ person[0] }}</td>
+            <td>{{ person[1].team }}</td>
+            <td>{{ person[1].sig }}</td>
+            <td>&nbsp;</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

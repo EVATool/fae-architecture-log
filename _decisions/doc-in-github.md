@@ -3,12 +3,10 @@ type: decision
 acronym: doc-in-github
 title: >
     All documentation (apart from the decision log itself) has to be stored in a Github wiki, in repo 
-    evatool-backend.
+    evatool-backend
 decision_type: must
 status: _4_stakeholder_checked
-responsible:
-    r1: SBE
-    r2:
+responsible: SBE;PKL
 deadline: 2021-01-08
 history:
     v1:
@@ -18,17 +16,25 @@ history:
 
 ## Why is there need for such a decision?
 
-(please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+We need to have one (central!) location for all documentation, since the project is supposed to live on, after
+FAE has been finished. 
 
 ## Additional sources for better understanding the background
 
-(please )
+* Github wiki documentation
+* additional options like e.g. Confluence or Teams
 
-## How can this decision be 
+## How has this decision been evaluated?
 
+Alternatives are fairly obvious (see "additional sources"). Decision criteria is the goal to start an open source
+project. Hands-on evaluation is not really needed in this case - using a Github wiki is a no-brainer.
  
-## Reasons for the decision
+## Resolution Details
 
+Documentation will be stored in the wiki of repo evatool-backend.
 
-## 
+## Reasons for the resolution
+
+In this case, decision is easy. To initiate a proper open source project, the documentation needs to be 
+publically accessible. That leaves only Github wiki as a viable option.  
+

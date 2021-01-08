@@ -14,10 +14,10 @@ These are the decision types used in the architectural decision process.
 
 | Symbol | Type | Explanation |
 |-----|-----|-----|
-| <img src="{{ site.url }}/assets/error-4-24.png" alt="Error"> | Error | Some semantical error in the decision; please fix immediately. |
-| <img class=_0_neutral src="{{ site.url }}/assets/letter-m-16.png" alt="Must"> | Must | A decision (principle, solution, technology etc.) that is binding for **all** teams | 
-| <img class=_0_neutral src="{{ site.url }}/assets/letter-s-16.png" alt="Must"> | Should | A decision that is a **recommendation** for all teams, e.g. a technology that seemingly works well; teams can still deviate if they have good reasons to do so. Deviations must be reasoned by a team decision (see below)   | 
-| <img class=_0_neutral src="{{ site.url }}/assets/letter-t-16.png" alt="Team"> | Team | Team decision; can be taken without consulting anyone outside the team. | 
+| <img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" alt="Error"> | Error | Some semantical error in the decision; please fix immediately. |
+| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-m-16.png' | relative_url }}" alt="Must"> | Must | A decision (principle, solution, technology etc.) that is binding for **all** teams | 
+| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-s-16.png' | relative_url }}" alt="Must"> | Should | A decision that is a **recommendation** for all teams, e.g. a technology that seemingly works well; teams can still deviate if they have good reasons to do so. Deviations must be reasoned by a team decision (see below)   | 
+| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-t-16.png' | relative_url }}" alt="Team"> | Team | Team decision; can be taken without consulting anyone outside the team. | 
 
 
 
@@ -28,11 +28,11 @@ These are the decision types used in the architectural decision process.
 
 | Symbol | Keyword in Decision Log | Status | Explanation |
 |-----|-----|-----|-----|
-| <img class=_1_open src="{{ site.url }}/assets/letter-m-16.png" alt="open"> | _1_open | Open | An open decision has been created, but no resolution is available yet | 
-| <img class=_2_draft src="{{ site.url }}/assets/letter-m-16.png" alt="draft"> | _2_draft | Draft | A resolution is available and documented, but there has not yet been a discussion about it. | 
-| <img class=_3_sig_agreed src="{{ site.url }}/assets/letter-m-16.png" alt="draft"> | _3_sig_agreed | Agreed in SIG | The resolution has been discussed and agreed upon in the SIG to which the decision belongs. | 
-| <img class=_4_stakeholder_checked src="{{ site.url }}/assets/letter-m-16.png" alt="draft"> | _4_stakeholder_checked | Checked with Stakeholders | The resolution has been checked with the stakeholders (Prof. Bente, UID) for quality of reasoning and documentation, and possible side effects. There are no objections (otherwise the decision would go back to draft state). | 
-| <img class=_5_presented src="{{ site.url }}/assets/letter-m-16.png" alt="draft"> | _5_presented | Presented to FAE Course | The resolution has been presented, explained, and discussed with the whole course (on a Friday meeting). There are no major objections (otherwise the decision would go back to draft state).  | 
+| <img class=_1_open src="{{ site.url }}{{ '/assets/letter-m-16.png' | relative_url }}" alt="open"> | _1_open | Open | An open decision has been created, but no resolution is available yet | 
+| <img class=_2_draft src="{{ site.url }}{{ '/assets/letter-m-16.png' | relative_url }}" alt="draft"> | _2_draft | Draft | A resolution is available and documented, but there has not yet been a discussion about it. | 
+| <img class=_3_sig_agreed src="{{ site.url }}{{ '/assets/letter-m-16.png' | relative_url }}" alt="draft"> | _3_sig_agreed | Agreed in SIG | The resolution has been discussed and agreed upon in the SIG to which the decision belongs. | 
+| <img class=_4_stakeholder_checked src="{{ site.url }}{{ '/assets/letter-m-16.png' | relative_url }}" alt="draft"> | _4_stakeholder_checked | Checked with Stakeholders | The resolution has been checked with the stakeholders (Prof. Bente, UID) for quality of reasoning and documentation, and possible side effects. There are no objections (otherwise the decision would go back to draft state). | 
+| <img class=_5_presented src="{{ site.url }}{{ '/assets/letter-m-16.png' | relative_url }}" alt="draft"> | _5_presented | Presented to FAE Course | The resolution has been presented, explained, and discussed with the whole course (on a Friday meeting). There are no major objections (otherwise the decision would go back to draft state).  | 
 
 
 
@@ -42,6 +42,6 @@ These are the decision types used in the architectural decision process.
 
 | Symbol | Keyword in Decision Log | Status | Explanation |
 |-----|-----|-----|-----|
-| <img class=_1_open src="{{ site.url }}/assets/letter-t-16.png" alt="open"> | _1_open | Open | An open decision has been created, but no resolution is available yet | 
-| <img class=_2_draft src="{{ site.url }}/assets/letter-t-16.png" alt="draft"> | _2_draft | Draft | A resolution is available and documented, but there has not yet been a discussion in the team about it. | 
-| <img class=_3_team_agreed src="{{ site.url }}/assets/letter-t-16.png" alt="draft"> | _3_team_agreed | Agreed in Team | The resolution has been discussed and agreed upon in the team. |
+| <img class=_1_open src="{{ site.url }}{{ '/assets/letter-t-16.png' | relative_url }}" alt="open"> | _1_open | Open | An open decision has been created, but no resolution is available yet | 
+| <img class=_2_draft src="{{ site.url }}{{ '/assets/letter-t-16.png' | relative_url }}" alt="draft"> | _2_draft | Draft | A resolution is available and documented, but there has not yet been a discussion in the team about it. | 
+| <img class=_3_team_agreed src="{{ site.url }}{{ '/assets/letter-t-16.png' | relative_url }}" alt="draft"> | _3_team_agreed | Agreed in Team | The resolution has been discussed and agreed upon in the team. |

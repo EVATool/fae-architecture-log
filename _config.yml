@@ -52,3 +52,14 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  teams:
+    output: true
+    layout: decision_list
+  sigs:
+    output: true
+    layout: decision_list
+  overview:
+    output: true
+    layout: decision_list

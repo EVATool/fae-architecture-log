@@ -18,13 +18,18 @@
 
 </head>
 <body>
+
 <div id="header">
+  <h1 style="text-align:center;position: relative; top: 4px;line-height: 1em;margin-top: 0.2em;">
+    {{ site.title | default: site.github.repository_name }}
+  </h1>
   <nav>
-    <li class="title">SIGs</li>
+    <li class="sig"><a href="{{ site.github.repository_url }}">Home</a></li>
+    <li class="title">SIGs:</li>
     <li class="sig"><a href="{{ site.github.repository_url }}">APIs</a></li>
     <li class="sig"><a href="{{ site.github.repository_url }}">DevOps</a></li>
     <li class="sig"><a href="{{ site.github.repository_url }}">Eventing</a></li>
-    <li class="title">Teams</li>
+    <li class="title">Teams:</li>
     <li class="team"><a href="{{ site.github.repository_url }}">Goals & Risks</a></li>
     <li class="team"><a href="{{ site.github.repository_url }}">Projects</a></li>
     <li class="team"><a href="{{ site.github.repository_url }}">Requirements</a></li>
@@ -33,21 +38,21 @@
 </div><!-- end header -->
 
 <div class="wrapper">
-
   <section>
-    <div id="title">
-      <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
-      <hr>
-      <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-      <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
-    </div>
-
     {{ content }}
-
   </section>
-
 </div>
+
+
+<footer>
+<a href="/documentation.html">Documentation</a> &nbsp;&nbsp;&nbsp;
+<a href="/people.html">People</a> &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.th-koeln.de/hochschule/impressum_8159.php">Impressum</a> &nbsp;&nbsp;&nbsp;
+<a href="https://www.th-koeln.de/hochschule/haftungshinweis_8277.php">Haftungshinweis</a> &nbsp;&nbsp;&nbsp;
+<a href="https://www.th-koeln.de/hochschule/datenschutzhinweis_8279.php">Datenschutzhinweis</a>
+</footer>
+
 
 {% if site.google_analytics %}
 <script>

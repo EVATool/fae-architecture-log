@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<h1>People, Memberships, and Decisions</h1>
+
+<p>
+    Here is a list of everyone in the FAE course. As this needs to be a public repo (otherwise Github Pages are
+    not allowed), we won't use real names here. Instead, everyone is identified by a 3-letter acronym (one letter
+    first name, two letters last name). This means that "Stefan Bente" goes as "SBE".
+</p>
+<p>
+    In addition, the table lists team and SIG memberships, and decision(s) the person is responsible for.
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="10%">Akronym</th>
+        <th width="20%">Team</th>
+        <th width="20%">SIG</th>
+        <th width="50%">Decisions</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for person in site.data.people %}
+        <tr>
+            <td>{{ person[0] }}</td>
+            <td>{{ person[1].team }}</td>
+            <td>{{ person[1].sig }}</td>
+            <td>&nbsp;</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

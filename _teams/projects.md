@@ -2,7 +2,7 @@
 type: team
 acronym: projects
 title: Projects
-workday: monday
+workday: Monday
 ---
 
 The team focuses on the *Projects* subdomain. This includes: 

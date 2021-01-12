@@ -3,7 +3,7 @@ type: decision
 acronym: sig-api-style
 title: >
     API-Style  
-decision_type: team
+decision_type: must
 status: _1_open
 responsible: JLÜ;JSP
 deadline: 2021-01-22
@@ -14,18 +14,29 @@ history:
     v2:
         date: 2021-01-12
         comment: update responsibility
+    v3:
+        date: 2021-01-12
+        comment: need for decision
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+The Api-Style defines the way users  can access the provided resources. The Goal should be that all APIs can be accesses the same Way so the Client/User does 
+not need different ways to access.  
+All Teams must use the same style to reach this goal.
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+[Differences between SOAP and REST](https://rapidapi.com/blog/types-of-apis/)
+
+[GraphQL](https://graphql.org/)
+
+[REST Levels](https://blog.restcase.com/4-maturity-levels-of-rest-api-design/)
 
 ## How has this decision been evaluated?
+To take the decision, research is necessary. Therefore, the differences between the different API-Styles have to be evaluated.
+It is important that after the research the preferred Styles are implemented to compare them directly und to get familiar with those styles.
+With the results of the research a decision based on facts and experience can be taken.
 
 (**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
 come to a resolution. 

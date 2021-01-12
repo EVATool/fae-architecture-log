@@ -17,6 +17,9 @@ history:
     v3:
         date: 2021-01-12
         comment: update responsibility
+    v4:
+        date: 2021-01-12
+        comment: need for decision and sources
 ---
 
 ## Why is there need for such a decision?
@@ -26,7 +29,11 @@ must / should / team)
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+[Differences between JSON and XML](https://rapidapi.com/blog/types-of-apis/)
+
+[JSON](https://www.json.org/json-de.html)
+
+[XML](https://wiki.selfhtml.org/wiki/XML)
 
 ## How has this decision been evaluated?
 

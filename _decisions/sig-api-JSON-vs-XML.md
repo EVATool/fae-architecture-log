@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-api-data_format
 title: >
-    Data format
+    JSON vs XML
 decision_type: team
 status: _1_open
 responsible: JLÜ;JSP

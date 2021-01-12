@@ -5,12 +5,15 @@ title: >
     API-Style  
 decision_type: team
 status: _1_open
-responsible: 
+responsible: JLÜ;JSP
 deadline: 2021-01-22
 history:
     v1:
         date: 2021-01-11
         comment: created initially
+    v2:
+        date: 2021-01-12
+        comment: update responsibility
 ---
 
 ## Why is there need for such a decision?

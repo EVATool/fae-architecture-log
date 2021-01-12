@@ -4,8 +4,8 @@ acronym: programming-language
 title: >
     In the backend, Java is used as programming language
 decision_type: must
-status: _4_stakeholder_checked
-responsible: SBE;PKL
+status: _5_presented
+responsible: SBE
 deadline: 2021-01-08
 history:
     v1:

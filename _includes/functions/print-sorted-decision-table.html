@@ -1,0 +1,38 @@
+{% assign decision_list = include.mydecision_list %}
+
+{% assign done_group_decisions = decision_list |  where:"status","_5_presented" %}
+{% assign decision_list = decision_list | where_exp: "dec", "dec.status != '_5_presented'" %}
+
+{% assign done_team_decisions = decision_list |  where:"status","_3_team_agreed" %}
+{% assign decision_list = decision_list | where_exp: "dec", "dec.status != '_3_team_agreed'" %}
+
+{% assign deadline_groups = decision_list | group_by: "deadline" | sort: "name" %}
+{% assign decision_list = "" | split: ";" %}
+{% for group in deadline_groups %}
+{% assign sublist = group.items | sort: "status" %}
+{% assign decision_list = decision_list | concat: sublist %}
+{% endfor %}
+
+{% assign decision_list = decision_list | concat: done_group_decisions | concat: done_team_decisions %}
+
+<table>
+    <thead>
+    <tr>
+        <th width="8%">Status</th>
+        <th width="60%">Title</th>
+        <th width="15%">Responsible</th>
+        <th width="15%">Deadline</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for decision in decision_list %}
+    <tr>
+        {% include /functions/get-status-infos.html mydecision=decision %}
+        <td><img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}"/></td>
+        <td>{{ decision.title }}</td>
+        <td>{{ decision.responsible }}</td>
+        <td>{{ decision.deadline }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

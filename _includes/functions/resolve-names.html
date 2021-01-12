@@ -2,7 +2,7 @@
 {% assign responsible_list = "" | split: ";" %}
 
 {% for person_raw in raw_list %}
-	{% assign acronym = person_raw | lstrip | rstrip | upper %}
+	{% assign acronym = person_raw | strip | upcase %}
 	{% if site.data.people[acronym] %}
 		{% if site.data.people[acronym].nickname %}
 			{% assign responsible_list = responsible_list | push: site.data.people[acronym].nickname %}

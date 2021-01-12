@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h1>SIG {{ page.title }}</h1>
+
+{{ page.content }}
+
+{% assign filtered_decisions = site.decisions | where_exp: "decision", "decision.decision_type != 'team'" %}
+{% include /functions/print-sorted-decision-table.html mydecision_list=filtered_decisions typefilter="sig" group_acronym=page.acronym %}
+
+

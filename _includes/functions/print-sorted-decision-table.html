@@ -1,4 +1,31 @@
 {% assign decision_list = include.mydecision_list %}
+{% assign typefilter = include.typefilter %}
+{% assign group_acronym = include.group_acronym %}
+
+{% comment %}
+If a typefilter ("team" or "sig") is specified, then two additional filterings are done:
+1) only the corresponding decision types are filtered.
+2) the decision is only listed, if one of the contributors is part of that team / sig that we look at.
+{% endcomment %}
+
+{% if typefilter %}
+    {% assign group_decisions = "" | split: ";" %}
+    {% for decision in decision_list %}
+        {% assign needs_to_be_included = false %}
+        {% assign person_list = decision.responsible | split: ";" %}
+        {% for person in person_list %}
+            {% assign acronym = person | strip | upcase %}
+            {% if site.data.people[acronym][include.typefilter] == group_acronym %}
+                {% assign needs_to_be_included = true %}
+            {% endif %}
+        {% endfor %}
+        {% if needs_to_be_included %}
+            {% assign group_decisions = group_decisions | push: decision %}
+        {% endif %}
+    {% endfor %}
+    {% assign decision_list = group_decisions %}
+{% endif %}
+
 
 {% assign done_group_decisions = decision_list |  where:"status","_5_presented" %}
 {% assign decision_list = decision_list | where_exp: "dec", "dec.status != '_5_presented'" %}
@@ -9,8 +36,8 @@
 {% assign deadline_groups = decision_list | group_by: "deadline" | sort: "name" %}
 {% assign decision_list = "" | split: ";" %}
 {% for group in deadline_groups %}
-{% assign sublist = group.items | sort: "status" %}
-{% assign decision_list = decision_list | concat: sublist %}
+    {% assign sublist = group.items | sort: "status" %}
+    {% assign decision_list = decision_list | concat: sublist %}
 {% endfor %}
 
 {% assign decision_list = decision_list | concat: done_group_decisions | concat: done_team_decisions %}

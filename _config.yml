@@ -56,6 +56,10 @@ plugins:
 collections:
   decisions:
     output: true
+  teams:
+    output: true
+  sigs:
+    output: true
 
 defaults:
   - scope:
@@ -63,3 +67,13 @@ defaults:
       type: "decisions"
     values:
       layout: "decision"
+  - scope:
+      path: ""
+      type: "teams"
+    values:
+      layout: "team"
+  - scope:
+      path: ""
+      type: "sigs"
+    values:
+      layout: "sig"

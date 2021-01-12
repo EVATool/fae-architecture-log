@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% if page.workday %}
+    {% assign workday = page.workday %}
+{% else %}
+    {% assign workday = "undefined" %}
+{% endif %}
+<h1>Team {{ page.title }} (Workday: {{ workday }})</h1>
+
+{{ page.content }}
+
+{% assign filtered_decisions = site.decisions | where: "decision_type", "team" %}
+{% include /functions/print-sorted-decision-table.html mydecision_list=filtered_decisions typefilter="team" group_acronym=page.acronym %}
+

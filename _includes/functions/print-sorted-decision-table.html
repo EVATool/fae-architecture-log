@@ -29,7 +29,8 @@
     <tr>
         {% include /functions/get-status-infos.html mydecision=decision %}
         <td><img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}"/></td>
-        <td><a href="{{ decision.url }}">{{ decision.title }}</a> </td>
+        {% assign decision_file_name = "/decisions/" | append: decision.acronym | append: ".html" %}
+        <td><a href="{{ site.url }}{{ decision_file_name | relative_url }}">{{ decision.title }}</a> </td>
         {% include /functions/resolve-names.html mydecision=decision %}
         <td>{{ responsible_string }}</td>
         {% include /functions/is-decision-open.html mydecision=decision %}

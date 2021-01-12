@@ -8,9 +8,9 @@ status: _1_open
 responsible:
 deadline: 2021-01-22
 history:
-v1: Initial
-date: 2021-01-12
-comment: created initially
+    v1:
+        date: 2021-01-12
+        comment: created initially
 ---
 
 ## Why is there need for such a decision?

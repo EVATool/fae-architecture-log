@@ -2,7 +2,7 @@
 type: team
 acronym: requirements
 title: Requirements
-workday: 
+workday: Tuesday
 ---
 
 The team focuses on the *Requirements* subdomain. This includes: 

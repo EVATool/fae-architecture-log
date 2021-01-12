@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include /functions/get-status-infos.html mydecision=page %}
+<h1><img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}"/> &nbsp;
+    {{ page.title }}</h1>
+
+<dl>
+    <dt>Responsible</dt>
+    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
+
+    {% include /functions/is-decision-open.html mydecision=page %}
+    {% if decision_is_open %}
+        <dt>Deadline</dt>
+        <dd>{{ page.deadline }}</dd>
+    {% endif %}
+    <dt>History</dt>
+    {% for entry in page.history %}
+        <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
+    {% endfor %}
+</dl>
+
+
+{{ page.content }}

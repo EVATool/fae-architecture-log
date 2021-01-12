@@ -5,7 +5,7 @@ title: >
     In the backend, we will follow the "Modulith" architecture style 
 decision_type: must
 status: _4_stakeholder_checked
-responsible: SBE;PKL
+responsible: SBE
 deadline: 2021-01-08
 history:
     v1:

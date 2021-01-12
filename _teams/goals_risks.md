@@ -2,7 +2,7 @@
 type: team
 acronym: goals_risks
 title: Goals & Risks
-workday: 
+workday: Wednesday
 ---
 
 The team focuses on the *Goals & Risks* subdomain. This includes: 

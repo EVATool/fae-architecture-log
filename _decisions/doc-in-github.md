@@ -5,13 +5,17 @@ title: >
     All documentation (apart from the decision log itself) has to be stored in a Github wiki, in repo 
     evatool-backend
 decision_type: must
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: SBE;PKL
 deadline: 2021-01-08
 history:
     v1:
         date: 2021-01-08
         comment: created initially
+    v2:
+        date: 2021-01-09
+        comment: added reasoning
+                
 ---
 
 ## Why is there need for such a decision?

@@ -4,8 +4,8 @@ acronym: programming-framework
 title: >
     In the backend, Spring is used as predominant programming framework 
 decision_type: must
-status: _4_stakeholder_checked
-responsible: SBE;PKL
+status: _5_presented
+responsible: SBE
 deadline: 2021-01-08
 history:
     v1:

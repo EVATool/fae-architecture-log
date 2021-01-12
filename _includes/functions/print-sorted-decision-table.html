@@ -29,9 +29,11 @@
     <tr>
         {% include /functions/get-status-infos.html mydecision=decision %}
         <td><img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}"/></td>
-        <td>{{ decision.title }}</td>
-        <td>{{ decision.responsible }}</td>
-        <td>{{ decision.deadline }}</td>
+        <td><a href="{{ decision.url }}">{{ decision.title }}</a> </td>
+        {% include /functions/resolve-names.html mydecision=decision %}
+        <td>{{ responsible_string }}</td>
+        {% include /functions/is-decision-open.html mydecision=decision %}
+        <td>{% if decision_is_open %}{{ decision.deadline }}{% endif %}</td>
     </tr>
     {% endfor %}
     </tbody>

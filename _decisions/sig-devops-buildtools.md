@@ -11,11 +11,16 @@ history:
     v1:
         date: 2021-01-13
         comment: created initially
+    v2:
+        date: 2021-01-13
+        comment: updated need for decision and sources
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level must / should / team)
+Build tools like ant, maven and gradle are used to help in build automation. Build automation will help to automate a variety of tasks like compiling source code, converting into binary code, managing dependencies, running automated tests and deployment to production systems. This decision will focus on maven and gradle only.
+
+All teams have to use the same build tool to avoid inconsistency.
 
 ## Additional sources for better understanding the background
 

@@ -11,6 +11,9 @@ history:
     v1:
         date: 2021-01-10
         comment: created initially
+    v2:
+        date: 2021-01-13
+        comment: fixed the table and links
 ---
 
 ## Why is there need for such a decision?
@@ -20,12 +23,12 @@ Automating tests is necessary when many developers are collaborating and are cha
 
 ## Additional sources for better understanding the background
 
-- [https://en.wikipedia.org/wiki/Software_testing](Software Testing)
-- [https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing](Types of Tests)
-- [https://en.wikipedia.org/wiki/Test_automation](Automated Testing)
-- [https://www.perfecto.io/blog/automated-testing-vs-manual-testing-vs-continuous-testing](Blog about Automated and Manual Testing)
-- [https://docs.github.com/en/free-pro-team@latest/actions](GitHub Actions)
-- [https://cloud.google.com/solutions/devops/devops-tech-test-automation](Google Cloud)
+- [Software Testing](https://en.wikipedia.org/wiki/Software_testing)
+- [Types of Tests](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
+- [Automated Testing](https://en.wikipedia.org/wiki/Test_automation)
+- [Blog about Automated and Manual Testing](https://www.perfecto.io/blog/automated-testing-vs-manual-testing-vs-continuous-testing)
+- [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions)
+- [Google Cloud](https://cloud.google.com/solutions/devops/devops-tech-test-automation)
 
 ## How is this decision evaluated?
 
@@ -35,7 +38,7 @@ There are three candidates:
 - Manual Tests
 
 | Criteria | GitHub Actions | Cloud-based | Manual Tests |  |
-|:-:|:-:|:-:|:-:|-|
+|-----|-----|-----|-----|-----|
 | Project (FAE) | GitHub already given as source control | Not integrated into source control | Not integrated into source control |  |
 | Acquisition | Free<br>Less computational power due to no cost | Might cost money if very powerful, but not powerful enough if free<br>Even if free and OK, using GitHub would be more sound | Might cost money if very powerful |  |
 | Setup | Well known, many resources and existing actions | Might not be as well known, less resources | Most IDEs have integrated Tests or have plugins + well known IDEs have good resources |  |

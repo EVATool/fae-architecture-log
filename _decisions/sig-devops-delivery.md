@@ -1,8 +1,8 @@
 ---
 type: decision
-acronym: sig-devops-hosting
+acronym: sig-devops-delivery
 title: >
-    Choice of Hosting provider
+    Application delivery
 decision_type: must
 status: _1_open
 responsible: 
@@ -11,15 +11,16 @@ history:
     v1:
         date: 2021-01-13
         comment: created initially
-    v2:
-        date: 2021-01-13
-        comment: changed the deadline; added one aspect
 ---
 
-## Important aspects of the decision
+## Questions and others
 
-* The solution must be proprietary
+    Delivery: build -> test -> deploy -> run
 
+* How to build? (see sig-devops-buildtools)
+* How to test? (see sig-devops-testing-automation)
+* How to deploy?
+* How to run?
 
 ## Why is there need for such a decision?
 

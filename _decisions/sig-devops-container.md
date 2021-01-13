@@ -6,11 +6,14 @@ title: >
 decision_type: must
 status: _1_open
 responsible: TZA
-deadline: 2021-01-22
+deadline: 2021-02-05
 history:
     v1:
         date: 2021-01-12
         comment: created initially
+    v2:
+        date: 2021-01-13
+        comment: changed the deadline; added questions
 ---
 
 ## Why is there need for such a decision?
@@ -38,6 +41,34 @@ must / should / team)
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
 
+---
+##Questions
+
+* Why to use containers for EVATool?
+
+---
+* Compare docker vs. VM?
+    * What tasks should I try on both of them?! Which aspects are important for decision?
+
+          - Workflow (what is easier)
+          - Application delivery: build -> test -> deploy -> run
+          - Updates delivery (Scenario: Hotfix)
+
+  first TODOs:
+    * "Hello World"-Spring-Boot application with one very simple REST API
+    * Create VM (some sort of Linux) on a local machine (using VirtualBox)
+    * Find a way to deliver the application on VM
+---
+
+* Do hosting platforms offer support for containers?
+* Do hosting-platforms provide some frameworks for containerization?
+* Do hosting-platforms have complete container-solutions?
+
+
+* EVATool: Would it be a Web-Site or App or what?
+    * In FAE we will build a sand-alone Spring-Application (with Spring Boot)
+
+---
 ## How is this decision evaluated?
 
 (**Before** you start working in this, please write down how you will evaluate this decision, and plan to 

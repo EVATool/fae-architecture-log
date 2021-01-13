@@ -17,7 +17,14 @@ history:
     v3:
         date: 2021-01-13
         comment: Added evaluation details
+    v4:
+        date: 2021-01-13
+        comment: added one question
 ---
+
+### Questions [only temporary chapter]
+
+* Can Github-Actions build the application and deploy it on to some host (server)?
 
 ## Why is there need for such a decision?
 

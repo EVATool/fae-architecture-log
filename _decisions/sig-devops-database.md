@@ -1,6 +1,6 @@
 ---
 type: decision
-acronym: sig-devops-db-choise
+acronym: sig-devops-database
 title: >
     Choice of database
 decision_type: should

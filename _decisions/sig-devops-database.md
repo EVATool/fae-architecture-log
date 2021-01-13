@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-devops-db-choise
 title: >
-    Choice of database  
+    Choice of database
 decision_type: should
 status: _1_open
 responsible: 

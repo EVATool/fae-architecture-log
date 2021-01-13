@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-api-Documentation 
 title: >
-    Swagger-Documentation
+    API-Documentation
 decision_type: must
 status: _1_open
 responsible: FOB

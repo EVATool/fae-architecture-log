@@ -5,7 +5,7 @@ title: >
     Domain model for team "Scenarios"  
 decision_type: team
 status: _1_open
-responsible: AKO;KRU;DUZ 
+responsible: KRU;DUZ 
 deadline: 2021-01-22
 history:
     v1:

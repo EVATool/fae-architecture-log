@@ -18,8 +18,9 @@ layout: default
     <thead>
     <tr>
         <th width="10%">Akronym</th>
-        <th width="20%">Team</th>
-        <th width="20%">SIG</th>
+        <th width="15%">Nickname</th>
+        <th width="10%">Team</th>
+        <th width="10%">SIG</th>
         <th width="50%">Decisions</th>
     </tr>
     </thead>
@@ -27,9 +28,54 @@ layout: default
         {% for person in site.data.people %}
         <tr>
             <td>{{ person[0] }}</td>
-            <td>{{ person[1].team }}</td>
-            <td>{{ person[1].sig }}</td>
-            <td>&nbsp;</td>
+
+            {% if person[1].nickname %}
+                <td>{{ person[1].nickname }}</td>
+            {% else %}
+                <td>???</td>
+            {% endif %}
+
+            {% if person[1].team %}
+                {% assign team_list = site.teams | where_exp: "team", "team.acronym == person[1].team" %}
+                {% if team_list.size > 0 %}
+                    {% assign team = team_list[0] %}
+                    <td><a href="{{ site.url }}{{ team.url | relative_url }}">{{ team.title }}</a></td>
+                {% else %}
+                    <td><img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" width="12px"/> Unknown team: {{ person[1].team }}</td>
+                {% endif %}
+            {% else %}
+                <td>???</td>
+            {% endif %}
+
+            {% if person[1].sig %}
+                {% assign sig_list = site.sigs | where_exp: "sig", "sig.acronym == person[1].sig" %}
+                {% if sig_list.size > 0 %}
+                    {% assign sig = sig_list[0] %}
+                    <td><a href="{{ site.url }}{{ sig.url | relative_url }}">{{ sig.title }}</a></td>
+                {% else %}
+                    <td><img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" width="12px"/> Unknown SIG: {{ person[1].sig }}</td>
+                {% endif %}
+            {% else %}
+                <td>???</td>
+            {% endif %}
+
+            <td>
+                {% for decision in site.decisions %}
+                    {% assign acronym = person[0] %}
+                    {% include /functions/is-responsible-for-decision.html mydecision=decision person_acronym=acronym %}
+                    {% if is_responsible_for_decision %}
+                        {% include /functions/find-decision-errors.html mydecision=decision %}
+                        {% if error_string.size > 0 %}
+                            <img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" />
+                        {% else %}
+                            {% include /functions/get-status-infos.html mydecision=decision %}
+                            <img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}" />
+                        {% endif %} &nbsp;
+                        <a href="{{ site.url }}{{ decision.url | relative_url }}">{{ decision.title }}</a>
+                        <br>
+                    {% endif %}
+                {% endfor %}
+            </td>
         </tr>
         {% endfor %}
     </tbody>

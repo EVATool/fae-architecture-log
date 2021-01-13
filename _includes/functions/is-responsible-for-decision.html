@@ -1,0 +1,11 @@
+{% assign decision = include.mydecision %}
+{% assign acronym = include.person_acronym | strip | upcase  %}
+
+{% assign is_responsible_for_decision = false %}
+
+{% if decision.responsible %}
+	{% assign responsible_list = decision.responsible | split: ";" %}
+	{% if responsible_list contains acronym %}
+		{% assign is_responsible_for_decision = true %}
+	{% endif %}
+{% endif %}

@@ -5,7 +5,7 @@ title: >
     Access security through REST-API authentication methods
 decision_type: must
 status: _1_open
-responsible:
+responsible: MTO
 deadline: 2021-01-22
 history:
     v1:

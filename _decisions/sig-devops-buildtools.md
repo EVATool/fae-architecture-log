@@ -19,7 +19,11 @@ history:
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+- [(Ant) vs. Maven vs. Gradle](https://www.baeldung.com/ant-maven-gradle)
+- [Maven vs. Gradle](https://gradle.org/maven-vs-gradle/)
+- [Maven vs. Gradle performance](https://gradle.org/gradle-vs-maven-performance/)
+- [Spreadshirt-Developer who switched back to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+- [Maven](https://www.baeldung.com/maven)
 
 ## How is this decision evaluated?
 

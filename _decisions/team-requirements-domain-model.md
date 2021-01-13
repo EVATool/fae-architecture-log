@@ -5,7 +5,7 @@ title: >
     Domain model for team "Requirements"  
 decision_type: team
 status: _1_open
-responsible: JLU;JSP;MTO
+responsible: JLÜ;JSP;MTO
 deadline: 2021-01-22
 history:
     v1:

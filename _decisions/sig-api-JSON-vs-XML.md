@@ -20,12 +20,14 @@ history:
     v4:
         date: 2021-01-12
         comment: need for decision and sources
+    v5:
+        date: 2021-01-12
+        comment: evaluation
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+Based on the Api style the different data representations are easier to implement. 
 
 ## Additional sources for better understanding the background
 
@@ -37,12 +39,8 @@ must / should / team)
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
+The Used Api-Style ist the main reason for choosing XML or JSON.
+
 
  
 ## Resolution Details

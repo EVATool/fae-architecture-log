@@ -5,7 +5,7 @@ title: >
     Domain model for team "Goals & Risks"  
 decision_type: team
 status: _1_open
-responsible: 
+responsible: HBU;TZA 
 deadline: 2021-01-22
 history:
     v1:
@@ -22,7 +22,7 @@ must / should / team)
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
 
-## How has this decision been evaluated?
+## How is this decision evaluated?
 
 (**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
 come to a resolution. 

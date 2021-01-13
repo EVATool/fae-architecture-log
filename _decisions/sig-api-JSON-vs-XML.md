@@ -37,7 +37,7 @@ Based on the Api style the different data representations are easier to implemen
 
 [XML](https://wiki.selfhtml.org/wiki/XML)
 
-## How has this decision been evaluated?
+## How is this decision evaluated?
 
 The Used Api-Style ist the main reason for choosing XML or JSON.
 

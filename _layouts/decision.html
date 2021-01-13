@@ -15,6 +15,17 @@ layout: default
         <dt>Deadline</dt>
         <dd>{{ page.deadline }}</dd>
     {% endif %}
+
+    {% include /functions/find-decision-errors.html mydecision=page %}
+    {% if error_string.size > 0 %}
+        <dt><img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}"/> &nbsp; Errors</dt>
+        {% assign error_list = error_string | split: ";" %}
+        {% for error in error_list %}
+            <dd>{{ error }}</dd>
+        {% endfor %}
+    {% endif %}
+
+
     <dt>History</dt>
     {% for entry in page.history %}
         <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>

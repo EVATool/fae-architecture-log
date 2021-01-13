@@ -1,24 +1,40 @@
 ---
 type: decision
-acronym: programming-framework
+acronym: sig-devops-container
 title: >
-    In the backend, Spring is used as predominant programming framework 
+    Containerization - application hosting  
 decision_type: must
-status: _5_presented
-responsible: SBE
-deadline: 2021-01-08
+status: _1_open
+responsible: TZA
+deadline: 2021-01-22
 history:
     v1:
-        date: 2021-01-08
+        date: 2021-01-12
         comment: created initially
 ---
 
 ## Why is there need for such a decision?
+The application needs to be hosted. There are several ways to do this.
+The application can be run on a physical server.
+It can be packaged in a container or run in a virtual machine.
+All of these approaches have their own advantages and disadvantages.
+These have to be weighed up.
 
 (Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
 must / should / team)
 
 ## Additional sources for better understanding the background
+[Application containerization](https://searchitoperations.techtarget.com/definition/application-containerization-app-containerization)
+
+[Containers vs. virtual machines (microsoft)](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
+
+[Containers vs VMs (redhat)](https://www.redhat.com/en/topics/containers/containers-vs-vms)
+
+[Deploy Your Spring Boot App the Right Way](https://developer.okta.com/blog/2019/12/03/spring-boot-deploy-options) 
+
+[Deploying Spring Boot Applications (1)](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
+
+[Deploying Spring Boot Applications (2 - docs)](https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html)
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
 

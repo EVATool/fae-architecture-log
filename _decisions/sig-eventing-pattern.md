@@ -1,15 +1,15 @@
 ---
 type: decision
-acronym: programming-framework
+acronym: sig-eventing-pattern
 title: >
-    In the backend, Spring is used as predominant programming framework 
+    Communication Pattern
 decision_type: must
-status: _5_presented
-responsible: SBE
-deadline: 2021-01-08
+status: _1_open
+responsible: KRU;DUZ
+deadline: 2021-01-22
 history:
     v1:
-        date: 2021-01-08
+        date: 2021-01-13
         comment: created initially
 ---
 
@@ -30,7 +30,6 @@ It is  **not sufficient** to perform a brief Google search, and then write  the 
 **always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
 if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
 the most relevant literature or IT community sources.) 
-
  
 ## Resolution Details
 

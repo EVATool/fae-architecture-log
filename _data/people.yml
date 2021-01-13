@@ -16,16 +16,16 @@ JBL:
   sig:
 HBU:
   nickname: hbuhl
-  team: Goals & Risks
-  sig: DevOps
+  team: goals_risks
+  sig: devops
 FGR:
   nickname:
   team:
   sig:
 MHA:
   nickname: mhallweg
-  team: Projects
-  sig: DevOps
+  team: projects
+  sig: devops
 LHE:
   nickname:
   team:
@@ -35,38 +35,38 @@ PKL:
   team:
   sig:
 AKO:
-  nickname:
-  team:
-  sig:
+  nickname: akosmehl
+  team: scenarios
+  sig: eventing
 JLÜ:
   nickname: jalue 
-  team: Requirements
-  sig: APIs
+  team: requirements
+  sig: apis
 FOB:
   nickname: FalahSama
-  team: Projects
-  sig: APIs
+  team: projects
+  sig: apis
 KRU:
   nickname: kruck
-  team: Scenarios
-  sig: Eventing
+  team: scenarios
+  sig: eventing
 PSO:
   nickname:
   team:
   sig:
 JSP:
   nickname: SohleDelfin6504
-  team: Requirements
-  sig: APIs
+  team: requirements
+  sig: apis
 MTO:
   nickname: TheBuro
-  team: Requirements
-  sig: APIs
+  team: requirements
+  sig: apis
 DUZ:
   nickname: Duzun
-  team: Scenarios
-  sig: Eventing
+  team: scenarios
+  sig: eventing
 TZA:
   nickname: tzaika
-  team: Goals & Risks
-  sig: DevOps
+  team: goals_risks
+  sig: devops

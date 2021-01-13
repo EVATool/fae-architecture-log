@@ -1,15 +1,15 @@
 ---
 type: decision
-acronym: programming-framework
+acronym: sig-eventing-process
 title: >
-    In the backend, Spring is used as predominant programming framework 
+    Comparison between different Event-Stream-Process Software
 decision_type: must
-status: _5_presented
-responsible: SBE
-deadline: 2021-01-08
+status: _1_open
+responsible: AKO
+deadline: 2021-01-22
 history:
     v1:
-        date: 2021-01-08
+        date: 2021-01-13
         comment: created initially
 ---
 

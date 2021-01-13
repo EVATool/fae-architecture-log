@@ -25,7 +25,9 @@ You can use the sources to provide a little insight on authentication methods.
 [Most Used REST API Authentication Methods](https://blog.restcase.com/4-most-used-rest-api-authentication-methods/)
 
 [How a RESTful API server reacts to requests. Chapter Authentication](https://www.oreilly.com/content/how-a-restful-api-server-reacts-to-requests/)
-## How has this decision been evaluated?
+
+
+## How is this decision evaluated?
 
 The decision must be guaranteed by a research on the Internet. Important points are, which authentication methods are generally available and which ones are recommended by the Spring-Boot community on the Internet.
 

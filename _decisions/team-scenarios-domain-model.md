@@ -5,11 +5,11 @@ title: >
     Domain model for team "Scenarios"  
 decision_type: team
 status: _1_open
-responsible: 
+responsible: KRU;DUZ 
 deadline: 2021-01-22
 history:
     v1:
-        date: 2021-01-08
+        date: 2021-01-13
         comment: created initially
 ---
 
@@ -22,7 +22,7 @@ must / should / team)
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
 
-## How has this decision been evaluated?
+## How is this decision evaluated?
 
 (**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
 come to a resolution. 

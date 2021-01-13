@@ -5,7 +5,7 @@ title: >
     Domain model for team "Goals & Risks"  
 decision_type: team
 status: _1_open
-responsible: 
+responsible: HBU;TZA 
 deadline: 2021-01-22
 history:
     v1:

@@ -1,6 +1,6 @@
 ---
 type: decision
-acronym: devops-testing
+acronym: devops-testing-automation
 title: >
     Testing Automation
 decision_type: must
@@ -15,7 +15,7 @@ history:
         date: 2021-01-13
         comment: fixed the table and links
     v3:
-        date:
+        date: 2021-01-13
         comment: Added evaluation details
 ---
 

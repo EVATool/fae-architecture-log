@@ -20,7 +20,7 @@ history:
 
 Build tools like ant, maven and gradle are used to help in build automation. Build automation will help to automate a variety of tasks like compiling source code, converting into binary code, managing dependencies, running automated tests and deployment to production systems. This decision will focus on maven and gradle only.
 
-All teams have to use the same build tool to avoid inconsistency.
+All teams must use the same build tool to avoid inconsistency.
 
 ## Additional sources for better understanding the background
 
@@ -29,6 +29,7 @@ All teams have to use the same build tool to avoid inconsistency.
 - [Maven vs. Gradle performance](https://gradle.org/gradle-vs-maven-performance/)
 - [Spreadshirt-Developer who switched back to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 - [Maven core guide](https://www.baeldung.com/maven)
+- [Comparing Maven and Gradle buid-file-size](https://miro.medium.com/max/2676/1*JFMnZ7hLx94LlZ6p-29PbA.png)
 
 ## How is this decision evaluated?
 

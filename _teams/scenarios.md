@@ -2,7 +2,7 @@
 type: team
 acronym: scenarios
 title: Scenarios
-workday: 
+workday: Wednesday
 ---
 
 The team focuses on the *Scenarios* subdomain. This includes: 

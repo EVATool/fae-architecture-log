@@ -3,13 +3,13 @@ type: decision
 acronym: sig-api-Documentation 
 title: >
     Swagger-Documentation
-decision_type: team
+decision_type: must
 status: _1_open
 responsible: FOB
 deadline: 2021-01-22
 history:
     v1:
-        date: 2021-01-12
+        date: 2021-01-13
         comment: created initially
 ---
 

@@ -2,7 +2,7 @@
 type: decision
 acronym: devops-testing
 title: >
-    Testing
+    Testing Automation
 decision_type: must
 status: _1_open
 responsible: HBU
@@ -14,6 +14,9 @@ history:
     v2:
         date: 2021-01-13
         comment: fixed the table and links
+    v3:
+        date:
+        comment: Added evaluation details
 ---
 
 ## Why is there need for such a decision?
@@ -31,6 +34,10 @@ Automating tests is necessary when many developers are collaborating and are cha
 - [Google Cloud](https://cloud.google.com/solutions/devops/devops-tech-test-automation)
 
 ## How is this decision evaluated?
+
+The solution must be free and have many resources in order to increase efficiency when working with it.
+It is also desirable when the solution can be used for more than just testing but automation in general.
+Additionally, a solution that fits into existing contraints is better due to easier integration.
 
 There are three candidates:
 - GitHub Actions
@@ -51,6 +58,8 @@ There are three candidates:
 Using GitHub Actions requires something like Maven.
 
 ## Resolution Details
+
+Manual testing was only considered to show the superiority of automated testing.
 
 GitHub Actions can do much more than just automating testing. They will be used to extend the build tool chain
 and automating in the project.

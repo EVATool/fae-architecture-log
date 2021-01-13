@@ -33,7 +33,7 @@ All Teams must use the same style to reach this goal.
 
 [REST Levels](https://blog.restcase.com/4-maturity-levels-of-rest-api-design/)
 
-## How has this decision been evaluated?
+## How is this decision evaluated?
 To take the decision, research is necessary. Therefore, the differences between the different API-Styles have to be evaluated.
 It is important that after the research the preferred Styles are implemented to compare them directly und to get familiar with those styles.
 With the results of the research a decision based on facts and experience can be taken.

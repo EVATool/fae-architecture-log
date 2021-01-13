@@ -1,0 +1,59 @@
+{% assign decision = include.mydecision %}
+{% assign error_string = "" %}
+
+{% comment %} --- Consistent type? --- {% endcomment %}
+
+{% if decision.decision_type %}
+	{% assign decision_type_list = "must;should;team" | split: ";" %}
+	{% if decision_type_list contains decision.decision_type %}
+	{% else %}
+		{% assign error_string = error_string
+				| append: "Unknown decision type "
+				| append: decision.decision_type
+				| append: ";" %}
+	{% endif %}
+{% else %}
+	{% assign error_string = error_string | append: "Decision type is not defined;" %}
+{% endif %}
+
+
+{% comment %} --- Consistent state? --- {% endcomment %}
+
+{% if decision.status %}
+	{% if decision.decision_type == "team" %}
+		{% assign team_status_list = "_1_open;_2_draft;_3_team_agreed" | split: ";" %}
+		{% if team_status_list contains decision.status %}
+		{% else %}
+			{% assign error_string = error_string | append: "Unknown team status " | append: decision.status | append: ";" %}
+		{% endif %}
+	{% elsif decision.decision_type == "must" or decision.decision_type == "should"  %}
+		{% assign sig_status_list = "_1_open;_2_draft;_3_sig_agreed;_4_stakeholder_checked;_5_presented" | split: ";" %}
+		{% if sig_status_list contains decision.status %}
+		{% else %}
+			{% assign error_string = error_string | append: "Unknown must/should status " | append: decision.status | append: ";" %}
+		{% endif %}
+	{% endif %}
+{% else %}
+	{% assign error_string = error_string | append: "Status is not defined;" %}
+{% endif %}
+
+
+{% comment %} --- 1-2 responsible persons, all included in people.yml? --- {% endcomment %}
+
+{% assign raw_list = decision.responsible | split: ";" %}
+{% if raw_list.size == 0 %}
+	{% assign error_string = error_string | append: "No responsible person defined;" %}
+{% elsif raw_list.size > 2 %}
+	{% assign error_string = error_string | append: "More than 2 responsible persons defined;" %}
+{% else %}
+	{% for person_raw in raw_list %}
+		{% assign acronym = person_raw | strip | upcase %}
+		{% if site.data.people[acronym] %}
+		{% else %}
+			{% assign error_string = error_string
+					| append: "Responsible person "
+					| append: acronym
+					| append: " is not defined in _data/people.yml - please correct or add there." %}
+		{% endif %}
+	{% endfor %}
+{% endif %}

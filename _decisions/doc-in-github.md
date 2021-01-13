@@ -28,7 +28,7 @@ FAE has been finished.
 * Github wiki documentation
 * additional options like e.g. Confluence or Teams
 
-## How has this decision been evaluated?
+## How is this decision evaluated?
 
 Alternatives are fairly obvious (see "additional sources"). Decision criteria is the goal to start an open source
 project. Hands-on evaluation is not really needed in this case - using a Github wiki is a no-brainer.

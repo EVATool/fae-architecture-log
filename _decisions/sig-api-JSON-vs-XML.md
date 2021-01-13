@@ -35,7 +35,7 @@ must / should / team)
 
 [XML](https://wiki.selfhtml.org/wiki/XML)
 
-## How has this decision been evaluated?
+## How is this decision evaluated?
 
 (**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
 come to a resolution. 

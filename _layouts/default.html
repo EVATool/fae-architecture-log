@@ -24,7 +24,7 @@
     {{ site.title | default: site.github.repository_name }}
   </h1>
   <nav>
-    <li class="sig"><a href="{{ site.url }}">Home</a></li>
+    <li class="sig"><a href="{{ site.url }}{{ '' | relative_url }}">Home</a></li>
     <li class="title">SIGs:</li>
     <li class="sig"><a href="{{ site.url }}{{ '/sigs/apis.html' | relative_url }}">APIs</a></li>
     <li class="sig"><a href="{{ site.url }}{{ '/sigs/devops.html' | relative_url }}">DevOps</a></li>

@@ -27,7 +27,7 @@ Automating tests is necessary when many developers are collaborating and are cha
 - [https://docs.github.com/en/free-pro-team@latest/actions](GitHub Actions)
 - [https://cloud.google.com/solutions/devops/devops-tech-test-automation](Google Cloud)
 
-## How has this decision been evaluated?
+## How is this decision evaluated?
 
 There are three candidates:
 - GitHub Actions

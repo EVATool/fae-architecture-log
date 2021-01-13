@@ -5,7 +5,7 @@ title: >
     Domain model for team "Projects"  
 decision_type: team
 status: _1_open
-responsible: 
+responsible: MHA;FOB
 deadline: 2021-01-22
 history:
     v1:

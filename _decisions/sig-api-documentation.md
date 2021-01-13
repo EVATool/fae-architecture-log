@@ -5,7 +5,7 @@ title: >
     Swagger-Documentation
 decision_type: team
 status: _1_open
-responsible: FalahSama
+responsible: FOB
 deadline: 2021-01-22
 history:
     v1:

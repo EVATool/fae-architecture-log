@@ -62,7 +62,7 @@ Using GitHub Actions requires something like Maven.
 Manual testing was only considered to show the superiority of automated testing.
 
 GitHub Actions can do much more than just automating testing. They will be used to extend the build tool chain
-and automating in the project.
+and automation in the project.
 
 Testing GitHub Actions:
 - there are many resources

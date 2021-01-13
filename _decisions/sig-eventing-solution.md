@@ -1,8 +1,8 @@
 ---
 type: decision
-acronym: sig-eventing-process
+acronym: sig-eventing-solution
 title: >
-    Comparison between different Event-Stream-Process Software
+    Comparison between different Event-Streaming Solutions
 decision_type: must
 status: _1_open
 responsible: AKO

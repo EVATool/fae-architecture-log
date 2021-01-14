@@ -38,6 +38,12 @@ All Teams must use the same style to reach this goal.
 
 [REST Levels](https://blog.restcase.com/4-maturity-levels-of-rest-api-design/)
 
+[Building a GraphQL API - video](https://www.youtube.com/watch?v=bRnu7xvU1_Y)
+
+
+
+
+
 ## How is this decision evaluated?
 To take the decision, research is necessary. Therefore, the differences between the different API-Styles have to be evaluated.
 It is important that after the research, the preferred styles are implemented as prototype to compare them directly and get familiar with those styles.

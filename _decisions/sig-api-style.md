@@ -40,7 +40,7 @@ All Teams must use the same style to reach this goal.
 
 [Building a GraphQL API - video](https://www.youtube.com/watch?v=bRnu7xvU1_Y)
 
-
+[REST, SOAP or GraphQl](https://da-14.com/blog/ultimate-guide-api-architecture-rest-soap-or-graphql#:~:text=SOAP%20is%20a%20protocol%2C%20REST,basic%20functions%20%E2%80%93%20GET%20and%20POST.&text=GraphQL%20leverages%20requests%20of%20two,and%20mutations%20changing%20the%20data)
 
 
 

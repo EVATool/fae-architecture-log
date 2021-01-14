@@ -39,7 +39,8 @@ Based on the Api style the different data representations are easier to implemen
 
 ## How is this decision evaluated?
 
-The Used Api-Style ist the main reason for choosing XML or JSON.
+The Used Api-Style ist the main reason for choosing XML or JSON. After the decision for the api style has been taken, both data formats
+are going to be tested with the style. on behalf of that a decision can be taken, considering speed, usability etc.
 
 
  

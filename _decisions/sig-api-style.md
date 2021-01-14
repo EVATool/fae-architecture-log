@@ -51,9 +51,10 @@ With the results of the research a decision based on facts and experience can be
 
 Different aspects are going to be relevant for
 the decision:
-- Usability 
-- does it fulfill all relevant aspects needed for the communication between backend and frontend 
-- existing documentation of the protocol
+- Usability
+- an existing documentation of the protocol
+- standards  
+- does it fulfill all relevant aspects needed for the communication between backend and frontend
 - Safety of the protocol
 
 

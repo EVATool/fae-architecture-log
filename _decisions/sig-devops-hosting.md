@@ -20,7 +20,22 @@ history:
 
 * The solution must be proprietary
 
+---
+## Server prices
 
+| Provider | Servertype | RAM (GB) | SSD (GB) | Price* (€) | Price** (€) | Note |
+|---|---|---|---|---|---|---|
+| Strato | V-Server | 32 | 800 | 17 | 11,5 | |
+| IONOS (1&1) | V-Server | 24 | 240 | 36 | 27 | |
+| Strato | Dedicated Server | 32 | 960 | 70 | 57,75 | + 39 € for setting up; basic - no addons |
+| IONOS (1&1) | Dedicated Server | 32 | 480 | 70 |  | no Backup |
+| DigitalOcean | V-Server | 16 | 320 | 80 $ | | |
+| Azure | V-Server | 32 | 200 | 67 $ | | |
+
+    * per month
+    ** per month with 1 year contract
+
+---
 ## Why is there need for such a decision?
 
 (Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level

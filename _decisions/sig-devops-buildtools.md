@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-devops-buildtools
 title: >
-    The use of maven as build tool 
+    The use of maven as a build tool 
 decision_type: must
 status: _4_stakeholder_checked 
 responsible: MHA

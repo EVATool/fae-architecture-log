@@ -41,7 +41,7 @@ It has to be mentioned that the overall opinion of the other project participant
 
 ## Resolution Details
 
-After a more extensive research, I came to the conclusion that maven as a build tool is the optimal choice for this kind of project. This opinion was validated by some project participants with the same opinion after a short survey.
+After a more extensive research, I came to the conclusion that maven as a build tool is the optimal choice for this kind of project. This opinion was validated by some project participants and external developer (research) with the same opinion after a short survey.
 
 
 ## Reasons for the resolution

@@ -29,6 +29,8 @@ All Teams must use the same API-Documentation Tool to reach this goal.
 
 [RAML](https://raml.org/)
 
+[GraphQL](https://nordicapis.com/graphql-documentation-generators-explorers-and-tools/)
+
 [Spring Rest Docu](https://spring.io/projects/spring-restdocs)
 
 ## Viable Options
@@ -38,19 +40,13 @@ RAML with Spring Rest Docs
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+Postman, not Open Source
 
-
+API Blueprint
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
+
 
  
 ## Resolution Details

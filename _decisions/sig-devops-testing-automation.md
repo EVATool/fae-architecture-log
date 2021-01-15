@@ -27,6 +27,8 @@ history:
 
 * Can Github-Actions build the application and deploy it on to some host (server)?
 
+        It can be used, but it's a bit fiddly
+
 ## Why is there need for such a decision?
 
 How the code is tested *must* be decided early in order to guarantee a unified and efficient way to ensure quality. 

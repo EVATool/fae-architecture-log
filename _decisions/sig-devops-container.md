@@ -57,7 +57,7 @@ must / should / team)
 
 ## Alternatives not seriously considered
 
-* Kubernetes
+TODO
 
 (Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
 Simple bulleted list with a brief 1-sentence explanation is sufficient.)

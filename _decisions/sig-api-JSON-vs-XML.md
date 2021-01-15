@@ -43,15 +43,11 @@ Based on the Api style the different data representations are easier to implemen
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
-
+- JSON
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
+-XML : GraphQL does not support XML syntax. Moreover XML is not as flexible.
 
 ## How is this decision evaluated?
 
@@ -68,6 +64,6 @@ with JSON or to handle JSON-Data.
 
 ## Reasons for the resolution
  
-Both api styles are not made to use XML format.
+Both considered api styles are not made to use XML format.
 
 

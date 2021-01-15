@@ -6,7 +6,7 @@ title: >
 decision_type: team
 belongs_to: requirements
 status: _1_open
-responsible: JLÜ;JSP;MTO
+responsible: JLÜ
 deadline: 2021-01-22
 history:
     v1:

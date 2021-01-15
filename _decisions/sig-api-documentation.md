@@ -25,6 +25,8 @@ All Teams must use the same API-Documentation Tool to reach this goal.
 
 [Open API](https://entwickler.de/online/development/einstieg-in-openapi-v3-579830417.html)
 
+[Code first vs. API first](https://apisyouwonthate.com/blog/api-design-first-vs-code-first)
+
 [Swagger UI](https://swagger.io/tools/swagger-ui/)
 
 [RAML](https://raml.org/)

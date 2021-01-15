@@ -5,7 +5,7 @@ title: >
     JSON vs XML
 decision_type: must
 belongs_to: apis
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: JLÜ;JSP
 deadline: 2021-01-22
 history:

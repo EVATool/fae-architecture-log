@@ -15,6 +15,9 @@ history:
     v2:
         date: 2021-01-13
         comment: changed the deadline; added one aspect
+    v3:
+        date: 2021-01-14
+        comment: added server prices
 ---
 
 ## Important aspects of the decision

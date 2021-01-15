@@ -20,8 +20,7 @@ history:
         comment: added server prices
     v4:
         date: 2021-01-15
-        comment: added responsible person, but it can be only temporary;
-        added "Why-reasons", viable options and evaluation points
+        comment: added responsible person, but it can be only temporary; added "Why-reasons", viable options and evaluation points
 ---
 
 ## Why is there need for such a decision?

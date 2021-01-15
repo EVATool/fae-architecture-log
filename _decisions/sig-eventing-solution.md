@@ -25,7 +25,7 @@ communicate well with each other.
 
 ## Additional sources for better understanding the background
 
-* [Sebastian Gauder - Eventing Vortrag](https://www.doag.org/formes/pubfiles/9948769/2018-NN-Sebastian_Gauder-Eventing_mit_Apache_Kafka__Haben_ist_besser_als_Brauchen-Praesentation.pdf)
+* [Sebastian Gauder - Eventing Presentation](https://www.doag.org/formes/pubfiles/9948769/2018-NN-Sebastian_Gauder-Eventing_mit_Apache_Kafka__Haben_ist_besser_als_Brauchen-Praesentation.pdf)
 * [Apache Kafka](https://kafka.apache.org/)
 * [RabbitMQ](https://www.rabbitmq.com/)
 * [Spring Events](https://www.baeldung.com/spring-events)
@@ -55,6 +55,7 @@ Additionally, all of these are specialized for use in their respective cloud env
 
 ## How is this decision evaluated?
 
+TODO: Proof of concept
 <!--- 
 (**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
 come to a resolution. 

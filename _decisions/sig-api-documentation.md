@@ -23,9 +23,10 @@ All Teams must use the same API-Documentation Tool to reach this goal.
 
 ## Additional sources for better understanding the background
 
+[Open API](https://entwickler.de/online/development/einstieg-in-openapi-v3-579830417.html)
+
 [Swagger UI](https://swagger.io/tools/swagger-ui/)
 
-[Open API](https://entwickler.de/online/development/einstieg-in-openapi-v3-579830417.html)
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
 

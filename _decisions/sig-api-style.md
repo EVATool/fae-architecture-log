@@ -46,16 +46,16 @@ All Teams must use the same style to reach this goal.
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+-REST level 2
+-REST level 3
+-GraphQL
+
 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
-
+- Soap : not considered because it produces a lot of Overhead due to XML syntax 
+- gRPC : not considered because it is made for realtime use cases, which is not required here
 
 
 ## How is this decision evaluated?

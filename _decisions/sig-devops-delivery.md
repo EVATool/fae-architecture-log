@@ -1,12 +1,12 @@
 ---
 type: decision
-acronym: sig-eventing-pattern
+acronym: sig-devops-delivery
 title: >
-    Communication Pattern
+    Application delivery
 decision_type: must
-belongs_to: eventing
+belongs_to: devops
 status: _1_open
-responsible: KRU;DUZ
+responsible: 
 deadline: 2021-01-22
 history:
     v1:
@@ -14,10 +14,21 @@ history:
         comment: created initially
 ---
 
+
 ## Why is there need for such a decision?
 
 (Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
 must / should / team)
+
+### Questions and others
+
+    Delivery: build -> test -> deploy -> run
+
+* How to build? (see sig-devops-buildtools)
+* How to test? (see sig-devops-testing-automation)
+* How to deploy?
+* How to run?
+
 
 ## Additional sources for better understanding the background
 
@@ -45,6 +56,7 @@ It is  **not sufficient** to perform a brief Google search, and then write  the 
 **always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
 if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
 the most relevant literature or IT community sources.) 
+
  
 ## Resolution Details
 

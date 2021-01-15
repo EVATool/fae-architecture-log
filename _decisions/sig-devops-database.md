@@ -1,9 +1,10 @@
 ---
 type: decision
-acronym: sig-devops-db-choise
+acronym: sig-devops-database
 title: >
     Choice of database
 decision_type: should
+belongs_to: devops
 status: _1_open
 responsible: 
 deadline: 2021-02-05
@@ -21,6 +22,20 @@ must / should / team)
 ## Additional sources for better understanding the background
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

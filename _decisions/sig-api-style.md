@@ -46,9 +46,9 @@ All Teams must use the same style to reach this goal.
 
 ## Viable Options
 
--REST level 2
--REST level 3
--GraphQL
+- REST level 2 
+- REST level 3
+- GraphQL
 
 
 

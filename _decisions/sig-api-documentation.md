@@ -7,10 +7,10 @@ decision_type: must
 belongs_to: apis
 status: _1_open
 responsible: FOB
-deadline: 2021-01-22
+deadline: 2021-01-29
 history:
     v1:
-        date: 2021-01-13
+        date: 2021-01-15
         comment: created initially
 ---
 
@@ -23,33 +23,32 @@ All Teams must use the same API-Documentation Tool to reach this goal.
 
 ## Additional sources for better understanding the background
 
+[Open API](https://entwickler.de/online/development/einstieg-in-openapi-v3-579830417.html)
+
 [Swagger UI](https://swagger.io/tools/swagger-ui/)
-...
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+[RAML](https://raml.org/)
 
+[GraphQL](https://nordicapis.com/graphql-documentation-generators-explorers-and-tools/)
+
+[Spring Rest Docu](https://spring.io/projects/spring-restdocs)
 
 ## Viable Options
+Swagger UI
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+RAML with Spring Rest Docs
 
+GraphQL
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+Postman, not Open Source
 
-
+API Blueprint not for Java available 
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
+Einfach Implementieren!
 
  
 ## Resolution Details

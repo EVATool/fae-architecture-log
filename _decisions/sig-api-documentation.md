@@ -7,7 +7,7 @@ decision_type: must
 belongs_to: apis
 status: _1_open
 responsible: FOB
-deadline: 2021-01-22
+deadline: 2021-01-29
 history:
     v1:
         date: 2021-01-15
@@ -38,15 +38,17 @@ Swagger UI
 
 RAML with Spring Rest Docs
 
+GraphQL
+
 ## Alternatives not seriously considered
 
 Postman, not Open Source
 
-API Blueprint
+API Blueprint not for Java available 
 
 ## How is this decision evaluated?
 
-
+Einfach Implementieren!
 
  
 ## Resolution Details

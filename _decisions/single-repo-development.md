@@ -1,16 +1,16 @@
 ---
 type: decision
-acronym: sig-eventing-pattern
+acronym: single-repo-development
 title: >
-    Communication Pattern
+    Development model is "Single Repo" in the `evatool-backend` repository
 decision_type: must
-belongs_to: eventing
-status: _1_open
-responsible: KRU;DUZ
-deadline: 2021-01-22
+belongs_to: devops
+status: _4_stakeholder_checked
+responsible: SBE
+deadline: 2021-01-15
 history:
     v1:
-        date: 2021-01-13
+        date: 2021-01-15
         comment: created initially
 ---
 
@@ -45,6 +45,7 @@ It is  **not sufficient** to perform a brief Google search, and then write  the 
 **always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
 if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
 the most relevant literature or IT community sources.) 
+
  
 ## Resolution Details
 

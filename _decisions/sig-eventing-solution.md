@@ -1,12 +1,12 @@
 ---
 type: decision
-acronym: sig-eventing-pattern
+acronym: sig-eventing-solution
 title: >
-    Communication Pattern
+    Comparison between different Event-Streaming Solutions
 decision_type: must
 belongs_to: eventing
 status: _1_open
-responsible: KRU;DUZ
+responsible: AKO
 deadline: 2021-01-22
 history:
     v1:
@@ -45,6 +45,7 @@ It is  **not sufficient** to perform a brief Google search, and then write  the 
 **always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
 if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
 the most relevant literature or IT community sources.) 
+
  
 ## Resolution Details
 

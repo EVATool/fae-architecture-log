@@ -2,25 +2,45 @@
 type: decision
 acronym: sig-api-Documentation 
 title: >
-    Swagger-Documentation
-decision_type: team
+    API-Documentation
+decision_type: must
+belongs_to: apis
 status: _1_open
 responsible: FOB
 deadline: 2021-01-22
 history:
     v1:
-        date: 2021-01-12
+        date: 2021-01-13
         comment: created initially
 ---
 
 ## Why is there need for such a decision?
+The API-Documentation describes the entire
+API. The goal should be that all API Endpoints be automatically documented. Moreover, by using the same API-Documentation Tool. That will be easier to generate the API Docu.
+In addition to that, it will be easier to understand API Endpoints.
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+All Teams must use the same API-Documentation Tool to reach this goal.
 
 ## Additional sources for better understanding the background
 
+[Swagger UI](https://swagger.io/tools/swagger-ui/)
+...
+
 (Please list some sources where a reader can get a better understanding of the topic at hand)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

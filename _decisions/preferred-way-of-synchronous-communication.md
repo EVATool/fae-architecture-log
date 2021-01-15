@@ -1,16 +1,16 @@
 ---
 type: decision
-acronym: sig-eventing-pattern
+acronym: preferred-way-of-synchronous-communication
 title: >
-    Communication Pattern
+    The preferred way of synchronous communication between modules is ...?
 decision_type: must
-belongs_to: eventing
+belongs_to: apis
 status: _1_open
-responsible: KRU;DUZ
-deadline: 2021-01-22
+responsible: 
+deadline: 2021-01-29
 history:
     v1:
-        date: 2021-01-13
+        date: 2021-01-15
         comment: created initially
 ---
 
@@ -45,6 +45,7 @@ It is  **not sufficient** to perform a brief Google search, and then write  the 
 **always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
 if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
 the most relevant literature or IT community sources.) 
+
  
 ## Resolution Details
 

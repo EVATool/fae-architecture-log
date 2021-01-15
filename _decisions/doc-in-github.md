@@ -5,6 +5,7 @@ title: >
     All documentation (apart from the decision log itself) has to be stored in a Github wiki, in repo 
     evatool-backend
 decision_type: must
+belongs_to: devops
 status: _5_presented
 responsible: SBE;PKL
 deadline: 2021-01-08
@@ -27,6 +28,20 @@ FAE has been finished.
 
 * Github wiki documentation
 * additional options like e.g. Confluence or Teams
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

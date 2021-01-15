@@ -4,6 +4,7 @@ acronym: programming-language
 title: >
     In the backend, Java is used as programming language
 decision_type: must
+belongs_to: apis
 status: _5_presented
 responsible: SBE
 deadline: 2021-01-08
@@ -21,6 +22,20 @@ must / should / team)
 ## Additional sources for better understanding the background
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

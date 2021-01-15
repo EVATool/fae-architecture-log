@@ -4,27 +4,43 @@ acronym: sig-api-authentication
 title: >
     Access security through REST-API authentication methods
 decision_type: must
+belongs_to: apis
 status: _1_open
-responsible:
+responsible: MTO
 deadline: 2021-01-22
 history:
     v1:
         date: 2021-01-12
         comment: created initially
+    v2:
+        date: 2021-01-14
+        comment: edit need for decision
 ---
 
 ## Why is there need for such a decision?
 
 In the computer and Internet environment, authentication ensures that the identity of a user can be proven and verified against a system. This could prevent unauthorized access to the API.
 
-All teams must use a uniform authentication method. This is necessary to make it easier for subsystems to connect to each other. Many different authentication methods would make the whole system complex.
-
+This decision is necessary so that only the requests made by the client to the API is allowed.
 ## Additional sources for better understanding the background
 You can use the sources to provide a little insight on authentication methods.
 
 [Most Used REST API Authentication Methods](https://blog.restcase.com/4-most-used-rest-api-authentication-methods/)
 
 [How a RESTful API server reacts to requests. Chapter Authentication](https://www.oreilly.com/content/how-a-restful-api-server-reacts-to-requests/)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
 
 
 ## How is this decision evaluated?

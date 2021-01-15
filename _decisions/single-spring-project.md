@@ -1,15 +1,16 @@
 ---
 type: decision
-acronym: sig-eventing-process
+acronym: single-spring-project
 title: >
-    Comparison between different Event-Stream-Process Software
+    Source code is organized as a single Spring project, located in the `evatool-backend` repository
 decision_type: must
-status: _1_open
-responsible: AKO
-deadline: 2021-01-22
+belongs_to: devops
+status: _4_stakeholder_checked
+responsible: SBE
+deadline: 2021-01-15
 history:
     v1:
-        date: 2021-01-13
+        date: 2021-01-15
         comment: created initially
 ---
 
@@ -21,6 +22,20 @@ must / should / team)
 ## Additional sources for better understanding the background
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

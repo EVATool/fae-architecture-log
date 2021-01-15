@@ -2,41 +2,64 @@
 type: decision
 acronym: sig-devops-buildtools
 title: >
-    Build-tools (maven vs. gradle)  
+    The use of maven as a build tool 
 decision_type: must
-status: _1_open
+belongs_to: devops
+status: _4_stakeholder_checked 
 responsible: MHA
 deadline: 2021-01-22
 history:
     v1:
         date: 2021-01-13
         comment: created initially
+    v2:
+        date: 2021-01-13
+        comment: updated need for decision and sources
+    v3:
+        date: 2021-01-14
+        comment: made decision, added resolution details
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level must / should / team)
+Build tools like ant, maven and gradle are used to help in build automation. Build automation will help to automate a variety of tasks like compiling source code, converting into binary code, managing dependencies, running automated tests and deployment to production systems. This decision will focus on maven and gradle only.
+
+Based on the given monolithical approach with one single repository as an project, all teams must use the same build tool to avoid inconsistency.
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+- [(Ant) vs. Maven vs. Gradle](https://www.baeldung.com/ant-maven-gradle)
+- [Maven vs. Gradle](https://gradle.org/maven-vs-gradle/)
+- [Maven vs. Gradle performance](https://gradle.org/gradle-vs-maven-performance/)
+- [Spreadshirt-Developer who switched back to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+- [Maven core guide](https://www.baeldung.com/maven)
+- [Comparing Maven and Gradle buid-file-size](https://miro.medium.com/max/2676/1*JFMnZ7hLx94LlZ6p-29PbA.png)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
+First, a general research (theoretical advantages and disadvantages as well as practical examples) for both tools will be initiated. After this process I will compare my personal formed opinion with the opinion of other project participants. 
+It has to be mentioned that the overall opinion of the other project participants is weighted higher than mine. Based on this opinions, a final decision will be made.
 
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+After a more extensive research, I came to the conclusion that maven as a build tool is the optimal choice for this kind of project. This opinion was validated by some project participants and external developer (research) with the same opinion after a short survey.
 
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
+Based on personal opinions and experiences of asked project participants, there is no reason to choose gradle as a build tool.
 

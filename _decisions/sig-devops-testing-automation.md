@@ -43,30 +43,20 @@ Automating tests is necessary when many developers are collaborating and are cha
 - [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions)
 - [Google Cloud](https://cloud.google.com/solutions/devops/devops-tech-test-automation)
 
-
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
-
+- GitHub Actions: GitHub Actions run when events on GitHub are fired (push, pull_request, etc.) and can be used for automated testing.
+- Cloud-based Service: A third-party tool that runs tests on a dedicated server and returns their results.
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
-
+- Manual Tests: Every developer will manually test their code locally before committing. This option was added to the evaluation in order to show the superiority of automated testing.
 
 ## How is this decision evaluated?
 
-The solution must be free and have many resources in order to increase efficiency when working with it.
+The solution must be free of charge and have many resources in order to increase efficiency when working with it.
 It is also desirable when the solution can be used for more than just testing but automation in general.
 Additionally, a solution that fits into existing contraints is better due to easier integration.
-
-There are three candidates:
-- GitHub Actions
-- Cloud-based Service
-- Manual Tests
 
 | Criteria | GitHub Actions | Cloud-based | Manual Tests |  |
 |-----|-----|-----|-----|-----|
@@ -83,19 +73,20 @@ Using GitHub Actions requires something like Maven.
 
 ## Resolution Details
 
-Manual testing was only considered to show the superiority of automated testing.
-
 GitHub Actions can do much more than just automating testing. They will be used to extend the build tool chain
-and automating in the project.
+and automation in the project.
+
+A third-party service was not tested. They all cost money. They might be faster than GitHub Actions, but this is not an option due to the nature of this project.
 
 Testing GitHub Actions:
+- tested with Maven (tests in IDE and GitHub Action are the same, executed with maven command)
 - there are many resources
-- testing and building when committing has been tested
-- tests run on linux machines and are executed with workers on GitHub
+- testing when pushing has been tested
+- tests run on linux machines and are executed with workers on GitHub (take some time)
 - tests will show as completed or failed in commit after they finished
 
 ## Reasons for the resolution
 
 Choosing an automated testing setup is a long term descision. It will cost some resources initially but will
 save time and increase efficiency. Manual testing is tedious and a third party cloud based service would either
-add running costs to the project or be not as easy and good as GitHub Actions.
+add running costs to the project when compared to GitHub Actions.

@@ -50,8 +50,7 @@ API Blueprint not for Java available
 
 ## How is this decision evaluated?
 
-Einfach Implementieren!
-
+The evaluation is carried out by implementing the respective tools!
  
 ## Resolution Details
 

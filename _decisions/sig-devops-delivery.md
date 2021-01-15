@@ -14,7 +14,9 @@ history:
         comment: created initially
     v2: date: 2021-01-15
         comment: added responsible person, but it can be only temporary; First explanation of "Why is there need for such a decision?"
-    v2: viable options added; deadline updated; changed title
+    v3: 
+        date: 2021-01-15
+        comment: viable options added; deadline updated; changed title
 ---
 
 

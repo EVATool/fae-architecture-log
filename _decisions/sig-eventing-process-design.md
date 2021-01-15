@@ -7,7 +7,7 @@ decision_type: should
 belongs_to: eventing
 status: _1_open
 responsible: KRU;DUZ
-deadline: 2021-02-05
+deadline: 2021-01-29
 history:
     v1:
         date: 2021-01-15

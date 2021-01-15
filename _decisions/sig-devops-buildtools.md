@@ -7,7 +7,7 @@ decision_type: must
 belongs_to: devops
 status: _4_stakeholder_checked 
 responsible: MHA
-deadline: 2021-01-22
+deadline: 2021-01-15
 history:
     v1:
         date: 2021-01-13
@@ -18,6 +18,9 @@ history:
     v3:
         date: 2021-01-14
         comment: made decision, added resolution details
+    v4:
+        date: 2021-01-15
+        comment: updated Viable Options and Alternatives
 ---
 
 ## Why is there need for such a decision?

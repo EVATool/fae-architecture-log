@@ -6,7 +6,7 @@ title: >
 decision_type: must
 belongs_to: devops
 status: _1_open
-responsible: 
+responsible: TZA
 deadline: 2021-01-22
 history:
     v1:
@@ -18,17 +18,18 @@ history:
     v3:
         date: 2021-01-14
         comment: added server prices
+    v4:
+        date: 2021-01-15
+        comment: added responsible person, but it can be only temporary;
+        added "Why-reasons", viable options and evaluation points
 ---
-
-## Important aspects of the decision
-
-* The solution must be proprietary
-
----
-
-
 
 ## Why is there need for such a decision?
+
+The application will provide functionality that should be publicly accessible.
+It has to be run by some kind of machine.
+These are supposed to be provided somehow.
+There are many ways in which this can be done.
 
 (Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
 must / should / team)
@@ -40,6 +41,13 @@ must / should / team)
 
 ## Viable Options
 
+* rent a server
+* Use some cloud platforms, and the services they offer 
+    * Azure App Service;
+
+* [Tutorial: Build a Java Spring Boot web app with Azure App Service on Linux and Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/app-service/tutorial-java-spring-cosmosdb)
+    
+
 (Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
 1-sentence explanation is sufficient.)
 
@@ -50,8 +58,13 @@ must / should / team)
 Simple bulleted list with a brief 1-sentence explanation is sufficient.)
 
 
-
 ## How is this decision evaluated?
+
+* price
+* Simplicity of setup
+* vendor lock-in (proprietary solution)
+    * A proprietary solution is a hardware or software product or combination of products and services that is tied to a specific vendor, to the exclusion of all other vendors.
+    
 
 (**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
 come to a resolution. 

@@ -6,16 +6,24 @@ title: >
 decision_type: must
 belongs_to: devops
 status: _1_open
-responsible: 
+responsible: TZA
 deadline: 2021-01-22
 history:
     v1:
         date: 2021-01-13
         comment: created initially
+    v2: date: 2021-01-15
+        comment: added responsible person, but it can be only temporary;
+        First explanation of: "Why is there need for such a decision?"
 ---
 
 
 ## Why is there need for such a decision?
+
+The application need to be delivered on to some sort of server.
+This delivery process should be automated.
+It can be achieved using various pipeline tools.
+It must be investigated which of the tools can be used easily and quickly for the project
 
 (Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
 must / should / team)
@@ -28,7 +36,6 @@ must / should / team)
 * How to test? (see sig-devops-testing-automation)
 * How to deploy?
 * How to run?
-
 
 ## Additional sources for better understanding the background
 

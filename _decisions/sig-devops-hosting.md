@@ -5,7 +5,7 @@ title: >
     Choice of Hosting provider
 decision_type: must
 belongs_to: devops
-status: _1_open
+status: _1_draft
 responsible: TZA
 deadline: 2021-01-22
 history:

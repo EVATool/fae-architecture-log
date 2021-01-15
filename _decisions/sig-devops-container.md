@@ -5,7 +5,7 @@ title: >
     Containerization - application hosting  
 decision_type: must
 belongs_to: devops
-status: _1_open
+status: _1_draft
 responsible: TZA
 deadline: 2021-02-05
 history:

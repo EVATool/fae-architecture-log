@@ -2,18 +2,19 @@
 type: decision
 acronym: sig-devops-delivery
 title: >
-    Application delivery
+    Application delivery - Tool Chain for Build Pipeline
 decision_type: must
 belongs_to: devops
 status: _1_open
 responsible: TZA
-deadline: 2021-01-22
+deadline: 2021-02-05
 history:
     v1:
         date: 2021-01-13
         comment: created initially
     v2: date: 2021-01-15
-        comment: added responsible person, but it can be only temporary; First explanation of: "Why is there need for such a decision?"
+        comment: added responsible person, but it can be only temporary; First explanation of "Why is there need for such a decision?"
+    v2: viable options added; deadline updated; changed title
 ---
 
 
@@ -42,6 +43,11 @@ must / should / team)
 
 
 ## Viable Options
+
+* Github-Actions
+* Jenkins-Server
+* Github-Actions + Deployment server
+
 
 (Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
 1-sentence explanation is sufficient.)

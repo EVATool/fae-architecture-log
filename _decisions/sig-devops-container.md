@@ -15,6 +15,9 @@ history:
     v2:
         date: 2021-01-13
         comment: changed the deadline; added questions
+    v3:
+        date: 2021-01-15
+        comment: added "viable options" and decision evaluation steps
 ---
 
 ## Why is there need for such a decision?
@@ -46,20 +49,29 @@ must / should / team)
 
 ## Viable Options
 
+* A virtual machine (with "VirtualBox")
+* container (with "docker")
+
 (Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
 1-sentence explanation is sufficient.)
 
-
 ## Alternatives not seriously considered
+
+* Kubernetes
 
 (Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
 Simple bulleted list with a brief 1-sentence explanation is sufficient.)
 
 
-
-
-
 ## How is this decision evaluated?
+
+First we have to implement two PoCs. One using VM and another one using docker.
+
+Then compare this two options on such aspects as:
+* Workflow (what is easier)
+* Application delivery: build -> test -> deploy -> run
+* Updates delivery (Scenario: Hotfix)
+
 
 (**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
 come to a resolution. 
@@ -67,7 +79,6 @@ It is  **not sufficient** to perform a brief Google search, and then write  the 
 **always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
 if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
 the most relevant literature or IT community sources.) 
-
 
 
 ### Questions
@@ -93,9 +104,10 @@ the most relevant literature or IT community sources.)
 
 * EVATool: Would it be a Web-Site or App or what?
     * In FAE we will build a sand-alone Spring-Application (with Spring Boot)
+      
+            One Repo; One Spring Boot App; Different Domains; Different DB-Schemes; 
     
-    
- 
+
 ## Resolution Details
 
 (If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some

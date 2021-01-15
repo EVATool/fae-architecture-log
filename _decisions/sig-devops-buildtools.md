@@ -5,9 +5,9 @@ title: >
     The use of maven as a build tool 
 decision_type: must
 belongs_to: devops
-status: _4_stakeholder_checked 
+status: _5_presented
 responsible: MHA
-deadline: 2021-01-22
+deadline: 2021-01-15
 history:
     v1:
         date: 2021-01-13
@@ -18,6 +18,9 @@ history:
     v3:
         date: 2021-01-14
         comment: made decision, added resolution details
+    v4:
+        date: 2021-01-15
+        comment: updated Viable Options and Alternatives
 ---
 
 ## Why is there need for such a decision?
@@ -38,16 +41,12 @@ Based on the given monolithical approach with one single repository as an projec
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
-
+- Maven: XML for build file, standardized project and build file organisation for better understanding the structure of the maven project.
+- Gradle: Better performance than maven, simple building, more configurable.
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
-
+- Ant: Too much flexibility, requires developers to write all commands by themselves, which leads to huge XML files. Ant is hard to maintain, new build files takes some time to understand and there is no built-in support for dependency management.
 
 ## How is this decision evaluated?
 
@@ -57,7 +56,6 @@ It has to be mentioned that the overall opinion of the other project participant
 ## Resolution Details
 
 After a more extensive research, I came to the conclusion that maven as a build tool is the optimal choice for this kind of project. This opinion was validated by some project participants and external developer (research) with the same opinion after a short survey.
-
 
 ## Reasons for the resolution
 

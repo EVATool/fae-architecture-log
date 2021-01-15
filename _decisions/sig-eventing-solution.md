@@ -7,7 +7,7 @@ decision_type: must
 belongs_to: eventing
 status: _1_open
 responsible: AKO
-deadline: 2021-02-05
+deadline: 2021-01-22
 history:
     v1:
         date: 2021-01-13

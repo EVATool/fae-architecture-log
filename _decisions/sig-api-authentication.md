@@ -7,7 +7,7 @@ decision_type: must
 belongs_to: apis
 status: _1_open
 responsible: MTO
-deadline: 2021-01-22
+deadline: 2021-02-05
 history:
     v1:
         date: 2021-01-12
@@ -15,6 +15,10 @@ history:
     v2:
         date: 2021-01-14
         comment: edit need for decision
+    v3:
+        date: 2021-01-15
+        comment: added "Viable Options", added "Alternatives not seriously considered, edit "How is this decision
+         evaluated?"
 ---
 
 ## Why is there need for such a decision?
@@ -29,20 +33,21 @@ You can use the sources to provide a little insight on authentication methods.
 
 [How a RESTful API server reacts to requests. Chapter Authentication](https://www.oreilly.com/content/how-a-restful-api-server-reacts-to-requests/)
 
+[RFC: 6749, The OAuth 2.0 Authorization Framework](https://www.ietf.org/rfc/rfc6749.txt)
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+- OAuth (2.0)
 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+- HTTP Authentication
+ - - Basic Authentication: This method requests the username and password for each API request.
 
+ - - Bearer Authentication: This method wants to have a predefined token for each API request. The token is set in the header when the request is made. The token may not be set dynamically and it is written statically in the code.
 
-
+- OpenID Connect: For OpenID Connect an external service provider is needed, this method would go beyond the scope of this project.
 ## How is this decision evaluated?
 
 The decision must be guaranteed by a research on the Internet. Important points are, which authentication methods are generally available and which ones are recommended by the Spring-Boot community on the Internet.
@@ -52,6 +57,8 @@ Facts for the decision are:
 - Security
 - Simplicity
 - How easy it is to code
+
+In the SIG API group, a decision was made with the help of the three facts. The OAuth (2.0) method was defined for authentication.
 
 ## Resolution Details
 

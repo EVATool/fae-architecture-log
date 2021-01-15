@@ -5,9 +5,9 @@ title: >
     JSON vs XML
 decision_type: must
 belongs_to: apis
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: JLÜ;JSP
-deadline: 2021-01-22
+deadline: 2021-01-15
 history:
     v1:
         date: 2021-01-11
@@ -27,6 +27,9 @@ history:
     v6: 
         date: 2021-01-14
         comment: update status and update decision
+    v7: 
+        date: 2021-01-15
+        comment: decision made
 ---
 
 ## Why is there need for such a decision?

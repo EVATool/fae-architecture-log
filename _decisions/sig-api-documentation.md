@@ -10,7 +10,7 @@ responsible: FOB
 deadline: 2021-01-29
 history:
     v1:
-        date: 2021-01-15
+        date: 2021-01-13
         comment: created initially
 ---
 
@@ -50,8 +50,7 @@ API Blueprint not for Java available
 
 ## How is this decision evaluated?
 
-Einfach Implementieren!
-
+The evaluation is carried out by implementing the respective tools!
  
 ## Resolution Details
 

@@ -5,9 +5,9 @@ title: >
     Testing Automation
 decision_type: must
 belongs_to: devops
-status: _1_open
+status: _5_presented
 responsible: HBU
-deadline: 2021-01-22
+deadline: 2021-01-15
 history:
     v1:
         date: 2021-01-10
@@ -21,6 +21,9 @@ history:
     v4:
         date: 2021-01-13
         comment: added one question
+    v5:
+        date: 2021-01-15
+        comment: Refined decision and changed deadline
 ---
 
 ### Questions [only temporary chapter]

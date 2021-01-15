@@ -38,7 +38,7 @@ Based on the given monolithical approach with one single repository as an projec
 
 ## Viable Options
 
-- Maven: XML for build file, standardized project organisation for better understanding the structure of the maven project.
+- Maven: XML for build file, standardized project and build file organisation for better understanding the structure of the maven project.
 - Gradle: Better performance than maven, simple building, more configurable.
 
 ## Alternatives not seriously considered

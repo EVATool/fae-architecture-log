@@ -4,6 +4,7 @@ acronym: sig-api-Documentation
 title: >
     API-Documentation
 decision_type: must
+belongs_to: apis
 status: _1_open
 responsible: FOB
 deadline: 2021-01-22
@@ -26,6 +27,20 @@ All Teams must use the same API-Documentation Tool to reach this goal.
 ...
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

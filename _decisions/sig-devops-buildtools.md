@@ -4,6 +4,7 @@ acronym: sig-devops-buildtools
 title: >
     The use of maven as a build tool 
 decision_type: must
+belongs_to: devops
 status: _4_stakeholder_checked 
 responsible: MHA
 deadline: 2021-01-22
@@ -33,6 +34,20 @@ Based on the given monolithical approach with one single repository as an projec
 - [Spreadshirt-Developer who switched back to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 - [Maven core guide](https://www.baeldung.com/maven)
 - [Comparing Maven and Gradle buid-file-size](https://miro.medium.com/max/2676/1*JFMnZ7hLx94LlZ6p-29PbA.png)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

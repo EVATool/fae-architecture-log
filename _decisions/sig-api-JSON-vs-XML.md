@@ -4,6 +4,7 @@ acronym: sig-api-data_format
 title: >
     JSON vs XML
 decision_type: must
+belongs_to: apis
 status: _4_stakeholder_checked
 responsible: JLÜ;JSP
 deadline: 2021-01-22
@@ -39,6 +40,18 @@ Based on the Api style the different data representations are easier to implemen
 [JSON](https://www.json.org/json-de.html)
 
 [XML](https://wiki.selfhtml.org/wiki/XML)
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
 
 ## How is this decision evaluated?
 

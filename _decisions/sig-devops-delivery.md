@@ -4,6 +4,7 @@ acronym: sig-devops-delivery
 title: >
     Application delivery
 decision_type: must
+belongs_to: devops
 status: _1_open
 responsible: 
 deadline: 2021-01-22
@@ -13,7 +14,13 @@ history:
         comment: created initially
 ---
 
-## Questions and others
+
+## Why is there need for such a decision?
+
+(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
+must / should / team)
+
+### Questions and others
 
     Delivery: build -> test -> deploy -> run
 
@@ -22,14 +29,24 @@ history:
 * How to deploy?
 * How to run?
 
-## Why is there need for such a decision?
-
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
 
 ## Additional sources for better understanding the background
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

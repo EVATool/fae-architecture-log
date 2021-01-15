@@ -4,6 +4,7 @@ acronym: devops-testing-automation
 title: >
     Testing Automation
 decision_type: must
+belongs_to: devops
 status: _1_open
 responsible: HBU
 deadline: 2021-01-22
@@ -39,6 +40,20 @@ Automating tests is necessary when many developers are collaborating and are cha
 - [Blog about Automated and Manual Testing](https://www.perfecto.io/blog/automated-testing-vs-manual-testing-vs-continuous-testing)
 - [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions)
 - [Google Cloud](https://cloud.google.com/solutions/devops/devops-tech-test-automation)
+
+
+## Viable Options
+
+(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
+1-sentence explanation is sufficient.)
+
+
+## Alternatives not seriously considered
+
+(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
+Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+
+
 
 ## How is this decision evaluated?
 

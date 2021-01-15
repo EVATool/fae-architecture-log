@@ -17,7 +17,7 @@ history:
 ## Why is there need for such a decision?
 The API-Documentation describes the entire
 API. The goal should be that all API Endpoints be automatically documented. Moreover, by using the same API-Documentation Tool. That will be easier to generate the API Docu.
-In addition to that, it will be easier to understand API Endpoints.
+In addition to that, it will be easier to understand API Endpoints. The decision depends on the API style!
 
 All Teams must use the same API-Documentation Tool to reach this goal.
 

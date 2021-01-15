@@ -31,12 +31,10 @@ All Teams must use the same API-Documentation Tool to reach this goal.
 
 [Spring Rest Docu](https://spring.io/projects/spring-restdocs)
 
-
 ## Viable Options
+Swagger UI
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
-
+RAML with Spring Rest Docs
 
 ## Alternatives not seriously considered
 

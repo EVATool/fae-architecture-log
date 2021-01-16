@@ -12,12 +12,16 @@ history:
     v1:
         date: 2021-01-08
         comment: created initially
+    v2:
+        date: 2021-01-16
+        comment: need for decision
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+A domain model can help to focus on the things needed. By choosing the right boundaries the developers can design the software product as wished by the business.
+Core features are easier to identify and necessities required can be identified. This helps to develop a MVP. Focussing on the specific Domain of Requirements in this case 
+should support the development process.
 
 ## Additional sources for better understanding the background
 

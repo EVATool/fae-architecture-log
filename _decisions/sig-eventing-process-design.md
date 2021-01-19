@@ -12,6 +12,9 @@ history:
     v1:
         date: 2021-01-15
         comment: created initially
+    v2:
+        date: 2021-01-19
+        comment: added sources
 ---
 
 ## Why is there need for such a decision?
@@ -20,7 +23,10 @@ Decision is required for a unified understanding of domains and process flows.
 
 ## Additional sources for better understanding the background
 
-* TODO
+* [Event-Storming](https://www.knowis.com/de/blog/die-event-storming-methode-einsatz-im-projektalltag)
+    * [Further Information about Event Storming by the Creator Alberto Brandolini](https://www.knowis.com/de/blog/die-event-storming-methode-einsatz-im-projektalltag)
+    * [Full post here](http://ziobrando.blogspot.com/2013/11/introducing-event-storming.html)
+* [Domain-Storytelling](https://domainstorytelling.org/)
 
 
 ## Viable Options

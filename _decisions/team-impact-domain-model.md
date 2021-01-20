@@ -16,43 +16,64 @@ history:
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+Before implementation start, some basic research on the domain should be done.
+We should identify main objects of the domain.
+In addition, the relationships between these objects are also very important.
 
+
+---
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+---
 
+[Evans, E. (2015). Domain-Driven Design Reference—Definitions and Pattern Summaries. Domain Language, Inc. [Ev15]](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf)
 
+**Domain model** a system of abstractions that describes selected aspects of a domain and can be used to solve problems related to that domain. [Ev15]
+
+Draw from the model the terminology used in the design and the basic assignment of responsibilities.
+The code becomes an expression of the model, so a change to the code may be a change to the model.
+Its effect must ripple through the rest of the project’s activities accordingly. [Ev15]
+
+---
+### Links
+* [Domain model](https://en.wikipedia.org/wiki/Domain_model)
+* [What is a Domain Model](https://stackoverflow.com/questions/1863537/what-is-a-domain-model)
+* [A Brief Introduction to Domain Modeling](https://olegchursin.medium.com/a-brief-introduction-to-domain-modeling-862a30b38353)
+* [Softwaretechnik 1 (ST1)](https://www.archi-lab.io/display/public/ST1#ST1-ScriptzurVeranstaltung)
+---
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+* business data model (germ.: Fachliches Datenmodell)
+* logical data model (germ.: Logisches Datenmodell)
 
-
-## Alternatives not seriously considered
-
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
-
-
-## How is this decision evaluated?
-
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
-
- 
+---
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+For this decision, the domain model was created in two steps:
 
+* First, with the help of the existing
+  [wireframes](https://lsw4em.axshare.com/#id=wvfe6y&p=website) and the
+  [Excel file](https://github.com/Archi-Lab/elsi-by-design-excel/),
+  the main objects of the domain and their relationships were identified.
+  These were the basics for creating a simple business data model.
+  
+* Then more details like attributes and association directions were added.
+  In addition, it was determined which objects represent an entity.
 
+---
+
+<img src="../assets/impact_business_data_model.png" alt="test" />
+
+### Business data model
+
+![Business data model](../assets/impact_business_data_model.png)
+
+---
+### Logical data model
+
+![Business data model](../assets/impact_logical_data_model.png)
+
+---
 ## Reasons for the resolution
 
 (Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)

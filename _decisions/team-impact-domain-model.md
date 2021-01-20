@@ -20,11 +20,9 @@ Before implementation start, some basic research on the domain should be done.
 We should identify main objects of the domain.
 In addition, the relationships between these objects are also very important.
 
-
 ---
+
 ## Additional sources for better understanding the background
-
----
 
 [Evans, E. (2015). Domain-Driven Design Reference—Definitions and Pattern Summaries. Domain Language, Inc. [Ev15]](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf)
 
@@ -35,18 +33,22 @@ The code becomes an expression of the model, so a change to the code may be a ch
 Its effect must ripple through the rest of the project’s activities accordingly. [Ev15]
 
 ---
+
 ### Links
 * [Domain model](https://en.wikipedia.org/wiki/Domain_model)
 * [What is a Domain Model](https://stackoverflow.com/questions/1863537/what-is-a-domain-model)
 * [A Brief Introduction to Domain Modeling](https://olegchursin.medium.com/a-brief-introduction-to-domain-modeling-862a30b38353)
 * [Softwaretechnik 1 (ST1)](https://www.archi-lab.io/display/public/ST1#ST1-ScriptzurVeranstaltung)
+
 ---
+
 ## Viable Options
 
 * business data model (germ.: Fachliches Datenmodell)
 * logical data model (germ.: Logisches Datenmodell)
 
 ---
+
 ## Resolution Details
 
 For this decision, the domain model was created in two steps:
@@ -62,7 +64,7 @@ For this decision, the domain model was created in two steps:
 
 ---
 
-<img src="../assets/impact_business_data_model.png" alt="test" />
+<img src="../assets/impact_business_data_model.png" alt="test" width="208" height="122" />
 
 ### Business data model
 

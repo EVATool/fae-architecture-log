@@ -64,18 +64,20 @@ For this decision, the domain model was created in two steps:
 
 ---
 
-<img src="../assets/impact_business_data_model.png" alt="test" width="208" height="122" />
+<img src="../assets/impact_business_data_model.png" alt="test" width="832" height="488" />
 
 ### Business data model
 
 ![Business data model](../assets/impact_business_data_model.png)
 
 ---
+
 ### Logical data model
 
 ![Business data model](../assets/impact_logical_data_model.png)
 
 ---
+
 ## Reasons for the resolution
 
 (Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)

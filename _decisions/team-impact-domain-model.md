@@ -1,11 +1,11 @@
 ---
 type: decision
-acronym: team-goals-risks-domain-model
+acronym: team-impact-domain-model
 title: >
-    Domain model for team "Goals & Risks"  
+    Domain model for team "Impact"  
 decision_type: team
-belongs_to: goals_risks
-status: _1_open
+belongs_to: impact
+status: _2_draft
 responsible: HBU;TZA 
 deadline: 2021-01-22
 history:

@@ -16,7 +16,7 @@ JBL:
   sig:
 HBU:
   nickname: hbuhl
-  team: goals_risks
+  team: impact
   sig: devops
 FGR:
   nickname:
@@ -68,5 +68,5 @@ DUZ:
   sig: eventing
 TZA:
   nickname: tzaika
-  team: goals_risks
+  team: impact
   sig: devops

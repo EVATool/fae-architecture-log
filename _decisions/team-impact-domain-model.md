@@ -64,8 +64,6 @@ For this decision, the domain model was created in two steps:
 
 ---
 
-<img src="../assets/impact_business_data_model.png" alt="test" width="832" height="488" />
-
 ### Business data model
 
 ![Business data model](../assets/impact_business_data_model.png)

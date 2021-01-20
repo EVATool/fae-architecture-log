@@ -5,7 +5,7 @@ title: >
     Design of the fundamental communication process
 decision_type: should
 belongs_to: eventing
-status: _1_open
+status: _2_draft
 responsible: KRU;DUZ
 deadline: 2021-01-29
 history:
@@ -15,6 +15,9 @@ history:
     v2:
         date: 2021-01-19
         comment: added sources
+    v3:
+        date: 2021-01-20
+        comment: added not considered alternatives
 ---
 
 ## Why is there need for such a decision?
@@ -39,10 +42,10 @@ Decision is required for a unified understanding of domains and process flows.
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
-
+* Mindmapping
+    * Too simple for a proper Domain research
+* Brainstorming
+    * Could lead to overload
 
 ## How is this decision evaluated?
 

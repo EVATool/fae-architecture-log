@@ -11,6 +11,19 @@ layout: default
 
 {{ page.content }}
 
+Team members:
+<ol>
+{% for person in site.data.people %}
+    {% if person[1].team == page.acronym %}
+        {% assign sig = site.sigs | where: "acronym", person[1].sig | first %}
+        {% assign sig_url = "/sigs/" | append: sig.acronym | append: ".html" | relative_url %}
+        <li>
+            {{ person[1].nickname }} (also member of SIG <a href="{{ site.url }}{{ sig_url }}">{{ sig.title }}</a>)
+        </li>
+    {% endif %}
+{% endfor %}
+</ol>
+
 {% assign filtered_decisions = site.decisions | where: "decision_type", "team" %}
 {% include /functions/print-sorted-decision-table.html mydecision_list=filtered_decisions typefilter="team" group_acronym=page.acronym %}
 

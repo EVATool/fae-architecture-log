@@ -24,7 +24,7 @@ FGR:
   sig:
 MHA:
   nickname: mhallweg
-  team: projects
+  team: analysis
   sig: devops
 LHE:
   nickname:
@@ -44,7 +44,7 @@ JLÜ:
   sig: apis
 FOB:
   nickname: FalahSama
-  team: projects
+  team: analysis
   sig: apis
 KRU:
   nickname: kruck

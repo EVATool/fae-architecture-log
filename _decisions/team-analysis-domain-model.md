@@ -4,7 +4,7 @@ acronym: team-projects-domain-model
 title: >
     Domain model for team "Projects"  
 decision_type: team
-belongs_to: projects
+belongs_to: analysis
 status: _2_draft
 responsible: MHA;FOB
 deadline: 2021-01-22

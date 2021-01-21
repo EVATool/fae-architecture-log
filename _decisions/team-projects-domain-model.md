@@ -5,55 +5,46 @@ title: >
     Domain model for team "Projects"  
 decision_type: team
 belongs_to: projects
-status: _1_open
+status: _2_draft
 responsible: MHA;FOB
 deadline: 2021-01-22
 history:
     v1:
         date: 2021-01-08
         comment: created initially
+    v2:
+        date: 2021-01-21
+        comment: resolution details added
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+Before implementing, it’s important to create a matching domain model. This way, we can consider the main objects of the domain and their relationships. With this method, the whole improved understanding for the domain will lead to a better implementation. 
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
-
+- [Ethiktool - Wireframe](https://lsw4em.axshare.com/prototype/login/lsw4em#id=wvfe6y&p=website)
+- [Domain-Driven Design	Reference](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf)
+- [Domain Driven Design - Tackling Complexity in the Heart of Business Software](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.326&rep=rep1&type=pdf)
+- [An introduction to Domain-Driven Design](https://medium.com/inato/an-introduction-to-domain-driven-design-386754392465)
+- [Domain Modeling](http://www.cs.sjsu.edu/~pearce/modules/lectures/ooa/analysis/DomainModeling.htm)
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
-
+Best practice at this point is the domain model…
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
-
+… This is the reason why no other alternatives were considered.
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
+Based on the [wireframe]( https://lsw4em.axshare.com/prototype/login/lsw4em#id=wvfe6y&p=website) and the given [Excel-file](https://github.com/Archi-Lab/elsi-by-design-excel/), a first version of the domain model was created. This version was improved with several attributes and relationships.
 
- 
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
-
+![Domain Model - Projects](../assets/Domain_Model_Projects.png)
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
-
+The design-decision for the domain model is needed to work with the whole domain itself.

@@ -1,0 +1,7 @@
+{% assign decision = include.mydecision %}
+
+{% assign error_icon_string = "" %}
+{% include /functions/find-decision-errors.html mydecision=decision %}
+{% if error_string.size > 0 %}
+    {% capture error_icon_string %}<img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}"/>{% endcapture %}
+{% endif %}

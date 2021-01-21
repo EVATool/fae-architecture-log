@@ -14,10 +14,11 @@ These are the decision types used in the architectural decision process.
 
 | Symbol | Type | Explanation |
 |-----|-----|-----|
-| <img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" alt="Error"> | Error | Some semantical error in the decision; please fix immediately. |
-| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-m-16.png' | relative_url }}" alt="Must"> | Must | A decision (principle, solution, technology etc.) that is binding for **all** teams | 
-| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-s-16.png' | relative_url }}" alt="Must"> | Should | A decision that is a **recommendation** for all teams, e.g. a technology that seemingly works well; teams can still deviate if they have good reasons to do so. Deviations must be reasoned by a team decision (see below)   | 
-| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-t-16.png' | relative_url }}" alt="Team"> | Team | Team decision; can be taken without consulting anyone outside the team. | 
+| <img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" alt="Error"> | Error | There are __errors__ in the decision description; please fix immediately. |
+| <img src="{{ site.url }}{{ '/assets/clipboard-4-24.png' | relative_url }}" alt="Todos"> | Todo | There are __todos__ in the decision; must be fixed before closing. |
+| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-m-16.png' | relative_url }}" alt="Must"> | Must | A decision (principle, solution, technology etc.) that is binding for **all** teams. Icon color indicates decision status (see tables below).  | 
+| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-s-16.png' | relative_url }}" alt="Must"> | Should | A decision that is a **recommendation** for all teams, e.g. a technology that seemingly works well; teams can still deviate if they have good reasons to do so. Deviations must be reasoned by a team decision (see below).  Icon color indicates decision status (see tables below).   | 
+| <img class=_0_neutral src="{{ site.url }}{{ '/assets/letter-t-16.png' | relative_url }}" alt="Team"> | Team | Team decision; can be taken without consulting anyone outside the team.  Icon color indicates decision status (see tables below). | 
 
 
 

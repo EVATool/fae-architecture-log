@@ -45,8 +45,8 @@ If a typefilter ("team" or "sig") is specified, then two additional filterings a
 <table>
     <thead>
     <tr>
-        <th width="8%">Status</th>
-        <th width="60%">Title</th>
+        <th width="12%">Status</th>
+        <th width="58%">Title</th>
         <th width="15%">Responsible</th>
         <th width="15%">Deadline</th>
     </tr>
@@ -54,13 +54,15 @@ If a typefilter ("team" or "sig") is specified, then two additional filterings a
     <tbody>
     {% for decision in decision_list %}
     <tr>
-        {% include /functions/find-decision-errors.html mydecision=decision %}
-        {% if error_string.size > 0 %}
-            <td><img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}"/></td>
+        {% include /functions/error-icon-string.html mydecision=decision %}
+        {% if error_icon_string.size == 0 %}
+            {% include /functions/todo-icon-string.html mydecision=decision %}
         {% else %}
-            {% include /functions/get-status-infos.html mydecision=decision %}
-            <td><img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}"/></td>
+            {% assign todo_icon_string = "" %}
         {% endif %}
+
+        {% include /functions/get-status-infos.html mydecision=decision %}
+        <td><img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}"/> {{ error_icon_string }}{{ todo_icon_string }}</td>
 
         {% assign decision_file_name = decision.url %}
         <td><a href="{{ site.url }}{{ decision_file_name | relative_url }}">{{ decision.title }}</a> </td>

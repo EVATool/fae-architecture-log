@@ -8,6 +8,9 @@ belongs_to: apis
 status: _4_stakeholder_checked
 responsible: SBE
 deadline: 2021-01-15
+todos:
+    - Completion of the description text
+    - Solution description
 history:
     v1:
         date: 2021-01-15

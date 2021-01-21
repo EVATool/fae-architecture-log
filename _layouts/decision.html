@@ -26,6 +26,15 @@ layout: default
     {% endif %}
 
 
+    {% if page.todos and page.todos.size > 0 %}
+        {% assign todo_counter = 0 %}
+        <dt>Todos</dt>
+        {% for entry in page.todos %}
+            {% assign todo_counter = todo_counter | plus: 1 %}
+            <dd>({{ todo_counter }}) {{ entry }}</dd>
+        {% endfor %}
+    {% endif %}
+
     <dt>History</dt>
     {% for entry in page.history %}
         <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>

@@ -1,0 +1,7 @@
+{% assign decision = include.mydecision %}
+
+{% assign todo_icon_string = "" %}
+
+{% if decision.todos and decision.todos.size > 0 %}
+    {% capture todo_icon_string %}<img src="{{ site.url }}{{ '/assets/clipboard-4-24.png' | relative_url }}"/>{% endcapture %}
+{% endif %}

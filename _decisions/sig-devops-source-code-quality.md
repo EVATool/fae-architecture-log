@@ -12,30 +12,41 @@ history:
     v1:
         date: 2021-01-21
         comment: created initially
+    v2:
+        date: 2021-01-21
+        comment: added background information
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+Tools and rulessets for code quality leads to a improvement of the overall code of the project. With this it's more 
+easy for multiple team members to understand code changes. It's also possible to ensure that the design is consistent 
+with existing code, attempt to catch security problems early and get feedback on design approaches.
+
+Must? / Team?
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+- [What is Code Quality? And How to improve Code Quality](https://www.perforce.com/blog/sca/what-code-quality-and-how-improve-code-quality)
+- [What is Static Analysis? And What Is Static Code Analysis?](https://www.perforce.com/blog/sca/what-static-analysis)
+- [Why Source Code Quality Is Crucial in Software Product Development](https://www.rabitse.com/blog/why-source-code-quality-is-crucial/)
+- [Top 5 Open-Source and Commercial Secure Code Review Tools](https://resources.infosecinstitute.com/topic/top-5-open-source-and-commercial-secure-code-review-tools/)
 
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+- Over-the-shoulder-code-review (fast project-integration, useful and fast results)
+- Pair programming (fast project-integration, useful and fast results)
 
+- Upsource (easy to integrate and use in projects)
+- Gerrit (Open source, easy to use, useful features)
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
-
+There are many high-priced commercial code-quality-tools, which can't be used in this project. Two of them are for
+example:
+- Helix Core
+- Klocwork
 
 ## How is this decision evaluated?
 

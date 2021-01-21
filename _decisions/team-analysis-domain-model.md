@@ -19,7 +19,7 @@ history:
 
 ## Why is there need for such a decision?
 
-Before implementing, it’s important to create a matching domain model. This way, we can consider the main objects of the domain and their relationships. With this method, the whole improved understanding for the domain will lead to a better implementation. 
+Firstly its's important to create a matching domain model. Therefore this way we can consider the main objects of the domain and their relationships. With this method, the whole improved understanding for the domain will lead to a better implementation. 
 
 ## Additional sources for better understanding the background
 

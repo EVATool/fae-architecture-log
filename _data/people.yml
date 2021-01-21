@@ -1,31 +1,15 @@
-SBA:
-  nickname:
-  team:
-  sig:
 SBE:
   nickname: Stefan Bente
-  team:
-  sig:
-JBL:
-  nickname:
   team:
   sig:
 HBU:
   nickname: hbuhl
   team: impact
   sig: devops
-FGR:
-  nickname:
-  team:
-  sig:
 MHA:
   nickname: mhallweg
   team: analysis
   sig: devops
-LHE:
-  nickname:
-  team:
-  sig:
 PKL:
   nickname: Peter Klein
   team:
@@ -46,10 +30,6 @@ KRU:
   nickname: kruck
   team: scenarios
   sig: eventing
-PSO:
-  nickname:
-  team:
-  sig:
 JSP:
   nickname: SohleDelfin6504
   team: requirements

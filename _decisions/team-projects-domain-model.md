@@ -39,7 +39,7 @@ Best practice at this point is the domain model…
 
 ## How is this decision evaluated?
 
-Based on the [wireframe]( https://lsw4em.axshare.com/prototype/login/lsw4em#id=wvfe6y&p=website) and the given [Excel-file](https://github.com/Archi-Lab/elsi-by-design-excel/), a first version of the domain model was created. This version was improved with several attributes and relationships.
+Based on the [wireframe]( https://lsw4em.axshare.com/prototype/login/lsw4em#id=wvfe6y&p=website) and the given [Excel-file](https://github.com/Archi-Lab/elsi-by-design-excel/), a first version of the domain model will be created. This version will be improved with several attributes and relationships.
 
 ## Resolution Details
 

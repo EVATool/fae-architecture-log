@@ -43,7 +43,7 @@ Based on the [wireframe]( https://lsw4em.axshare.com/prototype/login/lsw4em#id=w
 
 ## Resolution Details
 
-![Domain Model - Projects](../assets/Domain_Model_Projects.png)
+![Domain Model - Projects](../assets/Domain_Model_Analysis.png)
 
 ## Reasons for the resolution
 

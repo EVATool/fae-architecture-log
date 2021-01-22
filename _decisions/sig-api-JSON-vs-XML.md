@@ -61,8 +61,7 @@ are going to be tested with the style. on behalf of that a decision can be taken
  
 ## Resolution Details
 
-Due to the api styles which are considerd (REST and GraphQL) it is reasonable to use JSON format. Both styles are made to work 
-with JSON or to handle JSON-Data.
+Resolution Details can be found on the [Wiki Page](https://github.com/EVATool/evatool-backend/wiki/JsonXMl).
 
 
 ## Reasons for the resolution

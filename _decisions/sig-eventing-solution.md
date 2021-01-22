@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-eventing-solution
 title: >
-    Comparison between different Event-Streaming Solutions
+    Spring eventing is used as Eventing Solution
 decision_type: must
 belongs_to: eventing
 status: _5_presented

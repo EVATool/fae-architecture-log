@@ -6,7 +6,7 @@ title: >
 decision_type: should
 belongs_to: devops
 status: _1_open
-responsible: 
+responsible: MTO,FOB
 deadline: 2021-02-05
 history:
     v1:

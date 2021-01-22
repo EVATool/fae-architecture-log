@@ -80,5 +80,11 @@ The price is one of the most important aspects of the decision.
 In this regard, only one viable option has the strongest position.
 One of the main stakeholders (UID) is ready to provide a server for free.
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
+The setup of Strato's servers in comparison to UID should be very similar. (not checked in practice)
+As can be seen from the sources, setting up an application on a cloud platform has its own complexity. (not checked in practice)
+
+In addition, the cloud platform solution would also be vendor lock-in (proprietary solution)
+
+Backups come with extra price by rented solutions.
+
 

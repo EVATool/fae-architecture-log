@@ -31,16 +31,18 @@ should support the development process.
 ## Additional sources for better understanding the background
 
 [Wireframe](https://lsw4em.axshare.com/#id=djipbz&p=requirements&g=1)
+[Domain Driven Design](https://www.dev-insider.de/was-ist-domain-driven-design-a-724421/)
+
 
 
 ## Viable Options
 
-There is only one option to be considered.
+There is only one option to be considered. 
 
 
 ## Alternatives not seriously considered
 
-Alternatives havnt been considered 
+Alternatives have not been considered 
 
 
 

@@ -5,14 +5,11 @@ title: >
     Choice of Hosting provider
 decision_type: must
 belongs_to: devops
-status: _2_draft
+status: _3_sig_agreed
 responsible: TZA
 deadline: 2021-01-22
-todos: 
-    - the viable options are a little incomplete. Please be more specific as to which vendors you looked at (see 
-        your price list!)   
-    - dependency with UID should be mentioned
-    - solution needs to be described in the wiki (not here!)
+todos:
+    - to add further resolution details
 history:
     v1:
         date: 2021-01-13
@@ -26,6 +23,9 @@ history:
     v4:
         date: 2021-01-15
         comment: added responsible person, but it can be only temporary; added "Why-reasons", viable options and evaluation points
+    v5:
+        date: 2021-01-22
+        comment: TODO
 ---
 
 ## Why is there need for such a decision?
@@ -35,11 +35,8 @@ It has to be run by some kind of machine.
 These are supposed to be provided somehow.
 There are many ways in which this can be done.
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
-
 ## Additional sources for better understanding the background
-
+* [Hosting Spring Boot Standalone and Clustered Java Applications with Jelastic Cloud](https://jelastic.com/blog/hosting-spring-boot-java-applications/)
 * [Tutorial: Build a Java Spring Boot web app with Azure App Service on Linux and Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/app-service/tutorial-java-spring-cosmosdb)
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
@@ -47,59 +44,41 @@ must / should / team)
 
 ## Viable Options
 
-* rent a server
-* Use some cloud platforms, and the services they offer 
-    * Azure App Service;
+* To rent a server
+    * Linux V-Server by [Strato](https://www.strato.de/server/linux-vserver/)
     
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+* To use some cloud platforms, and the services they offer 
+    * [Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans)
+
+    
+* To use server provided by [UID](https://www.uid.com) (one of the main Stakeholders)
+    * Linux Server
 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+* To rent a sever provided by big players like Google, Amazon, Microsoft
 
 
 ## How is this decision evaluated?
 
-* price
+* Price
 * Simplicity of setup
-* vendor lock-in (proprietary solution)
+* Vendor lock-in (proprietary solution)
     * A proprietary solution is a hardware or software product or combination of products and services that is tied to a specific vendor, to the exclusion of all other vendors.
-    
-
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
-
+* Backup options
  
 ## Resolution Details
 
-
-### Server prices
-
-| Provider | Servertype | RAM (GB) | SSD (GB) | Price* (€) | Price** (€) | Note |
-|---|---|---|---|---|---|---|
-| Strato | V-Server | 32 | 800 | 17 | 11,5 | |
-| IONOS (1&1) | V-Server | 24 | 240 | 36 | 27 | |
-| Strato | Dedicated Server | 32 | 960 | 70 | 57,75 | + 39 € for setting up; basic - no addons |
-| IONOS (1&1) | Dedicated Server | 32 | 480 | 70 |  | no Backup |
-| DigitalOcean | V-Server | 16 | 320 | 80 $ | | |
-| Azure | V-Server | 32 | 200 | 67 $ | | |
-
-    * per month
-    ** per month with 1 year contract
-
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
-
+It was decided to use the hosting option from one of the main stakeholders ([UID](https://www.uid.com)).
+A Linux server will be provided. The development team should be able to connect and to control the server using SSH (to be verified).
 
 ## Reasons for the resolution
+
+The price is one of the most important aspects of the decision.
+In this regard, only one viable option has the strongest position.
+One of the main stakeholders (UID) is ready to provide a server for free.
 
 (Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
 

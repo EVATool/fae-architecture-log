@@ -6,8 +6,6 @@ title: >
 decision_type: team
 belongs_to: analysis
 status: _2_draft
-todos: 
-    - please move documentation to wiki
 responsible: MHA;FOB
 deadline: 2021-01-22
 history:
@@ -17,6 +15,9 @@ history:
     v2:
         date: 2021-01-21
         comment: resolution details added
+    v3:
+        date: 2021-01-22
+        comment: moved documentation to wiki
 ---
 
 ## Why is there need for such a decision?
@@ -45,7 +46,7 @@ Based on the [wireframe]( https://lsw4em.axshare.com/prototype/login/lsw4em#id=w
 
 ## Resolution Details
 
-![Domain Model - Projects](../assets/Domain_Model_Analysis.png)
+Further documentation details on the specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Analysis#domain-model-analysis) page.
 
 ## Reasons for the resolution
 

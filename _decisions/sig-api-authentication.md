@@ -20,7 +20,7 @@ history:
         date: 2021-01-15
         comment: added "Viable Options", added "Alternatives not seriously considered, edit "How is this decision
          evaluated?"
-    v3:
+    v4:
         date: 2021-01-22
         comment: added "Resolution Details" and "Reasons for the resolution"
 

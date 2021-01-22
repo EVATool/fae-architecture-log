@@ -2,20 +2,24 @@
 type: decision
 acronym: single-repo-development
 title: >
-    Development model is "Single Repo" in the `evatool-backend` repository
+    Development model is "Single Repo" / "Single Spring Project" in the evatool-backend Repository
 decision_type: must
 belongs_to: devops
-status: _4_stakeholder_checked
+status: _2_draft
 todos: 
     - decision needs be described here
     - also in the wiki
     - presentation to group missing
-responsible: SBE
-deadline: 2021-01-15
+    - branching rules to be described 
+responsible: JSP;SBE
+deadline: 2021-01-22
 history:
     v1:
         date: 2021-01-15
         comment: created initially
+    v2: 
+        date: 2021-01-22
+        comment: scope enhanced (includes also branching rules)
 ---
 
 ## Why is there need for such a decision?

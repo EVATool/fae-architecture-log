@@ -47,6 +47,8 @@ All teams must use the same tool to prevent differential API-documentations synt
 ## How is this decision evaluated?
 
 The evaluation is a result of implemented respective tools!
+
+when Rest is select as "sig-api-style" decision, then we will use Swaager or RAML with Spring Rest Docs. If GraphQL is chosen, so we will use the GraphQL Documentation Generator!
  
 ## Resolution Details
 

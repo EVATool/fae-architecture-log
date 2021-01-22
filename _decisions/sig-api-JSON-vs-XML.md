@@ -6,8 +6,8 @@ title: >
 decision_type: must
 belongs_to: apis
 status: _5_presented
-todos: 
-    - documentation in Github wiki (and please link this here)
+todos:
+    
 responsible: JLÜ;JSP
 deadline: 2021-01-15
 history:

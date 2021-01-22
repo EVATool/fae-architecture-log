@@ -5,11 +5,10 @@ title: >
     Tools and rulessets for code quality
 decision_type: must
 belongs_to: devops
-status: _1_open
+status: _2_draft
 responsible: MHA
 deadline: 2021-01-29
 todos:
-    - status is not "open" anymore, as there is some content available
     - deadline realistic & doable?
     - what is your way of evaluation?
 history:
@@ -27,7 +26,7 @@ Tools and rulessets for code quality leads to a improvement of the overall code 
 easy for multiple team members to understand code changes. It's also possible to ensure that the design is consistent 
 with existing code, attempt to catch security problems early and get feedback on design approaches.
 
-Must? / Team?
+All teams must focus on one code-quality-tool or rulesset.
 
 ## Additional sources for better understanding the background
 
@@ -41,15 +40,15 @@ Must? / Team?
 
 - Over-the-shoulder-code-review (fast project-integration, useful and fast results)
 - Pair programming (fast project-integration, useful and fast results)
-- Upsource (easy to integrate and use in projects)
 - Gerrit (Open source, easy to use, useful features)
 
 ## Alternatives not seriously considered
 
-There are many high-priced commercial code-quality-tools, which can't be used in this project. Two of them are for
+There are many medium/high-priced commercial code-quality-tools, which can't be used in this project. Three of them are for
 example:
 - Helix Core
 - Klocwork
+- Upsource
 
 ## How is this decision evaluated?
 

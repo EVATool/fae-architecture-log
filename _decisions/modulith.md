@@ -5,13 +5,19 @@ title: >
     In the backend, we will follow the "Modulith" architecture style 
 decision_type: must
 belongs_to: devops
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: SBE
-deadline: 2021-01-08
+deadline: 2021-01-15
+todos:
+    - Completion of the description text
+    - Solution description
 history:
     v1:
         date: 2021-01-08
         comment: created initially
+    v2:
+        date: 2021-01-15
+        comment: motivated for the whole group
 ---
 
 ## Why is there need for such a decision?

@@ -6,9 +6,11 @@ title: >
     evatool-backend
 decision_type: must
 belongs_to: devops
-status: _5_presented
+status: _4_stakeholder_checked
 responsible: SBE;PKL
-deadline: 2021-01-08
+deadline: 2021-01-22
+todos:
+    - Present solution to whole group 
 history:
     v1:
         date: 2021-01-08
@@ -26,31 +28,44 @@ FAE has been finished.
 
 ## Additional sources for better understanding the background
 
-* Github wiki documentation
-* additional options like e.g. Confluence or Teams
+* Github wiki documentation, e.g. [this cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Atlassian Confluence](https://www.atlassian.com/de/software/confluence) 
+* [Microsoft Teams](https://www.microsoft.com/de-de/microsoft-teams/group-chat-software)
 
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+* Github wiki
 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
+* Confluence
+* MS Teams 
+* just the README in a Github repo
+* other commercial solutions for documentation
 
 
 ## How is this decision evaluated?
 
 Alternatives are fairly obvious (see "additional sources"). Decision criteria is the goal to start an open source
-project. Hands-on evaluation is not really needed in this case - using a Github wiki is a no-brainer.
+project. Hands-on evaluation is not really needed in this case - using a Github wiki is a no-brainer. It offers
+reasonable means for structuring complex content, while being free, and being closely related to our code
+repository. 
  
 ## Resolution Details
 
-Documentation will be stored in the wiki of repo evatool-backend.
+Documentation will be stored in the wiki of repo evatool-backend. Its content can be assessed through this link: 
+[https://github.com/EVATool/evatool-backend/wiki](https://github.com/EVATool/evatool-backend/wiki)
+
+Wikis in Github are dedicated repos. You can edit in the web interface, but the safer and more comfortable way
+is to work locally. Technically, a Github wiki is a seperate repo named the same as the "mother repo", just
+with the addition `.wiki`. You can clone it using the following command:  
+
+`git clone https://github.com/EVATool/evatool-backend.wiki.git`
+
+The wiki structure has been initialized. It should be fairly self-explanatory. Feel free to enhance the structure. 
+
 
 ## Reasons for the resolution
 

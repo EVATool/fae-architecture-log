@@ -5,7 +5,7 @@ title: >
     Choice of Hosting provider
 decision_type: must
 belongs_to: devops
-status: _3_sig_agreed
+status: _5_presented
 responsible: TZA
 deadline: 2021-01-22
 todos:
@@ -25,7 +25,7 @@ history:
         comment: added responsible person, but it can be only temporary; added "Why-reasons", viable options and evaluation points
     v5:
         date: 2021-01-22
-        comment: TODO
+        comment: added resolution, details and reasons
 ---
 
 ## Why is there need for such a decision?
@@ -38,9 +38,6 @@ There are many ways in which this can be done.
 ## Additional sources for better understanding the background
 * [Hosting Spring Boot Standalone and Clustered Java Applications with Jelastic Cloud](https://jelastic.com/blog/hosting-spring-boot-java-applications/)
 * [Tutorial: Build a Java Spring Boot web app with Azure App Service on Linux and Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/app-service/tutorial-java-spring-cosmosdb)
-
-(Please list some sources where a reader can get a better understanding of the topic at hand)
-
 
 ## Viable Options
 
@@ -59,7 +56,6 @@ There are many ways in which this can be done.
 ## Alternatives not seriously considered
 
 * To rent a sever provided by big players like Google, Amazon, Microsoft
-
 
 ## How is this decision evaluated?
 
@@ -80,11 +76,10 @@ The price is one of the most important aspects of the decision.
 In this regard, only one viable option has the strongest position.
 One of the main stakeholders (UID) is ready to provide a server for free.
 
-The setup of Strato's servers in comparison to UID should be very similar. (not checked in practice)
+The setup of Strato's servers in comparison to UID should be very similar. (not checked in practice)\
 As can be seen from the sources, setting up an application on a cloud platform has its own complexity. (not checked in practice)
 
 In addition, the cloud platform solution would also be vendor lock-in (proprietary solution)
 
 Backups come with extra price by rented solutions.
-
 

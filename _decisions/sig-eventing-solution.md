@@ -5,7 +5,7 @@ title: >
     Comparison between different Event-Streaming Solutions
 decision_type: must
 belongs_to: eventing
-status: _1_open
+status: _3_sig_agreed
 todos:
     - status is not "open" anymore, as there is some content available
     - please update the title, so that the decision made is clear from it

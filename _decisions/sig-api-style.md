@@ -14,7 +14,7 @@ todos:
     - what exactly are the criteria to make the decision? 
     - if you specify a first version of an API, please make sure to have it specified in the Github wiki.
 responsible: JLÜ;JSP
-deadline: 2021-01-22
+deadline: 2021-01-29
 history:
     v1:
         date: 2021-01-11

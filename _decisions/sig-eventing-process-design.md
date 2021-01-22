@@ -6,6 +6,12 @@ title: >
 decision_type: should
 belongs_to: eventing
 status: _2_draft
+todos: 
+    - title is a little bit misleading / generic (this is about a specification method, really, right?)
+    - how do you decide this?
+    - as part of this decision, you need to provide some guidelines for the teams (or moderate the design/specification
+        process yourself)   
+    - such guidelines need to be described in the wiki (not here!)
 responsible: KRU;DUZ
 deadline: 2021-01-29
 history:

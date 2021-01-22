@@ -6,6 +6,9 @@ title: >
 decision_type: must
 belongs_to: eventing
 status: _1_open
+todos:
+    - status is not "open" anymore, as there is some content available
+    - how would you plan a PoC to evaluate? 
 responsible: KRU;DUZ
 deadline: 2021-02-05
 history:

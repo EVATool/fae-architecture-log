@@ -8,6 +8,10 @@ belongs_to: devops
 status: _1_open
 responsible: MHA
 deadline: 2021-01-29
+todos:
+    - status is not "open" anymore, as there is some content available
+    - deadline realistic & doable?
+    - what is your way of evaluation?
 history:
     v1:
         date: 2021-01-21
@@ -37,7 +41,6 @@ Must? / Team?
 
 - Over-the-shoulder-code-review (fast project-integration, useful and fast results)
 - Pair programming (fast project-integration, useful and fast results)
-
 - Upsource (easy to integrate and use in projects)
 - Gerrit (Open source, easy to use, useful features)
 

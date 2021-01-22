@@ -5,9 +5,27 @@ title: >
     Testing Automation
 decision_type: must
 belongs_to: devops
-status: _5_presented
+status: _3_sig_agreed
 responsible: HBU
 deadline: 2021-01-15
+todos:
+    - relationship with `sig-devops-delivery` needs to be explained; test automation is part of the overall
+        build pipeline, so what is the relationship of this decision with the overall pipeline design? A solution
+        could be to brand this as a "short-term, quick" solution that might be re-evaluated once the overall
+        hosting and build pipeline solution has been decided.
+    - what is the current deadline?
+    - if Github Actions is your choice, please change the title accordingly, so that it is obvious from the title
+    - viable options should be more specific; for example, there is no mention of Jenkins as the standard build
+        pipeline tool
+    - dependencies with the hosting environment should be mentioned (e.g. the advantage that Github Actions
+        does not require a dedicated, self-managed build server)     
+    - Github Actions free plan has 2,000 Actions minutes/month as a limit - is that sufficient for us?
+    - how would we integrate GA with a hosting environment lateron? 
+    - manual testing can be taken out of the evaluation below
+    - please make a simple PoC - e.g. just some "blank" unit tests that run, and demonstrate that it works
+    - complete the documentation in the wiki
+    - is there anything the developers need to know (e.g. some developer guide?)
+    - present the decision to the whole team
 history:
     v1:
         date: 2021-01-10
@@ -24,6 +42,9 @@ history:
     v5:
         date: 2021-01-15
         comment: Refined decision and changed deadline
+    v6: 
+        date: 2021-01-22
+        comment: status updated        
 ---
 
 ### Questions [only temporary chapter]

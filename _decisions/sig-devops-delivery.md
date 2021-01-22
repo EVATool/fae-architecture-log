@@ -6,6 +6,9 @@ title: >
 decision_type: must
 belongs_to: devops
 status: _1_open
+todos:
+    - status is not "open" anymore, as there is some content available
+    - relationship with `devops-testing-automation` is still a bit unclear
 responsible: TZA
 deadline: 2021-02-05
 history:

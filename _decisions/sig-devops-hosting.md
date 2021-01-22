@@ -8,6 +8,11 @@ belongs_to: devops
 status: _2_draft
 responsible: TZA
 deadline: 2021-01-22
+todos: 
+    - the viable options are a little incomplete. Please be more specific as to which vendors you looked at (see 
+        your price list!)   
+    - dependency with UID should be mentioned
+    - solution needs to be described in the wiki (not here!)
 history:
     v1:
         date: 2021-01-13
@@ -35,6 +40,8 @@ must / should / team)
 
 ## Additional sources for better understanding the background
 
+* [Tutorial: Build a Java Spring Boot web app with Azure App Service on Linux and Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/app-service/tutorial-java-spring-cosmosdb)
+
 (Please list some sources where a reader can get a better understanding of the topic at hand)
 
 
@@ -43,8 +50,6 @@ must / should / team)
 * rent a server
 * Use some cloud platforms, and the services they offer 
     * Azure App Service;
-
-* [Tutorial: Build a Java Spring Boot web app with Azure App Service on Linux and Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/app-service/tutorial-java-spring-cosmosdb)
     
 
 (Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 

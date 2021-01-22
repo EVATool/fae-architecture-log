@@ -6,6 +6,8 @@ title: >
 decision_type: team
 belongs_to: requirements
 status: _2_draft
+todos: 
+    - please move documentation to wiki
 responsible: JLÜ
 deadline: 2021-01-22
 history:

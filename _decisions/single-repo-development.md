@@ -6,6 +6,10 @@ title: >
 decision_type: must
 belongs_to: devops
 status: _4_stakeholder_checked
+todos: 
+    - decision needs be described here
+    - also in the wiki
+    - presentation to group missing
 responsible: SBE
 deadline: 2021-01-15
 history:

@@ -6,6 +6,8 @@ title: >
 decision_type: team
 belongs_to: impact
 status: _2_draft
+todos: 
+    - please move documentation to wiki
 responsible: HBU;TZA 
 deadline: 2021-01-22
 history:

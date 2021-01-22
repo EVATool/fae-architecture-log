@@ -5,6 +5,10 @@ title: >
     Eventing Testing
 decision_type: must
 status: _1_open
+todos: 
+    - status is not "open" anymore, as there is some content available
+    - please be a little more specific wrt. viable technology and tools
+    - how would a proof of concept look like, specifically?
 responsible: HBU
 deadline: 2021-02-05
 history:

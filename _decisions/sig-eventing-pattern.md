@@ -5,9 +5,8 @@ title: >
     Communication Pattern
 decision_type: must
 belongs_to: eventing
-status: _1_open
+status: _2_draft
 todos:
-    - status is not "open" anymore, as there is some content available
     - how would you plan a PoC to evaluate? 
 responsible: KRU;DUZ
 deadline: 2021-02-05
@@ -18,6 +17,9 @@ history:
     v2:
         date: 2021-01-15
         comment: added reason for decision and possible options
+    v3:
+        date: 2021-01-22
+        comment: added "how is this decision evaluated" & changed status
 ---
 
 ## Why is there need for such a decision?
@@ -43,21 +45,10 @@ The system is based on a modulith design-pattern and all subsystems should commu
     * Not applicable for eventing
     * Not wanted in this system
 
-
 ## How is this decision evaluated?
 
-* Depending on chosen eventing solution and real payloads which are not yet defined
-* TODO: Proof of concept and further research
-
-<!---
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
---->
- 
+* The decision which pattern will be used, is based on the results of the two decisions made of the eventing solution and the domain research process. 
+* The "event notification" pattern won't be used, since it can be estimated that the total payload will be very manageable.
  
 ## Resolution Details
 

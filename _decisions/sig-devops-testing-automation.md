@@ -5,7 +5,7 @@ title: >
     Testing Automation with GitHub Actions
 decision_type: must
 belongs_to: devops
-status: _3_sig_agreed
+status: _5_presented
 responsible: HBU
 deadline: 2021-01-22
 todos:

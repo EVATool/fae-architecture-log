@@ -7,7 +7,7 @@ decision_type: must
 belongs_to: eventing
 status: _4_stakeholder_checked
 responsible: SBE
-deadline: 2021-01-22
+deadline: 2021-01-29
 todos:
     - Completion of the description text
     - Solution description
@@ -23,8 +23,7 @@ history:
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+This is a fundamental architecture style choice, influencing the whole development process.
 
 ## Additional sources for better understanding the background
 

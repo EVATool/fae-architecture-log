@@ -14,7 +14,7 @@ todos:
     - what exactly are the criteria to make the decision? 
     - if you specify a first version of an API, please make sure to have it specified in the Github wiki.
 responsible: JLÜ;JSP
-deadline: 2021-01-22
+deadline: 2021-01-29
 history:
     v1:
         date: 2021-01-11
@@ -28,6 +28,9 @@ history:
     v4:
         date: 2021-01-12
         comment: sources and evaluation
+    v5: 
+        date: 2021-01-22
+        comment: updated deadline    
 ---
 
 ## Why is there need for such a decision?

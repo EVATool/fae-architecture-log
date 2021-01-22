@@ -4,7 +4,7 @@ acronym: async-over-sync
 title: >
     Asynchronous over synchronous communication for all sub-domains
 decision_type: must
-belongs_to: apis
+belongs_to: eventing
 status: _4_stakeholder_checked
 responsible: SBE
 deadline: 2021-01-22

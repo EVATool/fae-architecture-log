@@ -5,25 +5,10 @@
 {% comment %}
 If a typefilter ("team" or "sig") is specified, then two additional filterings are done:
 1) only the corresponding decision types are filtered.
-2) the decision is only listed, if one of the contributors is part of that team / sig that we look at.
+2) the decision is only listed, if it fits to the group_acronym
 {% endcomment %}
-
 {% if typefilter %}
-    {% assign group_decisions = "" | split: ";" %}
-    {% for decision in decision_list %}
-        {% assign needs_to_be_included = false %}
-        {% assign person_list = decision.responsible | split: ";" %}
-        {% for person in person_list %}
-            {% assign acronym = person | strip | upcase %}
-            {% if site.data.people[acronym][include.typefilter] == group_acronym %}
-                {% assign needs_to_be_included = true %}
-            {% endif %}
-        {% endfor %}
-        {% if needs_to_be_included %}
-            {% assign group_decisions = group_decisions | push: decision %}
-        {% endif %}
-    {% endfor %}
-    {% assign decision_list = group_decisions %}
+    {% assign decision_list = decision_list | where_exp: "dec", "dec.belongs_to == group_acronym" %}
 {% endif %}
 
 

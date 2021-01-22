@@ -12,7 +12,7 @@ todos:
     - presentation to group missing
     - branching rules to be described 
 responsible: JSP;SBE
-deadline: 2021-01-22
+deadline: 2021-01-29
 history:
     v1:
         date: 2021-01-15
@@ -20,6 +20,9 @@ history:
     v2: 
         date: 2021-01-22
         comment: scope enhanced (includes also branching rules)
+    v3: 
+        date: 2021-01-22
+        comment: updated deadline
 ---
 
 ## Why is there need for such a decision?

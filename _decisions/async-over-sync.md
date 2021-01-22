@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-01-15
         comment: created initially
+    v2:
+        date: 2021-01-15
+        comment: Modulith style presented to the whole group as a motivation        
 ---
 
 ## Why is there need for such a decision?

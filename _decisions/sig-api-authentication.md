@@ -6,6 +6,10 @@ title: >
 decision_type: must
 belongs_to: apis
 status: _1_open
+todos:
+    - status is not "open" anymore (some content available)
+    - please enhance list of viable options - is OAuth really the only possible way? See e.g. https://stackshare.io/oauth2/alternatives
+    - similarly, "options not considered" doesn't look complete
 responsible: MTO
 deadline: 2021-02-05
 history:
@@ -29,11 +33,10 @@ This decision is necessary so that only the requests made by the client to the A
 ## Additional sources for better understanding the background
 You can use the sources to provide a little insight on authentication methods.
 
-[Most Used REST API Authentication Methods](https://blog.restcase.com/4-most-used-rest-api-authentication-methods/)
-
-[How a RESTful API server reacts to requests. Chapter Authentication](https://www.oreilly.com/content/how-a-restful-api-server-reacts-to-requests/)
-
-[RFC: 6749, The OAuth 2.0 Authorization Framework](https://www.ietf.org/rfc/rfc6749.txt)
+* [Most Used REST API Authentication Methods](https://blog.restcase.com/4-most-used-rest-api-authentication-methods/)
+* [How a RESTful API server reacts to requests. Chapter Authentication](https://www.oreilly.com/content/how-a-restful
+-api-server-reacts-to-requests/)
+* [RFC: 6749, The OAuth 2.0 Authorization Framework](https://www.ietf.org/rfc/rfc6749.txt)
 
 ## Viable Options
 
@@ -43,11 +46,10 @@ You can use the sources to provide a little insight on authentication methods.
 ## Alternatives not seriously considered
 
 - HTTP Authentication
- - - Basic Authentication: This method requests the username and password for each API request.
-
- - - Bearer Authentication: This method wants to have a predefined token for each API request. The token is set in the header when the request is made. The token may not be set dynamically and it is written statically in the code.
-
+ - Basic Authentication: This method requests the username and password for each API request.
+ - Bearer Authentication: This method wants to have a predefined token for each API request. The token is set in the header when the request is made. The token may not be set dynamically and it is written statically in the code.
 - OpenID Connect: For OpenID Connect an external service provider is needed, this method would go beyond the scope of this project.
+
 ## How is this decision evaluated?
 
 The decision must be guaranteed by a research on the Internet. Important points are, which authentication methods are generally available and which ones are recommended by the Spring-Boot community on the Internet.

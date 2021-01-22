@@ -7,6 +7,9 @@ decision_type: must
 status: _1_open
 responsible: HBU
 deadline: 2021-01-29
+todos: 
+    - status is not "open" anymore, as there is already some content
+    - please make the options more concrete in terms of technologies / tools used
 history:
     v1:
         date: 2021-01-13
@@ -41,14 +44,6 @@ The options will be scrutinized in regard to:
 - Cost (must be free)
 - How well they fit into existing parameters (automation, easier integration, less overhead)
 
-
-
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
  
 ## Resolution Details
 

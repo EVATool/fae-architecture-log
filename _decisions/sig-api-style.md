@@ -6,6 +6,13 @@ title: >
 decision_type: must
 belongs_to: apis
 status: _1_open
+todos: 
+    - status is not "open" anymore, as there is already some content
+    - what is a realistic deadline?
+    - please describe in greater detail how you plan your prototype implementation (e.g. what API do you want to 
+        implement, what operations do you implement)
+    - what exactly are the criteria to make the decision? 
+    - if you specify a first version of an API, please make sure to have it specified in the Github wiki.
 responsible: JLÜ;JSP
 deadline: 2021-01-22
 history:
@@ -33,15 +40,11 @@ All Teams must use the same style to reach this goal.
 
 ## Additional sources for better understanding the background
 
-[Differences between SOAP and REST](https://rapidapi.com/blog/types-of-apis/)
-
-[GraphQL](https://graphql.org/)
-
-[REST Levels](https://blog.restcase.com/4-maturity-levels-of-rest-api-design/)
-
-[Building a GraphQL API - video](https://www.youtube.com/watch?v=bRnu7xvU1_Y)
-
-[REST, SOAP or GraphQl](https://da-14.com/blog/ultimate-guide-api-architecture-rest-soap-or-graphql#:~:text=SOAP%20is%20a%20protocol%2C%20REST,basic%20functions%20%E2%80%93%20GET%20and%20POST.&text=GraphQL%20leverages%20requests%20of%20two,and%20mutations%20changing%20the%20data)
+* [Differences between SOAP and REST](https://rapidapi.com/blog/types-of-apis/)
+* [GraphQL](https://graphql.org/)
+* [REST Levels](https://blog.restcase.com/4-maturity-levels-of-rest-api-design/)
+* [Building a GraphQL API - video](https://www.youtube.com/watch?v=bRnu7xvU1_Y)
+* [REST, SOAP or GraphQl](https://da-14.com/blog/ultimate-guide-api-architecture-rest-soap-or-graphql#:~:text=SOAP%20is%20a%20protocol%2C%20REST,basic%20functions%20%E2%80%93%20GET%20and%20POST.&text=GraphQL%20leverages%20requests%20of%20two,and%20mutations%20changing%20the%20data)
 
 
 ## Viable Options

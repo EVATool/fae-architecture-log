@@ -6,6 +6,8 @@ title: >
 decision_type: must
 belongs_to: apis
 status: _5_presented
+todos: 
+    - documentation in Github wiki (and please link this here)
 responsible: JLÜ;JSP
 deadline: 2021-01-15
 history:
@@ -38,11 +40,9 @@ Based on the Api style the different data representations are easier to implemen
 
 ## Additional sources for better understanding the background
 
-[Differences between JSON and XML](https://rapidapi.com/blog/types-of-apis/)
-
-[JSON](https://www.json.org/json-de.html)
-
-[XML](https://wiki.selfhtml.org/wiki/XML)
+* [Differences between JSON and XML](https://rapidapi.com/blog/types-of-apis/)
+* [JSON](https://www.json.org/json-de.html)
+* [XML](https://wiki.selfhtml.org/wiki/XML)
 
 ## Viable Options
 

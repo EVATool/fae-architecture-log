@@ -8,6 +8,22 @@ belongs_to: devops
 status: _2_draft
 responsible: TZA
 deadline: 2021-01-29
+todos:
+    - Why to use containers for EVATool?
+    - Compare docker vs. VM?
+    - What tasks should I try on both of them?! Which aspects are important for decision?
+    - Workflow (what is easier)
+    - Application delivery -  build -> test -> deploy -> run
+    - Updates delivery (Scenario - Hotfix)
+    - Hello World-Spring-Boot application with one very simple REST API
+    - Create VM (some sort of Linux) on a local machine (using VirtualBox)
+    - Find a way to deliver the application on VM
+    - Do hosting platforms offer support for containers?
+    - Do hosting-platforms provide some frameworks for containerization?
+    - Do hosting-platforms have complete container-solutions?
+    - EVATool -  Would it be a Web-Site or App or what?
+    - In FAE we will build a stand-alone Spring-Application (with Spring Boot)
+    - One Repo; One Spring Boot App; Different Domains; Different DB-Schemes;
 history:
     v1:
         date: 2021-01-12
@@ -18,6 +34,9 @@ history:
     v3:
         date: 2021-01-15
         comment: added "viable options" and decision evaluation steps
+    v4: 
+        date: 2021-01-22
+        comment: moved the questions part up to the "todos" section (makes it better visible)        
 ---
 
 ## Why is there need for such a decision?
@@ -32,17 +51,14 @@ These have to be weighed up.
 must / should / team)
 
 ## Additional sources for better understanding the background
-[Application containerization](https://searchitoperations.techtarget.com/definition/application-containerization-app-containerization)
 
-[Containers vs. virtual machines (microsoft)](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
-
-[Containers vs VMs (redhat)](https://www.redhat.com/en/topics/containers/containers-vs-vms)
-
-[Deploy Your Spring Boot App the Right Way](https://developer.okta.com/blog/2019/12/03/spring-boot-deploy-options) 
-
-[Deploying Spring Boot Applications (1)](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
-
-[Deploying Spring Boot Applications (2 - docs)](https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html)
+* [Application containerization](https://searchitoperations.techtarget.com/definition/application-containerization-app
+-containerization)
+* [Containers vs. virtual machines (microsoft)](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
+* [Containers vs VMs (redhat)](https://www.redhat.com/en/topics/containers/containers-vs-vms)
+* [Deploy Your Spring Boot App the Right Way](https://developer.okta.com/blog/2019/12/03/spring-boot-deploy-options) 
+* [Deploying Spring Boot Applications (1)](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
+* [Deploying Spring Boot Applications (2 - docs)](https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html)
 
 (Please list some sources where a reader can get a better understanding of the topic at hand)
 
@@ -83,29 +99,7 @@ the most relevant literature or IT community sources.)
 
 ### Questions
 
-* Why to use containers for EVATool?
 
-* Compare docker vs. VM?
-    * What tasks should I try on both of them?! Which aspects are important for decision?
-
-          - Workflow (what is easier)
-          - Application delivery: build -> test -> deploy -> run
-          - Updates delivery (Scenario: Hotfix)
-
-  first TODOs:
-    * "Hello World"-Spring-Boot application with one very simple REST API
-    * Create VM (some sort of Linux) on a local machine (using VirtualBox)
-    * Find a way to deliver the application on VM
-
-* Do hosting platforms offer support for containers?
-* Do hosting-platforms provide some frameworks for containerization?
-* Do hosting-platforms have complete container-solutions?
-
-
-* EVATool: Would it be a Web-Site or App or what?
-    * In FAE we will build a sand-alone Spring-Application (with Spring Boot)
-      
-            One Repo; One Spring Boot App; Different Domains; Different DB-Schemes; 
     
 
 ## Resolution Details

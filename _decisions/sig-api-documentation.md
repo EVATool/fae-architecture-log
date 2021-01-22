@@ -6,6 +6,10 @@ title: >
 decision_type: must
 belongs_to: apis
 status: _1_open
+todos:
+    - status is not "open" anymore (some content available)
+    - can you elaborate a little more on how you actually will come to a decision proposal? E.g. by giving the 
+        dependencies here. Like when GraphQL select in the `sig-api-style` decision, then ... etc.
 responsible: FOB
 deadline: 2021-01-29
 history:
@@ -23,30 +27,23 @@ All teams must use the same tool to prevent differential API-documentations synt
 
 ## Additional sources for better understanding the background
 
-[Open API](https://entwickler.de/online/development/einstieg-in-openapi-v3-579830417.html)
-
-[Code first vs. API first](https://apisyouwonthate.com/blog/api-design-first-vs-code-first)
-
-[Swagger UI](https://swagger.io/tools/swagger-ui/)
-
-[RAML](https://raml.org/)
-
-[GraphQL](https://nordicapis.com/graphql-documentation-generators-explorers-and-tools/)
-
-[Spring Rest Docu](https://spring.io/projects/spring-restdocs)
+* [Open API](https://entwickler.de/online/development/einstieg-in-openapi-v3-579830417.html)
+* [Code first vs. API first](https://apisyouwonthate.com/blog/api-design-first-vs-code-first)
+* [Swagger UI](https://swagger.io/tools/swagger-ui/)
+* [RAML](https://raml.org/)
+* [GraphQL](https://nordicapis.com/graphql-documentation-generators-explorers-and-tools/)
+* [Spring Rest Docu](https://spring.io/projects/spring-restdocs)
 
 ## Viable Options
-Swagger UI
 
-RAML with Spring Rest Docs
-
-GraphQL
+* Swagger UI
+* RAML with Spring Rest Docs
+* GraphQL
 
 ## Alternatives not seriously considered
 
-Postman, not Open Source
-
-API Blueprint not for Java available 
+* Postman, not Open Source
+* API Blueprint not for Java available 
 
 ## How is this decision evaluated?
 

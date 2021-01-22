@@ -6,7 +6,7 @@ title: >
     evatool-backend
 decision_type: must
 belongs_to: devops
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: SBE;PKL
 deadline: 2021-01-22
 todos:

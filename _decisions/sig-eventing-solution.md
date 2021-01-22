@@ -5,7 +5,7 @@ title: >
     Comparison between different Event-Streaming Solutions
 decision_type: must
 belongs_to: eventing
-status: _1_open
+status: _3_sig_agreed
 todos:
     - status is not "open" anymore, as there is some content available
     - please update the title, so that the decision made is clear from it
@@ -20,6 +20,9 @@ history:
     v2:
         date: 2021-01-15
         comment: added reason for decision and possible options
+    v3:
+        date: 2021-01-22
+        comment: added a resolution and resolution details
 ---
 
 ## Why is there need for such a decision?
@@ -60,26 +63,22 @@ Additionally, all of these are specialized for use in their respective cloud env
 
 ## How is this decision evaluated?
 
-TODO: Proof of concept
-<!--- 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
---->
+After building small proof of concepts, we will evaluate this decision based on the experienced features and issues.
+The proof of concepts are designed to be very similar to the actual use case. So in this case:
 
+* Sending and receiving events on a single server
+* JSON Strings as payload
+* No additional monitoring features
  
 ## Resolution Details
 
-<!---
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
---->
+We recommend Spring Eventing as a solid default, since it is already included in the spring-web libraries we already use.
+RabbitMQ presents a viable alternative, should the need arise for a broker based eventing solution 
+(docker container highly recommended). 
 
 ## Reasons for the resolution
 
-<!---
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
---->
+Spring Eventing and RabbitMQ are both good solutions for this project. Both provide everything we need with only a 
+few additional features as overhead. Kafka on the other hand provides a huge amount of tools for analysing and 
+monitoring event traffic, which might be useful in a huge microservice landscape, but is way too heavy for a small 
+project such as this.

@@ -5,7 +5,7 @@ title: >
     API-Documentation
 decision_type: must
 belongs_to: apis
-status: _1_open
+status: _2_draft
 todos:
     - status is not "open" anymore (some content available)
     - can you elaborate a little more on how you actually will come to a decision proposal? E.g. by giving the 

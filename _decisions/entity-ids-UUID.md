@@ -1,25 +1,20 @@
 ---
 type: decision
-acronym: single-repo-development
+acronym: entity-ids-uuid
 title: >
-    Development model is "Single Repo" / "Single Spring Project" in the evatool-backend Repository
+    UUIDs are to be used for Entity IDs
 decision_type: must
-belongs_to: devops
-status: _2_draft
-todos: 
-    - decision needs be described here
-    - also in the wiki
-    - presentation to group missing
-    - branching rules to be described 
-responsible: JSP;SBE
+belongs_to: apis
+status: _4_stakeholder_checked
+todos:
+    - write description, esp. with link to documentation
+    - present to group
+responsible: SBE
 deadline: 2021-01-22
 history:
     v1:
-        date: 2021-01-15
-        comment: created initially
-    v2: 
         date: 2021-01-22
-        comment: scope enhanced (includes also branching rules)
+        comment: created initially
 ---
 
 ## Why is there need for such a decision?

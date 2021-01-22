@@ -1,20 +1,16 @@
 ---
 type: decision
-acronym: single-spring-project
+acronym: git-conventions
 title: >
-    Source code is organized as a single Spring project, located in the `evatool-backend` repository
+    Rules regarding Git-Push/Merges
 decision_type: must
 belongs_to: devops
-status: _4_stakeholder_checked
-todos: 
-    - decision needs be described here
-    - also in the wiki
-    - presentation to group missing
-responsible: SBE
-deadline: 2021-01-15
+status: _1_open
+responsible: TZA;JSP;AKL
+deadline: 2021-01-22
 history:
     v1:
-        date: 2021-01-15
+        date: 2021-01-22
         comment: created initially
 ---
 

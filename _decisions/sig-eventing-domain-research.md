@@ -1,8 +1,8 @@
 ---
 type: decision
-acronym: sig-eventing-process-design
+acronym: sig-eventing-domain-research
 title: >
-    Design of the fundamental communication process
+    Research method to define the domain
 decision_type: should
 belongs_to: eventing
 status: _2_draft

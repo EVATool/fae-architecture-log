@@ -5,11 +5,8 @@ title: >
     Access security through REST-API authentication methods
 decision_type: must
 belongs_to: apis
-status: _1_open
+status: _2_draft
 todos:
-    - status is not "open" anymore (some content available)
-    - please enhance list of viable options - is OAuth really the only possible way? See e.g. https://stackshare.io/oauth2/alternatives
-    - similarly, "options not considered" doesn't look complete
 responsible: MTO
 deadline: 2021-02-05
 history:
@@ -23,6 +20,10 @@ history:
         date: 2021-01-15
         comment: added "Viable Options", added "Alternatives not seriously considered, edit "How is this decision
          evaluated?"
+    v4:
+        date: 2021-01-22
+        comment: added "Resolution Details" and "Reasons for the resolution"
+
 ---
 
 ## Why is there need for such a decision?
@@ -40,7 +41,11 @@ You can use the sources to provide a little insight on authentication methods.
 
 ## Viable Options
 
+- HTTP Authentication
+- Auth0
 - OAuth (2.0)
+- OpenID Connect
+
 
 
 ## Alternatives not seriously considered
@@ -60,15 +65,34 @@ Facts for the decision are:
 - Simplicity
 - How easy it is to code
 
-In the SIG API group, a decision was made with the help of the three facts. The OAuth (2.0) method was defined for authentication.
 
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+Protocol Flow
 
+     +--------+                               +---------------+
+     |        |--(A)- Authorization Request ->|   Resource    |
+     |        |                               |     Owner     |
+     |        |<-(B)-- Authorization Grant ---|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(C)-- Authorization Grant -->| Authorization |
+     | Client |                               |     Server    |
+     |        |<-(D)----- Access Token -------|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(E)----- Access Token ------>|    Resource   |
+     |        |                               |     Server    |
+     |        |<-(F)--- Protected Resource ---|               |
+     +--------+                               +---------------+
+Soruce: [RFC: 6749, The OAuth 2.0 Authorization Framework](https://www.ietf.org/rfc/rfc6749.txt)
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
+In the SIG API group, a decision was made with the help of the three facts.
+OAuth2 is a modern and secure way to authenticate users. The abstract representation in RFC6749 makes this method very easy to understand. Program codes can be taken from the internet or from the POC. An understanding of Java and OOP is required.
+The OAuth (2.0) method was defined for authentication.
+
 

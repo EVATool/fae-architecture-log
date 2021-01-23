@@ -23,48 +23,43 @@ history:
     v3: 
         date: 2021-01-22
         comment: updated deadline
+    v4: 
+            date: 2021-01-23
+            comment: decide decision
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
-
-## Additional sources for better understanding the background
-
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+This decision is important, because it will decide which project structure will be. 
 
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+* single src-folder with packages for every sub-domain
+
+* one root src-folder with a modules-folder which have src-folders for every sub-domain.
 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+* one repo for every sub-domain (multi-repo)
 
-
+multi-repo is not an option for this project.
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
+The decision is based on a discussion and the decision for the branching-stratagy (both was decided at the same day).
 
  
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
-
+It was decide to use a root src-folder, but a modules-folder with a src-folder for every sub-domain.
+* the root src-folder is only use for classes that every sub-domain use. 
+Nobody of the sub-domains can be a owner of that class.
+* every sub-domain have a folder in the modules-folder. This sub-domains have there own src-,
+test-,resource-folder and an indiviual .pom with the projact as parent.
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
-
+The root src-folder with modules-folder is more like the modulith system as the one src-folder with packages
+for every sub-domain. For this reason, the sub-domains are more encapsulated from each other.

@@ -6,7 +6,7 @@ title: >
 decision_type: must
 belongs_to: apis
 status: _1_open
-responsible: 
+responsible: JLÜ
 deadline: 2021-01-29
 history:
     v1:
@@ -16,8 +16,8 @@ history:
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+Sometimes synchronous calls between APIs are necessary. Therefore, a decision dealing this issue is required. All APIs 
+must use the same way of synchronous communication.
 
 ## Additional sources for better understanding the background
 

@@ -21,19 +21,16 @@ must use the same way of synchronous communication.
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
-
+[Sync vs async](https://dzone.com/articles/patterns-for-microservices-sync-vs-async)
+[Methods of Communication](https://blog.logrocket.com/methods-for-microservice-communication/)
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+* Api calls
 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
 
 
 

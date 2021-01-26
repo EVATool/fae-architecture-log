@@ -22,6 +22,7 @@ must use the same way of synchronous communication.
 ## Additional sources for better understanding the background
 
 [Sync vs async](https://dzone.com/articles/patterns-for-microservices-sync-vs-async)
+
 [Methods of Communication](https://blog.logrocket.com/methods-for-microservice-communication/)
 
 ## Viable Options

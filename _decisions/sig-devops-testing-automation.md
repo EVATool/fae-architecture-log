@@ -35,8 +35,6 @@ history:
 
 ## Why is there need for such a decision?
 
-[Wiki article](https://github.com/EVATool/evatool-backend/wiki/DevOps-Testing-Automation-with-GitHub-Actions)
-
 How the code is tested *must* be decided early in order to guarantee a unified and efficient way to ensure quality. 
 Automating tests is necessary when many developers are collaborating and are changing the code regulary.
 
@@ -83,6 +81,8 @@ Additionally, a solution that fits into existing contraints is better due to eas
 Using GitHub Actions requires something like Maven.
 
 ## Resolution Details
+
+[Wiki article](https://github.com/EVATool/evatool-backend/wiki/DevOps-Testing-Automation-with-GitHub-Actions)
 
 GitHub Actions can do much more than just automating testing. They will be used to extend the build tool chain
 and automation in the project. GitHub Actions do not require a dedicated, self-managed build server and the testing results

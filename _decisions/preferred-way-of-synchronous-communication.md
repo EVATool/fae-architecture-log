@@ -25,6 +25,8 @@ must use the same way of synchronous communication.
 
 [Methods of Communication](https://blog.logrocket.com/methods-for-microservice-communication/)
 
+[Synchrone Kommunikation Rest](https://entwickler.de/leseproben/rest-synchron-579868798.html)
+
 ## Viable Options
 
 * Api calls

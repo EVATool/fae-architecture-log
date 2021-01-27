@@ -5,7 +5,7 @@ title: >
     Testing Automation with GitHub Actions
 decision_type: must
 belongs_to: devops
-status: _3_sig_agreed
+status: _5_presented
 responsible: HBU
 deadline: 2021-01-22
 todos:
@@ -34,8 +34,6 @@ history:
 ---
 
 ## Why is there need for such a decision?
-
-[Wiki article](https://github.com/EVATool/evatool-backend/wiki/DevOps-Testing-Automation-with-GitHub-Actions)
 
 How the code is tested *must* be decided early in order to guarantee a unified and efficient way to ensure quality. 
 Automating tests is necessary when many developers are collaborating and are changing the code regulary.
@@ -68,21 +66,23 @@ It is also desirable when the solution can be used for more than just testing bu
 Additionally, a solution that fits into existing contraints is better due to easier integration.
 
 
-| Criteria | GitHub Actions | Cloud-based | Manual Tests |  |
-|:-:|:-:|:-:|:-:|-|
-| Project (FAE) | GitHub already given as source control | Not integrated into source control | Not integrated into source control |  |
-| Acquisition | Free<br>Less computational power due to no cost | Might cost money if very powerful, but not powerful enough if free<br>Even if free and OK, using GitHub would be more sound | Might cost money if very powerful |  |
-| Setup | Well known, many resources and existing actions | Might not be as well known, less resources | Most IDEs have integrated Tests or have plugins + well known IDEs have good resources |  |
-| Availability | Might become temporarily unavailable, but robust due to owner (Microsoft) | Might temporarily become unavailable<br>Robust if paid | Robust, Cannot become unavailable |  |
-| Support | Well known, many resources | Good support if paid | A lot of good IDEs are free and have many resources |  |
-| Testing | Automated | Automated | Not automated |  |
-| Pipeline Integration | Integrates with other GitHub Actions<br>GitHub Events:<br>- delete<br>- release<br>- deployment<br>- check_run<br>- push<br>- pull_request<br>- ... | Depending on scope of service might not be competitive to GitHub | Does not support as many CI/CD Tools like GitHub<br>For example, Visual Studio does but costs money |  |
-| Verdict | Fits into existing parameters<br>Best automation and pipeline integration | Probably will cost money<br>Inferior to GitHub in terms of integration and reputation | Good but lacks automation and pipeline integration |  |
+| Criteria | GitHub Actions | Jenkins (Server) |
+|:-:|:-:|:-:|
+| Project (FAE) | GitHub already given as source control<br>The project might be put on hold for a few months at a time. In this time the free version of GitHub can still be used | Not integrated into source control |
+| Price | Free<br>Java code can be tested on linux (best price).<br>Only 2000 worker minutes per month when free | Server costs money (rent, electricity)<br>Initial Setup over head<br>Continuous cost |
+| Setup | Well known, many resources and existing actions | Jenkins has good resources |
+| Availability | Might become temporarily unavailable; robust due to owner (Microsoft) | Might temporarily become unavailable |
+| Support | Well known, many resources | Well known, many resources |
+| Testing | Automated | Automated |
+| Pipeline Integration | Integrates with other GitHub Actions<br>GitHub Events:<br>- delete<br>- release<br>- deployment<br>- check_run<br>- push<br>- pull_request<br>- …<br>GitHub Actions can execute arbitrary code and deliver output to a server (when delivering later on) | Depending on scope of service might not be competitive to GitHub |
+| Verdict | Fits into existing parameters<br>Billing can be turned on and off according to project needs<br>Best automation and pipeline integration | Probably will cost money (continuously)<br>Inferior to GitHub in terms of project needs |
 
 
 Using GitHub Actions requires something like Maven.
 
 ## Resolution Details
+
+[Wiki article](https://github.com/EVATool/evatool-backend/wiki/DevOps-Testing-Automation-with-GitHub-Actions)
 
 GitHub Actions can do much more than just automating testing. They will be used to extend the build tool chain
 and automation in the project. GitHub Actions do not require a dedicated, self-managed build server and the testing results
@@ -107,5 +107,4 @@ Testing GitHub Actions:
 ## Reasons for the resolution
 
 Choosing an automated testing setup is a long term descision. It will cost some resources initially but will
-save time and increase efficiency. Manual testing is tedious and a third party cloud based service would either
-add running costs to the project when compared to GitHub Actions.
+save time and increase efficiency.

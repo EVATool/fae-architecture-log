@@ -6,8 +6,8 @@ title: >
 decision_type: team
 belongs_to: requirements
 status: _2_draft
-todos: 
-    - please move documentation to wiki
+todos:
+    
 responsible: JLÜ
 deadline: 2021-01-22
 history:
@@ -53,7 +53,7 @@ To check the decision. The created Domain Model needs to be evaluated against th
  
 ## Resolution Details
 
-![Domain Model](../assets/DomainModel_Requirements.png)
+Resolution Details can be found on the [Wiki Page](https://github.com/EVATool/evatool-backend/wiki/DomainModelRequirements).
 
 
 ## Reasons for the resolution

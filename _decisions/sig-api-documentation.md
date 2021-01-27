@@ -7,11 +7,8 @@ decision_type: must
 belongs_to: apis
 status: _2_draft
 todos:
-    - status is not "open" anymore (some content available)
-    - can you elaborate a little more on how you actually will come to a decision proposal? E.g. by giving the 
-        dependencies here. Like when GraphQL select in the `sig-api-style` decision, then ... etc.
 responsible: FOB
-deadline: 2021-01-29
+deadline: 2021-02-05
 history:
     v1:
         date: 2021-01-13
@@ -48,6 +45,8 @@ All teams must use the same tool to prevent differential API-documentations synt
 ## How is this decision evaluated?
 
 The evaluation is a result of implemented respective tools!
+
+when Rest is select as "sig-api-style" decision, then we will use Swaager or RAML with Spring Rest Docs. If GraphQL is chosen, so we will use the GraphQL Documentation Generator!
  
 ## Resolution Details
 

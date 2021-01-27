@@ -38,7 +38,7 @@ Decision is required for a unified understanding of domains and process flows.
 ## Additional sources for better understanding the background
 
 * [Event-Storming](https://www.knowis.com/de/blog/die-event-storming-methode-einsatz-im-projektalltag)
-    * [Further information about Event Storming by the Creator Alberto Brandolini](https://www.knowis.com/de/blog/die-event-storming-methode-einsatz-im-projektalltag)
+    * [Further information about Event Storming by the Creator Alberto Brandolini](https://blog.avanscoperta.it/2014/02/12/introducing-event-storming/)
     * [Full post here](http://ziobrando.blogspot.com/2013/11/introducing-event-storming.html)
 * [Domain-Storytelling](https://domainstorytelling.org/)
     * [Further information](https://www.informatik-aktuell.de/management-und-recht/projektmanagement/fachliche-anforderungen-in-der-softwareentwicklung-wie-domain-storytelling-entwickler-und-fachexperten-zusammenbringt.html)

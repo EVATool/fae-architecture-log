@@ -6,14 +6,17 @@ title: >
 decision_type: team
 belongs_to: impact
 status: _2_draft
-todos: 
-    - please move documentation to wiki
+todos:
+    - add reasons for the resolution
 responsible: HBU;TZA 
-deadline: 2021-01-22
+deadline: 2021-01-29
 history:
     v1:
         date: 2021-01-08
         comment: created initially
+    v2:
+        date: 2021-01-27
+        comment: moved a documentation to wiki
 ---
 
 ## Why is there need for such a decision?
@@ -21,8 +24,6 @@ history:
 Before implementation start, some basic research on the domain should be done.
 We should identify main objects of the domain.
 In addition, the relationships between these objects are also very important.
-
----
 
 ## Additional sources for better understanding the background
 
@@ -34,22 +35,16 @@ Draw from the model the terminology used in the design and the basic assignment 
 The code becomes an expression of the model, so a change to the code may be a change to the model.
 Its effect must ripple through the rest of the project’s activities accordingly. [Ev15]
 
----
-
 ### Links
 * [Domain model](https://en.wikipedia.org/wiki/Domain_model)
 * [What is a Domain Model](https://stackoverflow.com/questions/1863537/what-is-a-domain-model)
 * [A Brief Introduction to Domain Modeling](https://olegchursin.medium.com/a-brief-introduction-to-domain-modeling-862a30b38353)
 * [Softwaretechnik 1 (ST1)](https://www.archi-lab.io/display/public/ST1#ST1-ScriptzurVeranstaltung)
 
----
-
 ## Viable Options
 
 * business data model (germ.: Fachliches Datenmodell)
 * logical data model (germ.: Logisches Datenmodell)
-
----
 
 ## Resolution Details
 
@@ -64,21 +59,11 @@ For this decision, the domain model was created in two steps:
 * Then more details like attributes and association directions were added.
   In addition, it was determined which objects represent an entity.
 
----
-
-### Business data model
-
-![Business data model](../assets/impact_business_data_model.png)
-
----
-
-### Logical data model
-
-![Business data model](../assets/impact_logical_data_model.png)
-
----
+### [Impact Wiki](https://github.com/EVATool/evatool-backend/wiki/Impact)
 
 ## Reasons for the resolution
+
+TODO
 
 (Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
 

@@ -5,7 +5,7 @@ title: >
     Research method to define the domain
 decision_type: should
 belongs_to: eventing
-status: _2_draft
+status: _3_sig_agreed
 todos:
     - as part of this decision, you need to provide some guidelines for the teams (or moderate the design/specification
         process yourself)   

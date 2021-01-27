@@ -7,9 +7,8 @@ decision_type: must
 belongs_to: devops
 status: _2_draft
 responsible: MHA
-deadline: 2021-01-29
+deadline: 2021-02-05
 todos:
-    - deadline realistic & doable?
     - what is your way of evaluation?
 history:
     v1:

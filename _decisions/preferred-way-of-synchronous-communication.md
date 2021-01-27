@@ -5,7 +5,7 @@ title: >
     The preferred way of synchronous communication between modules is ...?
 decision_type: must
 belongs_to: apis
-status: _1_open
+status: _4_stakeholder_checked
 responsible: JLÜ
 deadline: 2021-02-05
 history:
@@ -34,26 +34,21 @@ must use the same way of synchronous communication.
 
 ## Alternatives not seriously considered
 
-
+No other alternatives are seriously considered.
 
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
+To take this decision some research has to be done. No other evaluation is required.
 
  
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
-
+In oder to make synchronous calls the domains must call the API. The API should already offer all required cases of synchronous calls.
+If it is not the case, the API has to implement it.
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
+Synchronous Calls should not be used. However sometimes they are necessary. Because the APIs should already cover all cases 
+of synchronous communication, the resolution is fairly simple.
 

@@ -6,8 +6,6 @@ title: >
 decision_type: team
 belongs_to: impact
 status: _2_draft
-todos:
-    - add reasons for the resolution
 responsible: HBU;TZA 
 deadline: 2021-01-29
 history:
@@ -17,6 +15,9 @@ history:
     v2:
         date: 2021-01-27
         comment: moved a documentation to wiki
+    v3:
+        date: 2021-01-28
+        comment: removed reasons for the resolution
 ---
 
 ## Why is there need for such a decision?
@@ -54,16 +55,14 @@ For this decision, the domain model was created in two steps:
   [wireframes](https://lsw4em.axshare.com/#id=wvfe6y&p=website) and the
   [Excel file](https://github.com/Archi-Lab/elsi-by-design-excel/),
   the main objects of the domain and their relationships were identified.
-  These were the basics for creating a simple business data model.
+  These were the basics for creating a
+  [conceptual data model](https://en.wikipedia.org/wiki/Conceptual_schema).
   
 * Then more details like attributes and association directions were added.
   In addition, it was determined which objects represent an entity.
+  hese were the basics for creating a
+  [logical data model](https://en.wikipedia.org/wiki/Logical_schema)
 
 ### [Impact Wiki](https://github.com/EVATool/evatool-backend/wiki/Impact)
 
-## Reasons for the resolution
-
-TODO
-
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
-
+---

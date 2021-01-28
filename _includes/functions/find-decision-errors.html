@@ -38,13 +38,13 @@
 {% endif %}
 
 
-{% comment %} --- 1-2 responsible persons, all included in people.yml? --- {% endcomment %}
+{% comment %} --- 1-3 responsible persons, all included in people.yml? --- {% endcomment %}
 
 {% assign raw_list = decision.responsible | split: ";" %}
 {% if raw_list.size == 0 %}
 	{% assign error_string = error_string | append: "No responsible person defined;" %}
-{% elsif raw_list.size > 2 %}
-	{% assign error_string = error_string | append: "More than 2 responsible persons defined;" %}
+{% elsif raw_list.size > 3 %}
+	{% assign error_string = error_string | append: "More than 3 responsible persons defined;" %}
 {% else %}
 	{% for person_raw in raw_list %}
 		{% assign acronym = person_raw | strip | upcase %}
@@ -53,10 +53,30 @@
 			{% assign error_string = error_string
 					| append: "Responsible person "
 					| append: acronym
-					| append: " is not defined in _data/people.yml - please correct or add there." %}
+					| append: " is not defined in _data/people.yml - please correct or add there;" %}
 		{% endif %}
 	{% endfor %}
 {% endif %}
 
+{% comment %} --- Deadline overdue? --- {% endcomment %}
+{% assign check_deadline = false %}
+{% if decision.status %}
+	{% if decision.decision_type == "team" %}
+		{% if decision.status != "_3_team_agreed"  %}
+			{% assign check_deadline = true %}
+		{% endif %}
+	{% else %}
+		{% if decision.status != "_5_presented"  %}
+			{% assign check_deadline = true %}
+		{% endif %}
+	{% endif %}
+{% endif %}
+{% if check_deadline %}
+	{% assign today = site.time | date: "%Y-%m-%d" %}
+	{% assign deadline = decision.deadline | date: "%Y-%m-%d" %}
+	{% if deadline < today %}
+		{% assign error_string = error_string | append: "Deadline has already passed - please fix;" %}
+	{% endif %}
+{% endif %}
 
 {% comment %} --- Responsible persons fit to "belongs_to" field? --- {% endcomment %}

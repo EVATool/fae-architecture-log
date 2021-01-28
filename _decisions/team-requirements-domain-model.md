@@ -6,10 +6,16 @@ title: >
 decision_type: team
 belongs_to: requirements
 status: _2_draft
-todos:
-    
 responsible: JLÜ
 deadline: 2021-01-22
+todos:
+    - A formal comment to your domain model. Please use unidirectional relationships in the model, 
+        otherwise the implementation side is not clear (bidirectional relationships should be avoided)
+    - Another formal comment to the domain model. The attribute list should only contain real attributes, 
+        not variables for the references (this is already clear from the relationships). 
+        I.e. something like "scenarios - List<Scenario" is obsolete.
+    - Please name classes in singular.
+    - The name is now "Variant", not "Scenario"
 history:
     v1:
         date: 2021-01-08
@@ -19,7 +25,7 @@ history:
         comment: need for decision
     v3:
         date: 2021-01-20
-        comment: complete Draft 
+        comment: complete Draft        
 ---
 
 ## Why is there need for such a decision?
@@ -30,8 +36,8 @@ should support the development process.
 
 ## Additional sources for better understanding the background
 
-[Wireframe](https://lsw4em.axshare.com/#id=djipbz&p=requirements&g=1)
-[Domain Driven Design](https://www.dev-insider.de/was-ist-domain-driven-design-a-724421/)
+* [Wireframe](https://lsw4em.axshare.com/#id=djipbz&p=requirements&g=1)
+* [Domain Driven Design](https://www.dev-insider.de/was-ist-domain-driven-design-a-724421/)
 
 
 

@@ -6,7 +6,7 @@ title: >
 decision_type: must
 belongs_to: devops
 status: _2_draft
-responsible: TZA;JSP;AKL
+responsible: TZA;JSP;AKO
 deadline: 2021-01-22
 history:
     v1:

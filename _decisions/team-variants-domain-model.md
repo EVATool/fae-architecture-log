@@ -4,7 +4,7 @@ acronym: team-variants-domain-model
 title: >
     Domain model for team "Variants"  
 decision_type: team
-belongs_to: scenarios
+belongs_to: variants
 status: _3_team_agreed
 responsible: KRU;DUZ 
 deadline: 2021-01-22

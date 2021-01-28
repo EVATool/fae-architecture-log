@@ -16,7 +16,7 @@ PKL:
   sig:
 AKO:
   nickname: akosmehl
-  team: scenarios
+  team: variants
   sig: eventing
 JLÜ:
   nickname: jalue 
@@ -28,7 +28,7 @@ FOB:
   sig: apis
 KRU:
   nickname: kruck
-  team: scenarios
+  team: variants
   sig: eventing
 JSP:
   nickname: SohleDelfin6504
@@ -40,7 +40,7 @@ MTO:
   sig: apis
 DUZ:
   nickname: Duzun
-  team: scenarios
+  team: variants
   sig: eventing
 TZA:
   nickname: tzaika

@@ -14,7 +14,8 @@ todos:
     - Another formal comment to the domain model. The attribute list should only contain real attributes, 
         not variables for the references (this is already clear from the relationships). 
         I.e. something like "scenarios - List<Scenario" is obsolete.
-    - Please name classes in singular.  
+    - Please name classes in singular.
+    - The name is now "Variant", not "Scenario"
 history:
     v1:
         date: 2021-01-08

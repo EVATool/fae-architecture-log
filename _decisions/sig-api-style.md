@@ -65,7 +65,14 @@ All Teams must use the same style to reach this goal.
 ## How is this decision evaluated?
 To take the decision, research is necessary. Therefore, the differences between the different API-Styles have to be evaluated.
 It is important that after the research, the preferred styles are implemented as prototype to compare them directly and get familiar with those styles.
-In specific the domain of the requirements is going to be implemented. As a first prototype basic methods are going to be implemented.
+In specific the domain of the requirements is going to be implemented. As a first prototype basic methods are going to be implemented:
+
+- get all : returns all Objects
+- get for id : returns one Object by id
+- create : creates a new object
+- update : updates an existing object
+
+
 With the results of the research a decision based on facts and experience can be taken.
 
 Different aspects are going to be relevant for

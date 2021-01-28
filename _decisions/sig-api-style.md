@@ -92,4 +92,4 @@ The Decision is that Rest must be used as api style. In specific Rest level 3 mu
 
 ## Reasons for the resolution
 
-The Explanation of the resolution can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/ApiStyle)
+The Explanation of the resolution can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/ApiStyle).

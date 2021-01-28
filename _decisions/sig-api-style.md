@@ -5,10 +5,8 @@ title: >
     API-Style  
 decision_type: must
 belongs_to: apis
-status: _1_open
-todos: 
-    - status is not "open" anymore, as there is already some content
-    - what is a realistic deadline?
+status: _3_sig_agreed
+todos:
     - please describe in greater detail how you plan your prototype implementation (e.g. what API do you want to 
         implement, what operations do you implement)
     - what exactly are the criteria to make the decision? 

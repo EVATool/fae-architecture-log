@@ -9,7 +9,12 @@ status: _2_draft
 responsible: JLÜ
 deadline: 2021-01-22
 todos:
-    - 
+    - A formal comment to your domain model. Please use unidirectional relationships in the model, 
+        otherwise the implementation side is not clear (bidirectional relationships should be avoided)
+    - Another formal comment to the domain model. The attribute list should only contain real attributes, 
+        not variables for the references (this is already clear from the relationships). 
+        I.e. something like "scenarios - List<Scenario" is obsolete.
+    - Please name classes in singular.  
 history:
     v1:
         date: 2021-01-08

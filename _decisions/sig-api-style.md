@@ -5,10 +5,8 @@ title: >
     API-Style  
 decision_type: must
 belongs_to: apis
-status: _1_open
-todos: 
-    - status is not "open" anymore, as there is already some content
-    - what is a realistic deadline?
+status: _3_sig_agreed
+todos:
     - please describe in greater detail how you plan your prototype implementation (e.g. what API do you want to 
         implement, what operations do you implement)
     - what exactly are the criteria to make the decision? 
@@ -31,6 +29,9 @@ history:
     v5: 
         date: 2021-01-22
         comment: updated deadline    
+    v6:
+        date: 2021-01-28
+        comment: add Resolution
 ---
 
 ## Why is there need for such a decision?
@@ -81,11 +82,9 @@ the decision:
  
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+The Decision is that Rest must be used as api style
 
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
-
+The Explanation of the resolution can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/ApiStyle)

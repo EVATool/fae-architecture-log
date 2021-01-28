@@ -5,11 +5,8 @@ title: >
     Research method to define the domain
 decision_type: should
 belongs_to: eventing
-status: _2_draft
+status: _5_presented
 todos:
-    - as part of this decision, you need to provide some guidelines for the teams (or moderate the design/specification
-        process yourself)   
-    - such guidelines need to be described in the wiki (not here!)
 responsible: KRU;DUZ
 deadline: 2021-01-29
 history:
@@ -28,6 +25,9 @@ history:
     v5:
         date: 2021-01-27
         comment: added resolution details and reasons for the resolution
+    v6:
+        date: 2021-01-27
+        comment: presented
 ---
 
 ## Why is there need for such a decision?
@@ -38,7 +38,7 @@ Decision is required for a unified understanding of domains and process flows.
 ## Additional sources for better understanding the background
 
 * [Event-Storming](https://www.knowis.com/de/blog/die-event-storming-methode-einsatz-im-projektalltag)
-    * [Further information about Event Storming by the Creator Alberto Brandolini](https://www.knowis.com/de/blog/die-event-storming-methode-einsatz-im-projektalltag)
+    * [Further information about Event Storming by the Creator Alberto Brandolini](https://blog.avanscoperta.it/2014/02/12/introducing-event-storming/)
     * [Full post here](http://ziobrando.blogspot.com/2013/11/introducing-event-storming.html)
 * [Domain-Storytelling](https://domainstorytelling.org/)
     * [Further information](https://www.informatik-aktuell.de/management-und-recht/projektmanagement/fachliche-anforderungen-in-der-softwareentwicklung-wie-domain-storytelling-entwickler-und-fachexperten-zusammenbringt.html)

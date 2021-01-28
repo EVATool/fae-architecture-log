@@ -25,7 +25,7 @@ If we expose entities over APIs and events, a uniform way of dealing with IDs is
 
 * [Harrison (2017): UUID or GUID as Primary Keys? Be Careful!](https://tomharrisonjr.com/uuid-or-guid-as-primary-keys-be-careful-7b2aa3dcb439)
 * [Sikkema (2009): JPA implementation patterns: Using UUIDs as primary keys](https://xebia.com/blog/jpa-implementation-patterns-using-uuids-as-primary-keys/)
-* [Vimberg (2018): Using UUID on Spring Data JPA Entities](https://jivimberg.io/blog/2018/11/05/using-uuid-on-spring-data-jpa-entities/)
+* [Vimberg (2018): Using UUID on Spring Data JPA Entities   ](https://jivimberg.io/blog/2018/11/05/using-uuid-on-spring-data-jpa-entities/)
 * [An argument in favour of using even Value Objects](https://buildplease.com/pages/vo-ids/)
 
 

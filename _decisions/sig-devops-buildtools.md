@@ -25,9 +25,11 @@ history:
 
 ## Why is there need for such a decision?
 
-Build tools like ant, maven and gradle are used to help in build automation. Build automation will help to automate a variety of tasks like compiling source code, converting into binary code, managing dependencies, running automated tests and deployment to production systems. This decision will focus on maven and gradle only.
+Build tools are used to help in build automation (further documentation details on the specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Build-Tools) 
+page). This decision will focus on maven and gradle only.
 
-Based on the given monolithical approach with one single repository as an project, all teams must use the same build tool to avoid inconsistency.
+Based on the given monolithical approach with one single repository as an project, all teams must use the same 
+build tool to avoid inconsistency.
 
 ## Additional sources for better understanding the background
 

@@ -6,8 +6,7 @@ title: >
 decision_type: must
 status: _2_draft
 todos: 
-    - please be a little more specific wrt. viable technology and tools
-    - how would a proof of concept look like, specifically?
+    - Use async events
 responsible: HBU
 deadline: 2021-02-05
 history:
@@ -35,7 +34,6 @@ Events must be tested like any other runnable code in a project.
 ## Viable Options
 
 - Mocking spring events in Unit Tests (Mockito, Bean, Cucumber, etc.)
-- Testing events on a live server
 
 ## Alternatives not seriously considered
 
@@ -49,9 +47,9 @@ The candidates will be evaluated by:
 
 ## Resolution Details
 
-[Wiki article](???)
+[Wiki article](https://github.com/EVATool/evatool-backend/wiki/DevOps-Eventing-Testing)
 
-Mocking the firing and processing of events allows the code to be easily tested locally. It puts the test in a format (Unit tests) where
+Mocking the firing and processing of events allows the code to be easily tested locally. It puts the test in a format (unit tests) where
 they can be run in the existing framework using GitHub Actions on GitHub. It does not change the existing procedure of testing the code.
 It is also free of charge when using the free version of GitHub Actions (see testing automation).
 
@@ -61,7 +59,7 @@ fit into the existing testing solution of using GitHub Actions. The server costs
 
 ## Reasons for the resolution
 
-Using GitHub Actions is comfortable for this project. It will also be more elegant to integrate this solution into the final build pipeline, 
+Using GitHub Actions is suitable for this project. It will also be more elegant to integrate this solution into the final build pipeline, 
 because the testing step is clearly defined and done.
 
 

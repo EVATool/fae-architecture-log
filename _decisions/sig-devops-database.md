@@ -5,36 +5,40 @@ title: >
     Choice of database
 decision_type: should
 belongs_to: devops
-status: _1_open
+status: _2_draft
 responsible: MTO;FOB
 deadline: 2021-02-05
 history:
     v1:
         date: 2021-01-13
         comment: created initially
+    v1:
+        date: 2021-01-28
+        comment: need for decision
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+There are many different database systems for different purposes. It is therefore important to find a database system that is useful for our project.
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
-
+[Comparing Database Management Systems: MySQL, PostgreSQL, MSSQL Server, MongoDB, Elasticsearch and others](https://www.altexsoft.com/blog/business/comparing-database-management-systems-mysql-postgresql-mssql-server-mongodb-elasticsearch-and-others/).
+Here you can find the different database systems and their basic structure e.g. Relational and Non-Relational database systems.
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+* MYSQL 
+* Maria DB
 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
+* IBM DB2
+* Oracle DATABASE
+* S4 Hana SAP
+  
+Commercial database systems are unsuitable for open source projects.
 
 
 ## How is this decision evaluated?

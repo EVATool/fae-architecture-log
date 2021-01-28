@@ -7,10 +7,7 @@ decision_type: must
 belongs_to: apis
 status: _3_sig_agreed
 todos:
-    - please describe in greater detail how you plan your prototype implementation (e.g. what API do you want to 
-        implement, what operations do you implement)
-    - what exactly are the criteria to make the decision? 
-    - if you specify a first version of an API, please make sure to have it specified in the Github wiki.
+
 responsible: JLÜ;JSP
 deadline: 2021-01-29
 history:
@@ -68,6 +65,7 @@ All Teams must use the same style to reach this goal.
 ## How is this decision evaluated?
 To take the decision, research is necessary. Therefore, the differences between the different API-Styles have to be evaluated.
 It is important that after the research, the preferred styles are implemented as prototype to compare them directly and get familiar with those styles.
+In specific the domain of the requirements is going to be implemented. As a first prototype basic methods are going to be implemented.
 With the results of the research a decision based on facts and experience can be taken.
 
 Different aspects are going to be relevant for
@@ -82,7 +80,7 @@ the decision:
  
 ## Resolution Details
 
-The Decision is that Rest must be used as api style
+The Decision is that Rest must be used as api style. In specific Rest level 3 must be used.
 
 
 ## Reasons for the resolution

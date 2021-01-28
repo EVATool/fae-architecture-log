@@ -1,0 +1,11 @@
+{% assign decision = include.mydecision %}
+
+{% if decision.decision_type == "team" %}
+    {% assign url = "/teams/" | append: decision.belongs_to | append: ".html" | relative_url %}
+    {% assign team = site.teams | where: "acronym", decision.belongs_to | first %}
+    Team <a href="{{ site.url }}{{ url }}">{{ team.title }}</a>
+{% else %}
+    {% assign url = "/sigs/" | append: decision.belongs_to | append: ".html" | relative_url %}
+    {% assign sig = site.sigs | where: "acronym", decision.belongs_to | first %}
+    SIG <a href="{{ site.url }}{{ url }}">{{ sig.title }}</a>
+{% endif %}

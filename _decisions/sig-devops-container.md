@@ -7,7 +7,7 @@ decision_type: must
 belongs_to: devops
 status: _2_draft
 responsible: TZA
-deadline: 2021-01-29
+deadline: 2021-02-05
 todos:
     - Create Virtual Machine (VM with Linux) on a local machine (using VirtualBox)
     - Hello World-Spring-Boot application with one very simple REST API

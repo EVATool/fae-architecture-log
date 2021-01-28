@@ -11,7 +11,7 @@ layout: default
     <dd>{{ page.acronym }}</dd>
 
     <dt>Belongs to</dt>
-    <dd>{{ page.acronym }}</dd>
+    <dd>{% include /functions/print-belongs-to-link.html mydecision=page %}</dd>
 
     <dt>Responsible</dt>
     <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>

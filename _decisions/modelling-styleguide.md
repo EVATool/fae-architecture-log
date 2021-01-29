@@ -5,7 +5,7 @@ title: >
     Some basic styleguide for domain modelling
 decision_type: should
 belongs_to: devops
-status: _4_stakeholder_checked
+status: 5_presented
 responsible: SBE
 deadline: 2021-01-29
 history:

@@ -1,8 +1,8 @@
 ---
 type: decision
-acronym: devops-eventing-testing
+acronym: devops-event-testing
 title: >
-    Eventing Testing
+    Event Testing
 decision_type: must
 status: _2_draft
 todos: 

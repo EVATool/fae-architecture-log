@@ -5,7 +5,7 @@ title: >
     The package structure should reflect the DDD layer architecture  
 decision_type: should
 belongs_to: devops
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: SBE
 deadline: 2021-01-29
 history:

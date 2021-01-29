@@ -5,7 +5,7 @@ title: >
     A DTO pattern should be used in the APIs
 decision_type: should
 belongs_to: apis
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: SBE
 deadline: 2021-01-29
 history:

@@ -4,7 +4,7 @@ acronym: devops-event-testing
 title: >
     Event Testing
 decision_type: must
-status: _2_draft
+status: _3_sig_agreed
 todos: 
 responsible: HBU
 deadline: 2021-02-05

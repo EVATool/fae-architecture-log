@@ -23,6 +23,9 @@ history:
     v4:
         date: 2021-01-22
         comment: added "Resolution Details" and "Reasons for the resolution"
+    v5:
+        date: 2021-01-29
+        comment: edit "Resolution Details"
 
 ---
 
@@ -35,8 +38,7 @@ This decision is necessary so that only the requests made by the client to the A
 You can use the sources to provide a little insight on authentication methods.
 
 * [Most Used REST API Authentication Methods](https://blog.restcase.com/4-most-used-rest-api-authentication-methods/)
-* [How a RESTful API server reacts to requests. Chapter Authentication](https://www.oreilly.com/content/how-a-restful
--api-server-reacts-to-requests/)
+* [How a RESTful API server reacts to requests. Chapter Authentication](https://www.oreilly.com/content/how-a-restful-api-server-reacts-to-requests/)
 * [RFC: 6749, The OAuth 2.0 Authorization Framework](https://www.ietf.org/rfc/rfc6749.txt)
 
 ## Viable Options
@@ -68,7 +70,7 @@ Facts for the decision are:
 
 ## Resolution Details
 
-Protocol Flow
+OAuth 2.0 Protocol Flow
 
      +--------+                               +---------------+
      |        |--(A)- Authorization Request ->|   Resource    |
@@ -87,12 +89,20 @@ Protocol Flow
      |        |                               |     Server    |
      |        |<-(F)--- Protected Resource ---|               |
      +--------+                               +---------------+
-Soruce: [RFC: 6749, The OAuth 2.0 Authorization Framework](https://www.ietf.org/rfc/rfc6749.txt)
 
+Source: [RFC: 6749, The OAuth 2.0 Authorization Framework](https://www.ietf.org/rfc/rfc6749.txt)
+
+- A: The client authorizes itself with username and password.
+- B/C: If the input data is correct, a token is requested.
+- D: The client gets a time limited access token.
+- E: The API can be called by a valid token.
+- F: The requested resource is returned by using a valid token.
+
+Additionally, there must be an implementation that returns a fresh token to the logged user after the current token expires.
 ## Reasons for the resolution
 
 In the SIG API group, a decision was made with the help of the three facts.
-OAuth2 is a modern and secure way to authenticate users. The abstract representation in RFC6749 makes this method very easy to understand. Program codes can be taken from the internet or from the POC. An understanding of Java and OOP is required.
+OAuth2 is a modern and secure way to authenticate users. The abstract representation in RFC6749 makes this method very easy to understand. A quick to understand program code example is provided by [koushikkothagal](https://github.com/koushikkothagal/spring-security-jwt). An understanding of Java and OOP is required.
 The OAuth (2.0) method was defined for authentication.
 
 

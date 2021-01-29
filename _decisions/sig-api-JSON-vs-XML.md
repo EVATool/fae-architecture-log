@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-api-data_format
 title: >
-    JSON vs XML
+    JSON
 decision_type: must
 belongs_to: apis
 status: _5_presented

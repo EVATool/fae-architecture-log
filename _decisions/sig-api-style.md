@@ -9,7 +9,7 @@ status: _4_stakeholder_checked
 responsible: JLÜ;JSP
 deadline: 2021-01-29
 todos:
-    - recommendation how to implement? (Spring Data REST vs. Web MVC with manual link generation)
+   
 history:
     v1:
         date: 2021-01-11

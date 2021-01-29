@@ -22,8 +22,11 @@ history:
         date: 2021-01-22
         comment: updated deadline
     v4: 
-            date: 2021-01-23
-            comment: decide decision
+        date: 2021-01-23
+        comment: decide decision
+    v5: 
+        date: 2021-01-29
+        comment: done todos
 ---
 
 ## Why is there need for such a decision?
@@ -60,3 +63,6 @@ test-,resource-folder and an indiviual .pom with the projact as parent.
 
 The root src-folder with modules-folder is more like the modulith system as the one src-folder with packages
 for every sub-domain. For this reason, the sub-domains are more encapsulated from each other.
+
+[wiki](https://github.com/EVATool/evatool-backend/wiki/Repo-structure).
+[branching-rules](https://evatool.github.io/fae-architecture-log/decisions/branching-strategy.html).

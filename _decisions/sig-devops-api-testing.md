@@ -4,6 +4,7 @@ acronym: devops-api-testing
 title: >
     API Testing
 decision_type: must
+belongs_to: devops
 status: _2_draft
 responsible: HBU
 deadline: 2021-02-05

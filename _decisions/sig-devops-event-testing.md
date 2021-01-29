@@ -4,7 +4,8 @@ acronym: devops-event-testing
 title: >
     Event Testing
 decision_type: must
-status: _2_draft
+belongs_to: devops
+status: _3_sig_agreed
 todos: 
 responsible: HBU
 deadline: 2021-02-05
@@ -51,7 +52,7 @@ The candidates will be evaluated by:
 
 ## Resolution Details
 
-[Wiki article](https://github.com/EVATool/evatool-backend/wiki/DevOps-Eventing-Testing)
+[Wiki article](https://github.com/EVATool/evatool-backend/wiki/DevOps-Event-Testing)
 
 Mocking the firing and processing of events allows the code to be easily tested locally. It puts the test in a format (unit tests) where
 they can be run in the existing framework using GitHub Actions on GitHub. It does not change the existing procedure of testing the code.

@@ -2,10 +2,10 @@
 type: decision
 acronym: sig-eventing-domain-research
 title: >
-    Research method to define the domain
+    Research method to define the domain is Domain Story Telling
 decision_type: should
 belongs_to: eventing
-status: _5_presented
+status: _4_stakeholder_checked
 todos:
 responsible: KRU;DUZ
 deadline: 2021-01-29

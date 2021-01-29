@@ -4,12 +4,13 @@ acronym: devops-api-testing
 title: >
     API Testing
 decision_type: must
-status: _1_open
+status: _2_draft
 responsible: HBU
 deadline: 2021-01-29
 todos: 
-    - status is not "open" anymore, as there is already some content
     - please make the options more concrete in terms of technologies / tools used
+    - resolution?
+    - ready to present, or should we move the deadline?
 history:
     v1:
         date: 2021-01-13

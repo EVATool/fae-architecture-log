@@ -2,14 +2,14 @@
 type: decision
 acronym: sig-api-style
 title: >
-    API-Style  
+    API Style is REST Level 3  
 decision_type: must
 belongs_to: apis
-status: _3_sig_agreed
-todos:
-
+status: _4_stakeholder_checked
 responsible: JLÜ;JSP
 deadline: 2021-01-29
+todos:
+    - recommendation how to implement? (Spring Data REST vs. Web MVC with manual link generation)
 history:
     v1:
         date: 2021-01-11

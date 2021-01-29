@@ -47,6 +47,8 @@ These have to be weighed up.
 * [Deploy Your Spring Boot App the Right Way](https://developer.okta.com/blog/2019/12/03/spring-boot-deploy-options) 
 * [Deploying Spring Boot Applications (1)](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
 * [Deploying Spring Boot Applications (2 - docs)](https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html)
+* [Topical Guide on Docker | Spring Boot Docker](https://spring.io/guides/topicals/spring-boot-docker)
+* [Getting Started | Spring Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)
 
 ## Viable Options
 

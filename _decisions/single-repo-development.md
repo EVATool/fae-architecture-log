@@ -64,5 +64,6 @@ test-,resource-folder and an indiviual .pom with the projact as parent.
 The root src-folder with modules-folder is more like the modulith system as the one src-folder with packages
 for every sub-domain. For this reason, the sub-domains are more encapsulated from each other.
 
-[wiki](https://github.com/EVATool/evatool-backend/wiki/Repo-structure).
-[branching-rules](https://evatool.github.io/fae-architecture-log/decisions/branching-strategy.html).
+[wiki](https://github.com/EVATool/evatool-backend/wiki/Repo-structure)
+
+[branching-rules](https://evatool.github.io/fae-architecture-log/decisions/branching-strategy.html)

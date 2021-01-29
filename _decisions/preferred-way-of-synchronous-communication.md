@@ -5,7 +5,7 @@ title: >
     The preferred way of synchronous communication between modules are api calls
 decision_type: must
 belongs_to: apis
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: JLÜ
 deadline: 2021-02-05
 history:

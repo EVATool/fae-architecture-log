@@ -7,7 +7,7 @@ decision_type: must
 belongs_to: apis
 status: _5_presented
 responsible: JLÜ
-deadline: 2021-02-05
+deadline: 2021-01-29
 history:
     v1:
         date: 2021-01-15

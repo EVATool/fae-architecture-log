@@ -6,7 +6,6 @@ title: >
 decision_type: must
 status: _2_draft
 todos: 
-    - Use async events
 responsible: HBU
 deadline: 2021-02-05
 history:
@@ -19,6 +18,9 @@ history:
     v3:
         date: 2021-01-26
         comment: finished temporary draft
+    v4:
+        date: 2021-01-27
+        comment: Completed decision and added link to finished wiki
 ---
 
 ## Why is there need for such a decision?
@@ -36,6 +38,8 @@ Events must be tested like any other runnable code in a project.
 - Mocking spring events in Unit Tests (Mockito, Bean, Cucumber, etc.)
 
 ## Alternatives not seriously considered
+
+- None
 
 ## How has this decision been evaluated?
 

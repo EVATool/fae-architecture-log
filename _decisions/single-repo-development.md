@@ -7,10 +7,8 @@ decision_type: must
 belongs_to: devops
 status: _2_draft
 todos: 
-    - decision needs be described here
-    - also in the wiki
-    - presentation to group missing
-    - branching rules to be described 
+    - brief description in the wiki?
+    - link to branching rules  
 responsible: JSP;SBE
 deadline: 2021-01-29
 history:
@@ -36,15 +34,14 @@ This decision is important, because it will decide which project structure will 
 ## Viable Options
 
 * single src-folder with packages for every sub-domain
-
 * one root src-folder with a modules-folder which have src-folders for every sub-domain.
 
 
 ## Alternatives not seriously considered
 
-* one repo for every sub-domain (multi-repo)
+* one repo for every sub-domain (multi-repo), was ruled out as too complex, since we deploy in one piece 
+    (see [Modulith decision](./modulith))
 
-multi-repo is not an option for this project.
 
 ## How is this decision evaluated?
 

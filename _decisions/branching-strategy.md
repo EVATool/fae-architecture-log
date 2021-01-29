@@ -5,7 +5,7 @@ title: >
     Rules regarding Git-Push/Merges
 decision_type: must
 belongs_to: devops
-status: _2_draft
+status: _3_sig_agreed
 responsible: TZA;JSP;AKO    
 deadline: 2021-01-29
 todos: 

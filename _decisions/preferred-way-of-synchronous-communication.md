@@ -2,7 +2,7 @@
 type: decision
 acronym: preferred-way-of-synchronous-communication
 title: >
-    The preferred way of synchronous communication between modules are api calls?
+    The preferred way of synchronous communication between modules are api calls
 decision_type: must
 belongs_to: apis
 status: _4_stakeholder_checked
@@ -12,6 +12,9 @@ history:
     v1:
         date: 2021-01-15
         comment: created initially
+    v2:
+        date: 2021-01-29
+        comment: filled out
 ---
 
 ## Why is there need for such a decision?

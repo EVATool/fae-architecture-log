@@ -5,7 +5,7 @@ title: >
     Spring Data REST vs. Web MVC with manual link
 decision_type: should
 belongs_to: apis
-status: _2_draft
+status: _1_open
 responsible: JSP
 deadline: 2021-02-05
 history:

@@ -27,14 +27,12 @@ All teams must use the same tool to prevent differential API-documentations synt
 * [Open API](https://entwickler.de/online/development/einstieg-in-openapi-v3-579830417.html)
 * [Code first vs. API first](https://apisyouwonthate.com/blog/api-design-first-vs-code-first)
 * [Swagger UI](https://swagger.io/tools/swagger-ui/)
-* [RAML](https://raml.org/)
-* [GraphQL](https://nordicapis.com/graphql-documentation-generators-explorers-and-tools/)
 * [Spring Rest Docu](https://spring.io/projects/spring-restdocs)
 
 ## Viable Options
 
 * Swagger UI
-* RAML with Spring Rest Docs
+* Spring Rest Docs
 * GraphQL
 
 ## Alternatives not seriously considered
@@ -46,15 +44,20 @@ All teams must use the same tool to prevent differential API-documentations synt
 
 The evaluation is a result of implemented respective tools!
 
-when Rest is select as "sig-api-style" decision, then we will use Swaager or RAML with Spring Rest Docs. If GraphQL is chosen, so we will use the GraphQL Documentation Generator!
+when Rest is select as "sig-api-style" decision, then we will use Swaager or Spring Rest Docs. If GraphQL is chosen, so we will use the GraphQL Documentation Generator!
  
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+Wir benutzen Swagger. Swagger bietet eine Bibothek für unser Spring Boot Projekt an. Für dieses Tool sind keine weiteren Programmierkentnisse notwendig.
+Die Gesamte Dokumentaion sowie die Möglichkeit die API-Endpoints ausführen werden Automatisch generiert. 
 
 
 ## Reasons for the resolution
+* Automatische Erstellung der Dokumentaion
+* Ausführbare Methoden
+* Keine Programmierkentnisse erforderlich 
+* Erstellung einer bedinerfreundlichen Web-Page mit allen End Points
 
+Spring Rest Docs liefert leider nur eine Web-Page mit Informationen im JSON-Format!
 (Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
 

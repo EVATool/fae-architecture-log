@@ -56,4 +56,4 @@ Our team is using the tool Swagger. Swagger offers an library for our Spring-Boo
 * No further programming skill is needed
 * Assistant tool with high usability 
 
-Mainly we choosed this resoution due to its large offers of transparent informations in contrast to Spring Rest Docs.
+Mainly we choosed this resoution due to its large offers of transparent informations in contrast to Spring Rest Docs and its JSON-format.

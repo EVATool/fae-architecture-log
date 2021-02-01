@@ -48,16 +48,12 @@ when Rest is select as "sig-api-style" decision, then we will use Swaager or Spr
  
 ## Resolution Details
 
-Wir benutzen Swagger. Swagger bietet eine Bibothek für unser Spring Boot Projekt an. Für dieses Tool sind keine weiteren Programmierkentnisse notwendig.
-Die Gesamte Dokumentaion sowie die Möglichkeit die API-Endpoints ausführen werden Automatisch generiert. 
-
+Our team is using the tool Swagger. Swagger offers an library for our Spring-Boot Application. The tool automatically documentates API-endpoints. Therefore the documentation maintenance is heavly reduced. No further knowledge is needed, since the handling of tool is basic and easy.  
 
 ## Reasons for the resolution
-* Automatische Erstellung der Dokumentaion
-* Ausführbare Methoden
-* Keine Programmierkentnisse erforderlich 
-* Erstellung einer bedinerfreundlichen Web-Page mit allen End Points
+* Automatically documentated API-endpoints
+* Executable methods
+* No further programming skill is needed
+* Assistant tool with high usability 
 
-Spring Rest Docs liefert leider nur eine Web-Page mit Informationen im JSON-Format!
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
-
+Mainly we choosed this resoution due to its large offers of transparent informations in contrast to Spring Rest Docs.

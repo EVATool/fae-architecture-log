@@ -5,7 +5,7 @@ title: >
     API Style is REST Level 3  
 decision_type: must
 belongs_to: apis
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: JLÜ;JSP
 deadline: 2021-01-29
 todos:

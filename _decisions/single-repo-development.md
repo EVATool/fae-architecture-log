@@ -5,10 +5,7 @@ title: >
     Development model is "Single Repo" / "Single Spring Project" in the evatool-backend Repository
 decision_type: must
 belongs_to: devops
-status: _2_draft
-todos: 
-    - brief description in the wiki?
-    - link to branching rules  
+status: _5_presented
 responsible: JSP;SBE
 deadline: 2021-01-29
 history:

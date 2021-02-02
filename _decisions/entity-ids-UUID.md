@@ -5,7 +5,7 @@ title: >
     UUIDs are to be used for Entity IDs (PKs and API IDs)
 decision_type: must
 belongs_to: apis
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: SBE
 deadline: 2021-01-29
 history:

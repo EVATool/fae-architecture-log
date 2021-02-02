@@ -5,7 +5,7 @@ title: >
     Asynchronous over synchronous communication for all sub-domains
 decision_type: must
 belongs_to: eventing
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: SBE
 deadline: 2021-01-29
 history:

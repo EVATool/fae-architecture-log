@@ -35,7 +35,7 @@ API calls must be tested like any other runnable code in a project.
 
 ## Viable Options
 
-- Using unit (mocking) and integration tests
+- Unit (mocking) and integration tests
 
 ## Alternatives not seriously considered
 

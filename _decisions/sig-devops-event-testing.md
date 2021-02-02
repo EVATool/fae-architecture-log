@@ -8,7 +8,7 @@ belongs_to: devops
 status: _5_presented
 todos: 
 responsible: HBU
-deadline: 2021-02-05
+deadline: 2021-01-29
 history:
     v1:
         date: 2021-01-13

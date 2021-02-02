@@ -13,6 +13,21 @@ history:
     v1:
         date: 2021-01-13
         comment: created initially
+    v2:
+        date: 2021-01-13
+        comment: update responsibility
+    v3:
+        date: 2021-01-13
+        comment: need for decision
+    v4:
+        date: 2021-01-13
+        comment: sources and evaluation
+    v5: 
+        date: 2021-01-23
+        comment: updated deadline    
+    v6:
+        date: 2021-02-01
+        comment: add Resolution
 ---
 
 ## Why is there need for such a decision?

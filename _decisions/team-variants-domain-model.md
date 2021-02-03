@@ -14,7 +14,10 @@ history:
         comment: created initially
     v2:
         date: 2021-01-27
-        comment: change the team name from "Scenarios" to "Variants" and add the domain model
+        comment: changed the team name from "Scenarios" to "Variants" and add the domain model
+    v2:
+        date: 2021-02-03
+        comment: updated domain model 
 ---
 
 ## Why is there need for such a decision?
@@ -31,7 +34,7 @@ Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Soft
 
 ## Alternatives not seriously considered
 
-A informal modeling was chosen to avoid the restrictions of other diagram types. 
+An informal modeling was chosen to avoid the restrictions of other diagram types. 
 
 * entity relationship diagram
 * uml diagrams 
@@ -49,12 +52,11 @@ The decision was based on the available wireframes and a technical discussion.
 ## Resolution Details
 
 A simplified Version of the domain model.
-[Domain data model](../assets/Domain_Model_Variants.png)
+[Domain data model](../assets/Domain_Model_Variant.png)
 
-Futher details can be found in the wiki.
+Further details can be found in the wiki.
 [Wiki](https://github.com/EVATool/evatool-backend/wiki/Variants)
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
-
+The model was created and further developed in an iterative process.

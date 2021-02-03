@@ -56,5 +56,3 @@ The options will be scrutinized in regard to:
 ## Reasons for the resolution
 
 The given option was the only valid one.
-
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)

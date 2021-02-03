@@ -5,7 +5,7 @@ title: >
     Communication Pattern
 decision_type: must
 belongs_to: eventing
-status: _3_sig_agreed
+status: _4_stakeholder_checked
 todos:
 responsible: KRU;DUZ
 deadline: 2021-02-05
@@ -22,6 +22,9 @@ history:
     v4:
         date: 2021-02-03
         comment: added resolution details and reasons
+    v4:
+        date: 2021-02-03
+        comment: checked by stakeholder
 ---
 
 ## Why is there need for such a decision?

@@ -5,9 +5,8 @@ title: >
     Communication Pattern
 decision_type: must
 belongs_to: eventing
-status: _2_draft
+status: _3_sig_agreed
 todos:
-    - how would you plan a PoC to evaluate? 
 responsible: KRU;DUZ
 deadline: 2021-02-05
 history:
@@ -20,6 +19,9 @@ history:
     v3:
         date: 2021-01-22
         comment: added "how is this decision evaluated" & changed status
+    v4:
+        date: 2021-02-03
+        comment: added resolution details and reasons
 ---
 
 ## Why is there need for such a decision?
@@ -47,18 +49,14 @@ The system is based on a modulith design-pattern and all subsystems should commu
 
 ## How is this decision evaluated?
 
-* The decision which pattern will be used, is based on the results of the two decisions made of the eventing solution and the domain research process. 
+* The decision which pattern will be used, is based on the results of the two decisions made of the "Eventing Solution", and the domain research process. 
 * The "event notification" pattern won't be used, since it can be estimated that the total payload will be very manageable.
  
 ## Resolution Details
 
-<!---
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
---->
+We choose the pattern "Full-Payload" (Event carried state Transfer) for the internal communication, between the components.
 
 ## Reasons for the resolution
 
-<!---
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
---->
+The main reason behind the decision was that the current solution "Spring Eventing" can't provide the other two communication-pattern.
+In addition, the expected data throughput of this project isn't extensive enough that the "Delta-only" (Event Sourcing) pattern is needed.

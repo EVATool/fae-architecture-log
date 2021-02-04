@@ -20,6 +20,9 @@ history:
     v3:
         date: 2021-02-02
         comment: finalized decision
+    v4:
+        date: 2021-02-04
+        comment: added sources
 ---
 
 ## Why is there need for such a decision?
@@ -32,6 +35,7 @@ API calls must be tested like any other runnable code in a project.
 - [Spring Testing - Testing Web](https://spring.io/guides/gs/testing-web/)
 - [Spring Boot Testing](https://www.baeldung.com/spring-boot-testing)
 - [RESTful API Tutorial](https://restfulapi.net/)
+- [Entity to DTO conversion in Spring](https://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application )
 
 ## Viable Options
 

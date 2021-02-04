@@ -3,8 +3,8 @@ type: decision
 acronym: sig-devops-database
 title: >
     Choice of database
-decision_type: should
-belongs_to: devops
+decision_type: must
+belongs_to: API
 status: _2_draft
 responsible: MTO;FOB
 deadline: 2021-02-12

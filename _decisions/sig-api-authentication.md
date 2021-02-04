@@ -126,6 +126,8 @@ For the most part, there is configuration overhead with this solution. The imple
 - The connection between these services and the project must be established. 
 - The roles for the individual URIs must be stored in the controllers, e.g. in Spring via annotations.
 
+[Here](https://github.com/EVATool/evatool-backend/wiki/Keycloak-Identity-and-Access-Management) you can find a tutorial on how to integrate Keycloak into a Spring application.
+
 ## Reasons for the resolution
 
 Based on a thorough research on the Internet and by comparing completed or running projects, an Identity and Access Management solution is a beneficial solution.

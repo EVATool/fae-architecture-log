@@ -3,8 +3,8 @@ type: decision
 acronym: sig-devops-database
 title: >
     Choice of database
-decision_type: should
-belongs_to: devops
+decision_type: must
+belongs_to: API
 status: _2_draft
 responsible: MTO;FOB
 deadline: 2021-02-12
@@ -20,6 +20,8 @@ history:
 ## Why is there need for such a decision?
 
 There are many different database systems for different purposes. It is therefore important to find a database system that is useful for our project.
+A database is needed to centrally manage the data. This database allows us to store data persistently.
+
 
 ## Additional sources for better understanding the background
 

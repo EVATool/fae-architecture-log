@@ -7,11 +7,14 @@ decision_type: should
 belongs_to: apis
 status: _1_open
 responsible: JSP
-deadline: 2021-02-05
+deadline: 2021-02-12
 history:
     v1:
         date: 2021-01-30
         comment: created initially
+    v2:
+        date: 2021-02-05
+        comment: update deadline
 ---
 
 ## Why is there need for such a decision?

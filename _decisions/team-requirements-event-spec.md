@@ -11,6 +11,9 @@ history:
     v1:
         date: 2021-02-05
         comment: created initially
+    v2:
+        date: 2021-02-05
+        comment: filled in 
 ---
 
 ## Why is there need for such a decision?
@@ -38,8 +41,8 @@ After looking into the domain models a specification of required events can be d
 
 ## Resolution Details
 
-see in wiki.
+see in [wiki](https://github.com/EVATool/evatool-backend/wiki/Requirements-Events).
 
 ## Reasons for the resolution
 
-see in wiki.
+The decision is based on the necessary events.

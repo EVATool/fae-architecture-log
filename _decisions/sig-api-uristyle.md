@@ -1,6 +1,6 @@
 ---
 type: decision
-acronym: some-acronym-usually-same-as-filename
+acronym: sig-api-uristyle
 title: The Uri style is lower camel case
 decision_type: must
 belongs_to: apis

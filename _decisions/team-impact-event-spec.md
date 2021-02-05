@@ -5,7 +5,7 @@ title: Event Specification for Team "Impact"
 decision_type: team
 belongs_to: impact
 status: _1_open
-responsible: JLÜ
+responsible: 
 deadline: 2021-02-12
 history:
     v1:

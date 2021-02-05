@@ -66,7 +66,9 @@ First we have to implement two PoCs. One using VM and another one using docker.
 Then compare this two options on such aspects as:
 * Installation 
 * Configuration
+* Lightweight
 * Input from main Stakeholder (UID)
+* Proprietary solution  
 * Workflow (what is easier)
 * Application delivery: build -> test -> deploy -> run
 * Updates delivery (Scenario: Hotfix)
@@ -74,15 +76,44 @@ Then compare this two options on such aspects as:
 
 ## Resolution Details
 
-TODO
+It was decided that the docker technology is better suited to the project.
 
-(If the resolution cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+Most of the explanations for the individual resolution details can be found in the [wiki](). (to be done)
 
+**Installation**\
+The installation of the solutions on the basis of both VM and Docker are at a similar level of coplexity.
+
+**Configuration**
+* The flexibility of the solution with VM is very high, but this creates a large overhead\
+  The level of complexity for the configuration of VM is very high and hard to master
+* Using docker is the configuration a lot easier and better to understand\
+  The necessary information is easier to find and there is more of it in contrast to VM\
+  
+
+**Lightweight**
+* The VM brings a lot of overhead with it because it practically simulates a real machine
+* The Docker containers can be made as small as you can imagine
+
+**Input from main Stakeholder (UID)**
+* The server used in the project will be a Microsoft Windows machine
+
+**Proprietary solution**
+* Both VM and Docker solutions are more or less platform independent (but the VM has more overhead)
+
+**Workflow**\
+The workflow is simpler when using Docker because it is easier to understand  
+
+**Application delivery**\
+Deployment is very similar in complexity
+
+**Updates delivery**\
+Not considered
+
+**Debugging**\
+See decision [Debugging]() (to be done)
 
 ## Reasons for the resolution
 
-TODO
-
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
-
+* Better understanding
+* Lightweight
+* Flexibility

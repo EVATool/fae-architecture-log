@@ -5,7 +5,7 @@ title: API Specification for Team "Variants"
 decision_type: team
 belongs_to: variants
 status: _1_open
-responsible: 
+responsible: JSP;MTO
 deadline: 2021-02-12
 history:
     v1:

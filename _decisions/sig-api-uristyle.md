@@ -1,19 +1,17 @@
 ---
 type: decision
 acronym: sig-api-uristyle
-title: The Uri style is lower camel case
+title: >
+    The Uri style is lower camel case
 decision_type: must
 belongs_to: apis
 status: _3_sig_agreed
 responsible: JLÜ
-deadline: 2021-02-05
+deadline: 2021-02-12
 history:
     v1:
-        date: 2021-02-05
+        date: 2021-02-12
         comment: created initially
-    v2: date: 2021-02-05
-        comment: filled in
-
 ---
 
 ## Why is there need for such a decision?

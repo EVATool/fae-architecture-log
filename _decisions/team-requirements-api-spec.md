@@ -5,7 +5,7 @@ title: API Specification for Team "Requirements"
 decision_type: team
 belongs_to: requirements
 status: _1_open
-responsible: 
+responsible: JSP;MTO
 deadline: 2021-02-12
 history:
     v1:

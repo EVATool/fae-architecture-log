@@ -25,8 +25,10 @@ history:
         comment: moved the questions part up to the "todos" section (makes it better visible)
     v5:
         date: 2021-01-26
-        comment: updated todos and removed unnecessary information 
-
+        comment: updated todos and removed unnecessary information
+    v6:
+        date: 2021-02-05
+        comment: added resolution details and reasons for resolution
 ---
 
 ## Why is there need for such a decision?
@@ -55,17 +57,16 @@ These have to be weighed up.
 
 ## Alternatives not seriously considered
 
-TODO
-
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
+None
 
 ## How is this decision evaluated?
 
 First we have to implement two PoCs. One using VM and another one using docker.
 
 Then compare this two options on such aspects as:
+* Installation 
+* Configuration
+* Input from main Stakeholder (UID)
 * Workflow (what is easier)
 * Application delivery: build -> test -> deploy -> run
 * Updates delivery (Scenario: Hotfix)

@@ -1,8 +1,7 @@
 ---
 type: decision
 acronym: some-acronym-usually-same-as-filename
-title: >
-    The Uri style is lower camel case
+title: The Uri style is lower camel case
 decision_type: must
 belongs_to: apis
 status: _3_sig_agreed

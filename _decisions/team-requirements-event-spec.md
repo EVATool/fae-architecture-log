@@ -34,12 +34,12 @@ n/a
 
 ## How is this decision evaluated?
 
-- Result should be presented in the plenum
+After looking into the domain models a specification of required events can be done. 
 
 ## Resolution Details
 
-(please add link to wiki)
+see in wiki.
 
 ## Reasons for the resolution
 
-(any reasoning and explanations => in the wiki)
+see in wiki.

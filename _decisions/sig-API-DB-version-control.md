@@ -1,6 +1,6 @@
 ---
 type: decision
-acronym: sig-API-database
+acronym: sig-api-database
 title: >
     Choice of database
 decision_type: must

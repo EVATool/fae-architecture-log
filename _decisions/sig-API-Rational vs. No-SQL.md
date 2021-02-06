@@ -5,7 +5,7 @@ title: >
     Rational DB vs. NO-SQL DB
 decision_type: must
 belongs_to: API
-status: _2_draft
+status: _5_presented
 responsible: MTO;FOB
 deadline: 2021-02-12
 history:

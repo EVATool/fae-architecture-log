@@ -24,7 +24,9 @@ The decision about a database depends on the approach. Here two approaches are c
 ## Additional sources for better understanding the background
 
 [NO-SQL DB](https://www.bigdata-insider.de/was-ist-nosql-a-615718/)
+
 [Relational DB](https://www.bigdata-insider.de/was-ist-eine-relationale-datenbank-a-643028/)
+
 [Databases](https://www.geeksforgeeks.org/top-10-open-source-nosql-databases-in-2020/)
 
 ## Viable Options

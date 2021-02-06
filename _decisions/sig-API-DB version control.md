@@ -16,27 +16,27 @@ history:
 ---
 
 ## Why is there need for such a decision?
-
-
-
+We need a tool that helps us migrate. Migrations from database systems or individual tables.
 
 ## Additional sources for better understanding the background
-
+[Liquibase](https://www.liquibase.org/)
+[Flyway](https://flywaydb.org/)
 
 
 ## Viable Options
 
-
+* liquibase
+* Flyway
 
 
 ## Alternatives not seriously considered
-
-
-  
-Commercial database-systems are unsuitable for open source projects.
+* IRI NextForm
+* DBConvert Studio
+* Xplenty
 
 ## How is this decision evaluated?
 * Tables migration
+* Database migration
  
  
 ## Resolution Details

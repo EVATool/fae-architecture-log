@@ -12,10 +12,9 @@ history:
     v1:
         date: 2021-02-06
         comment: created initially
-    
     v2:
         date: 2021-02-06
-        comment: done
+        comment: add Resolution
    
 ---
 

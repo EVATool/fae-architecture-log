@@ -19,7 +19,9 @@ history:
 We need a tool that helps us migrate. Migrations from database systems or individual tables.
 
 ## Additional sources for better understanding the background
+
 [Liquibase](https://www.liquibase.org/)
+
 [Flyway](https://flywaydb.org/)
 
 

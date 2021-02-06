@@ -28,9 +28,9 @@ The decision about a database depends on the approach. Here two approaches are c
 [Databases](https://www.geeksforgeeks.org/top-10-open-source-nosql-databases-in-2020/)
 
 ## Viable Options
-MYSQL
-POSTGRESQL
-MongoDB
+* MYSQL
+* POSTGRESQL
+* MongoDB
 
 ## Alternatives not seriously considered
 Oracle NO-SQL

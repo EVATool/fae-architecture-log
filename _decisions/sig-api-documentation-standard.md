@@ -1,11 +1,11 @@
 ---
 type: decision
-acronym: sig-api-Documentation 
+acronym: sig-api-Documentation-St
 title: >
     API-Documentation
 decision_type: must
 belongs_to: apis
-status: _5_presented
+status: _3_sig_agreed
 todos:
 responsible: FOB
 deadline: 2021-02-05
@@ -15,19 +15,8 @@ history:
         comment: created initially
     v2:
         date: 2021-01-13
-        comment: update responsibility
-    v3:
-        date: 2021-01-13
-        comment: need for decision
-    v4:
-        date: 2021-01-13
-        comment: sources and evaluation
-    v5: 
-        date: 2021-01-23
-        comment: updated deadline    
-    v6:
-        date: 2021-02-01
         comment: add Resolution
+
 ---
 
 ## Why is there need for such a decision?

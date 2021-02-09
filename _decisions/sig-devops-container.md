@@ -5,7 +5,7 @@ title: >
     Containerization - application hosting  
 decision_type: must
 belongs_to: devops
-status: _2_draft
+status: _5_presented
 responsible: TZA
 deadline: 2021-02-05
 todos:
@@ -78,7 +78,7 @@ Then compare this two options on such aspects as:
 
 It was decided that the docker technology is better suited to the project.
 
-Most of the explanations for the individual resolution details can be found in the [wiki](). (to be done)
+Most of the explanations for the individual resolution details can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/VM-vs-Docker-PoC).
 
 **Installation**\
 The installation of the solutions on the basis of both VM and Docker are at a similar level of coplexity.
@@ -110,7 +110,7 @@ Deployment is very similar in complexity
 Not considered
 
 **Debugging**\
-See decision [Debugging]() (to be done)
+See decision [Debugging](https://github.com/EVATool/evatool-backend/wiki/Debugging)
 
 ## Reasons for the resolution
 

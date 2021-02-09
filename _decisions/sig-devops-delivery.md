@@ -6,8 +6,13 @@ title: >
 decision_type: must
 belongs_to: devops
 status: _2_draft
-todos: 
-responsible: TZA, HBU
+todos:
+    - implement and test PoC with GitHub-Actions
+    - research Jenkins-Server solution
+    - get access to server from UID (with SSH)
+    - try to use personal machines as a public available server 
+    - create wiki
+responsible: TZA;HBU
 deadline: 2021-02-15
 history:
     v1:
@@ -22,36 +27,40 @@ history:
     v4:
         date: 2021-02-09
         comment: added TODOs and cleaned up.
+    v5:
+        date: 2021-02-09
+        comment: added new TODOs and some new information
 ---
 
 ## Why is there need for such a decision?
 
-The application needs to be delivered to a server in order to be availble.
+The application needs to be delivered to a server in order to be available.
 This delivery process will be automated and will continuously deploy the newest version of the project to the server.
+Each new version of application will be created as a docker image.
+Then it should be transferred to server and run as a docker container. 
 UID is providing a remote server.
 
 The decision `devops-testing-automation` was a short-term solution to enable testing automation earlier in the project.
 
-### Questions and others
+### Questions and others (temporary)
 
-TODO:
-    Delivery: build -> test -> deploy -> run TODO: compile -> test -> build -> deploy -> run?
-
-TODO:
 * How to build? (see sig-devops-buildtools)
 * How to test? (see sig-devops-testing-automation)
-* How to deploy?
-* How to run?
+* How to deploy? (see sig-devops-container)
+* How to run? (see sig-devops-container)
 
 ## Additional sources for better understanding the background
 
-TODO:
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+* [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
+* [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)
+* [Continuous delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
+* [GitHub Actions](https://github.com/features/actions)
+* [Jenkins (software)](https://en.wikipedia.org/wiki/Jenkins_(software))
 
 ## Viable Options
 
-- Execute the whole pipeline on the server
-- Execute all steps that can run on GitHub (with GitHub Actions) on GitHub and deploy to the server and run the application
+- realize build pipeline using GitHub Actions
+- realize build pipeline using Jenkins
 
 ## Alternatives not seriously considered
 
@@ -63,13 +72,7 @@ TODO:
 - It must be free (except the remote server)
 - It should be resistant to changes happening in the project
 
-TODO:
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.)
+TODO: add more criteria
 
 ## Resolution Details
 

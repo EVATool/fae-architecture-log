@@ -29,6 +29,11 @@ history:
     v6:
         date: 2021-02-02
         comment: context adjusted
+    v7:
+        date: 2021-02-04
+        comment: edit Reasons for the resolution
+
+
 
 ---
 
@@ -43,7 +48,7 @@ In the following scenarios are listed to understand why such a management is nee
 - The user account is created by an administrator, or the account is to be created by a person himself via a registration form.
 - The user must be logged in to use the API. Roles are used to control read and write access.
 - The user must be able to manage his account, such as changing the password.
-- Manage roles to allow areas of the API only for the specific role.
+- A role manage is needed to allow areas of the API only for the respective role.
 
 
 ## Additional sources for better understanding the background
@@ -56,14 +61,13 @@ You can use the sources to provide a little insight on authentication methods.
 
 ## Viable Options
 
-- OAuth (2.0) - Self implemented User management
+- Self implemented user management
 - Identity and access management like keycloak
 
 ## Alternatives not seriously considered
 
 - HTTP Authentication
     - Basic Authentication: This method requests the username and password for each API request and the password is hardcoded in the API.
-- OpenID Connect: For OpenID Connect an external service provider is needed, this method would go beyond the scope of this project.
 
 ## How is this decision evaluated?
 
@@ -108,21 +112,27 @@ Source: [RFC: 6749, The OAuth 2.0 Authorization Framework](https://www.ietf.org/
 Additionally, there must be an implementation that returns a fresh token to the logged user after the current token expires.
 
 There are two ways to implement access control and rights assignment.
-Self-implementation: In this case, the management of access control and rights assignment is completely programmed by the project itself.
+Self-implementation: In this case, the management of access control and rights assignment is completely self programmed.
 - Controllers are needed to manage the rights of the users.
 - Controllers are needed to create and manage users.
 - A database for the user administration must be created.
 - Passwords have to be secured by security measures like hashing.
 - Personal data must be secured.
 
-The second option is via an Identity and Access Management solution. Identity and Access Management solution aimed at modern applications and services. It makes it easy to secure applications and services with little to no code.
+The second option is via an Identity and Access Management solution. Identity and Access Management solution aimed at modern applications and services. It makes it easy to secure applications and services (APIs) with little to no code.
 In addition to this, this solution offers many interfaces e.g. to social logins.
-With this solution there is for the most part a configuration effort. 
+For the most part, there is configuration overhead with this solution. The implementation effort mentioned in the previous paragraph is omitted.
 - Roles and rights must be created.
 - The connection between these services and the project must be established. 
 - The roles for the individual URIs must be stored in the controllers, e.g. in Spring via annotations.
 
+[Here](https://github.com/EVATool/evatool-backend/wiki/Keycloak-Identity-and-Access-Management) you can find a tutorial on how to integrate Keycloak into a Spring application.
+
 ## Reasons for the resolution
+
+Based on a thorough research on the Internet and by comparing completed or running projects, an Identity and Access Management solution is a beneficial solution.
+The service requires a small configuration effort to connect it to a Spring application.
+[Keycloack](https://www.keycloak.org/) is free, open source and there is currently no better solution.
 
 
 

@@ -5,7 +5,7 @@ title: >
     Research method to define the domain is Domain Story Telling
 decision_type: should
 belongs_to: eventing
-status: _4_stakeholder_checked
+status: _5_presented
 todos:
 responsible: KRU;DUZ
 deadline: 2021-01-29

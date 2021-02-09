@@ -1,33 +1,22 @@
 ---
 type: decision
-acronym: sig-api-Documentation 
+acronym: sig-api-Documentation-St
 title: >
     API-Documentation
 decision_type: must
 belongs_to: apis
-status: _5_presented
+status: _3_sig_agreed
 todos:
 responsible: FOB
-deadline: 2021-02-05
+deadline: 2021-02-12
 history:
     v1:
         date: 2021-01-13
         comment: created initially
     v2:
         date: 2021-01-13
-        comment: update responsibility
-    v3:
-        date: 2021-01-13
-        comment: need for decision
-    v4:
-        date: 2021-01-13
-        comment: sources and evaluation
-    v5: 
-        date: 2021-01-23
-        comment: updated deadline    
-    v6:
-        date: 2021-02-01
         comment: add Resolution
+
 ---
 
 ## Why is there need for such a decision?
@@ -66,9 +55,11 @@ when Rest is select as "sig-api-style" decision, then we will use Swaager or Spr
 Our team is using the tool Swagger. Swagger offers an library for our Spring-Boot Application. The tool automatically documentates API-endpoints. Therefore the documentation maintenance is heavly reduced. No further knowledge is needed, since the handling of tool is basic and easy.  
 
 ## Reasons for the resolution
-* Automatically documentated API-endpoints
-* Executable methods
-* No further programming skill is needed
-* Assistant tool with high usability 
+For our code documentation, each team will need to use at least the following annotations:
+@Api(description = "txt") and @ApiOperation (value = "txt")
 
-Mainly we choosed this resoution due to its large offers of transparent informations in contrast to Spring Rest Docs and its JSON-format.
+@Api should describe the respective rest-controller class with one sentence.
+
+@ApiOperation should describe the respective method in the rest-controller class with a record. 
+
+More informations: [Swagger Docs](https://docs.swagger.io/swagger-core/current/apidocs/)

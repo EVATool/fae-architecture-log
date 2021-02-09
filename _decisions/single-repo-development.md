@@ -17,7 +17,7 @@ history:
         comment: scope enhanced (includes also branching rules)
     v3: 
         date: 2021-01-22
-        comment: updated deadline
+        comment: updated the deadline
     v4: 
         date: 2021-01-23
         comment: decide decision
@@ -45,16 +45,16 @@ This decision is important, because it will decide which project structure will 
 
 ## How is this decision evaluated?
 
-The decision is based on a discussion and the decision for the branching-stratagy (both was decided at the same day).
+The decision is based on a discussion, and the decision for the branching-strategy (both was decided at the same day).
 
  
 ## Resolution Details
 
-It was decide to use a root src-folder, but a modules-folder with a src-folder for every sub-domain.
+It was decided to use a root src-folder, but a modules-folder with a src-folder for every sub-domain.
 * the root src-folder is only use for classes that every sub-domain use. 
-Nobody of the sub-domains can be a owner of that class.
-* every sub-domain have a folder in the modules-folder. This sub-domains have there own src-,
-test-,resource-folder and an indiviual .pom with the projact as parent.
+Nobody of the sub-domains can be an owners of those classes.
+* every sub-domain have a folder in the modules-folder. This sub-domains have own src-,
+test-,resource-folder and an individual .pom file with the project as parent.
 
 ## Reasons for the resolution
 

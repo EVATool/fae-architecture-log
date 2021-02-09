@@ -8,8 +8,6 @@ belongs_to: devops
 status: _5_presented
 responsible: TZA
 deadline: 2021-02-05
-todos:
-    - Create PoC using Docker
 history:
     v1:
         date: 2021-01-12

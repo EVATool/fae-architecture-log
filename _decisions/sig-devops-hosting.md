@@ -8,8 +8,6 @@ belongs_to: devops
 status: _5_presented
 responsible: TZA
 deadline: 2021-01-22
-todos:
-    - to add further resolution details
 history:
     v1:
         date: 2021-01-13

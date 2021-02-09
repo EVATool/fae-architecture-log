@@ -13,7 +13,7 @@ todos:
     - try to use personal machines as a public available server 
     - create wiki
 responsible: TZA;HBU
-deadline: 2021-02-15
+deadline: 2021-02-19
 history:
     v1:
         date: 2021-01-13

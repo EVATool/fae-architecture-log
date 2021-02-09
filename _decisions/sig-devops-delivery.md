@@ -56,8 +56,6 @@ The decision `devops-testing-automation` was a short-term solution to enable tes
 - [GitHub vs Jenkins - Blog on bitsrc](https://blog.bitsrc.io/github-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8)
 - [GitHub vs Jenkins - Blog on medium](https://medium.com/swlh/will-github-actions-kill-off-jenkins-f85e614bb8d3)
 
-## Viable Options
-
 ### Questions and others (temporary)
 
 * How to build? (see sig-devops-buildtools)

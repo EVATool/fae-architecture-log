@@ -18,6 +18,9 @@ history:
     v3:
         date: 2021-02-04
         comment: added way of evaluation
+    v4:
+        date: 2021-02-07
+        comment: resolution details/reasons for the resolution added
 ---
 
 ## Why is there need for such a decision?
@@ -44,25 +47,28 @@ All teams must focus on one code-quality-tool or rulesset.
 #### Manual Rulessets
 - Over-the-shoulder-code-review (fast project-integration, useful and fast results)
 - Pair programming (fast project-integration, useful and fast results)
+- Peer-reviews (fast project-integration, useful and fast results)
+  
+Further information on specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) page.
   
 #### Automatic Tools- and Rulessets
 - Find Bugs (IDE plugin)
 - Check Style (IDE plugin)
-- Gerrit (Open source, easy to use, useful features, can be combined with git)
 - SonarQube
     - Sonar Lint (Local Analysis IDE plugin)
     - SonarCloud (Free Open Source static code analysis cloud (quality profiles, git repository analysis, dashboard, workflows
       etc.))
     - SonarQube (Equals to SonarCloud, must be installed on own server, much effort, few advantages)
 
-More information on specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) page.
+Further information on specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) page.
 
 ## Alternatives not seriously considered
 
-There are many **medium/high-priced commercial** code-quality-tools, which can't be used in this project:
+There are many **medium/high-priced commercial** or just to laborious code-quality-tools, which can't be used in this project:
 - Helix Core
 - Klocwork
 - Upsource
+- Gerrit (Positive: connectable with git, negative: check of every single commit, just too old)  
 - ...
 
 ## How is this decision evaluated?
@@ -73,12 +79,21 @@ some basic "bad-code", which will be analyzed with this tools. The best performi
  
 ## Resolution Details
 
-tbd...
-Complete Resolution Details can be found [here](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality).
+The manual methods mentioned before are suitable for the normal developer's everyday life, however, not as a main procedure
+for ensuring source-code-quality. For this reason, they were not considered further for this decision.
 
+The general focus instead was more on the automatic code-quality tools with their rulessets. Here, the previously 
+mentioned code-quality tools were tested with the help of a deliberately poorly written code. The results can be seen on the [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) 
+page.
 
+It turned out that SonarLint is much more accurate and compact than the other tools, which ultimately led to the decision 
+in favor of SonarLint.
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
+The advantage that SonarLint can also be extended with a cloud extension (SonarQube / SonarCloud) led to the final decision 
+in favor of the source-code-quality tool SonarLint. However, it must be mentioned here that an implementation of a cloud-based 
+extension (SonarQube / SonarCloud) would not be worthwhile for the remaining time of this project.
+
+
 

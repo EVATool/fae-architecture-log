@@ -6,9 +6,14 @@ title: >
 decision_type: must
 belongs_to: devops
 status: _2_draft
-todos: 
-responsible: TZA, HBU
-deadline: 2021-02-15
+todos:
+    - implement and test PoC with GitHub-Actions
+    - research Jenkins-Server solution
+    - get access to server from UID (with SSH)
+    - try to use personal machines as a public available server 
+    - create wiki
+responsible: TZA;HBU
+deadline: 2021-02-19
 history:
     v1:
         date: 2021-01-13
@@ -22,18 +27,27 @@ history:
     v4:
         date: 2021-02-09
         comment: added TODOs and cleaned up.
+    v5:
+        date: 2021-02-09
+        comment: added new TODOs and some new information
 ---
 
 ## Why is there need for such a decision?
 
-The application needs to be delivered to a server in order to be availble.
+The application needs to be delivered to a server in order to be available.
 This delivery process will be automated and will continuously deploy the newest version of the project to the server.
+Each new version of application will be created as a docker image.
+Then it should be transferred to server and run as a docker container. 
 UID is providing a remote server.
 
 The decision `devops-testing-automation` was a short-term solution to enable testing automation earlier in the project.
 
 ## Additional sources for better understanding the background
 
+- [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
+- [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)
+- [Continuous delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
+- [Jenkins (software)](https://en.wikipedia.org/wiki/Jenkins_(software))
 - [GitHub Actions - Features](https://github.com/features/actions)
 - [GitHub Actions - Documentation](https://docs.github.com/en/actions)
 - [GitHub Actions - Workflow Syntax](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
@@ -44,8 +58,17 @@ The decision `devops-testing-automation` was a short-term solution to enable tes
 
 ## Viable Options
 
-- Execute the whole pipeline on the server with Jenkins
-- Execute all steps that can run on GitHub (with GitHub Actions) on GitHub and deploy to the server + run the application
+### Questions and others (temporary)
+
+* How to build? (see sig-devops-buildtools)
+* How to test? (see sig-devops-testing-automation)
+* How to deploy? (see sig-devops-container)
+* How to run? (see sig-devops-container)
+
+## Viable Options
+
+- Realize build pipeline using GitHub Actions (Execute all steps that can run on GitHub on GitHub and deploy to the server + run the application)
+- Realize build pipeline using Jenkins (Execute the whole pipeline on the server with Jenkins)
 
 ## Alternatives not seriously considered
 
@@ -57,6 +80,8 @@ The decision `devops-testing-automation` was a short-term solution to enable tes
 - It must be free (except the remote server)
 - It should be resistant to changes happening in the project
 - The open source nature of the project should not be put in jeopardy
+
+TODO: add more criteria
 
 ## Resolution Details
 

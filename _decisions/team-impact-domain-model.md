@@ -5,11 +5,9 @@ title: >
     Domain model for team "Impact"  
 decision_type: team
 belongs_to: impact
-status: _2_draft
+status: _3_team_agreed
 responsible: HBU;TZA 
 deadline: 2021-01-29
-todos: 
-    - can this be moved to _3_team_agreed?
 history:
     v1:
         date: 2021-01-08
@@ -20,6 +18,9 @@ history:
     v3:
         date: 2021-01-28
         comment: removed reasons for the resolution
+    v4:
+        date: 2021-02-09
+        comment: updated the status
 ---
 
 ## Why is there need for such a decision?

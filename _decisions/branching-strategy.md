@@ -8,9 +8,6 @@ belongs_to: devops
 status: _5_presented
 responsible: TZA;JSP;AKO    
 deadline: 2021-01-29
-todos: 
-    - ready to present?
-    - is it clear who does what?
 history:
     v1:
         date: 2021-01-22
@@ -54,11 +51,10 @@ The decision is based on a discussion and an analysis of possible problems durin
 ## Resolution Details
 
 * Domain-branches would be a useful feature because they follow the project structure.
-* Each group merges their features into dev-branch themselves. 
+* Each team merges theirs features into dev-branch themselves. 
     This requires a definition of done (e.g. successful Maven tests).
 * dev-branch + master-branch
     * dev-branch gets merged into master once tests are successful on github as well.
-
 
 ## Reasons for the resolution
 

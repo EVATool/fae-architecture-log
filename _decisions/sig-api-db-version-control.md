@@ -16,7 +16,7 @@ history:
 ---
 
 ## Why is there need for such a decision?
-We need a tool that helps us migrate. Migrations from database systems or individual tables.
+We need a tool that helps us to migrate. Migrations from database systems or individual tables.
 
 ## Additional sources for better understanding the background
 

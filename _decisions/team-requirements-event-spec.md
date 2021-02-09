@@ -4,7 +4,7 @@ acronym: team-requirements-event-spec
 title: Event Specification for Team "Requirements"  
 decision_type: team
 belongs_to: requirements
-status: _3_team_agreed
+status: _3_team_agreed 
 responsible: JLÜ
 deadline: 2021-02-12
 history:

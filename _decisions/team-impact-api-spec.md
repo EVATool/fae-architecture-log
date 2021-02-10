@@ -7,6 +7,8 @@ belongs_to: impact
 status: _2_draft
 responsible: HBU;TZA
 deadline: 2021-02-12
+todos:
+    - Swagger UI for specification
 history:
     v1:
         date: 2021-02-05

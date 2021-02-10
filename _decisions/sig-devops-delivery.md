@@ -83,8 +83,9 @@ TODO: add more criteria
 
 ## Resolution Details
 
+[Wiki](https://github.com/EVATool/evatool-backend/wiki/DevOps-Delivery)
+
 TODO: make CI work with UID server...
-TODO: Wiki link...
 
 Advantages of using GitHub Actions:
 - Free

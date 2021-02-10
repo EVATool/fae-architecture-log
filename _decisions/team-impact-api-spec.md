@@ -4,13 +4,16 @@ acronym: team-impact-api-spec
 title: API Specification for Team "Impact"  
 decision_type: team
 belongs_to: impact
-status: _1_open
-responsible: 
+status: _2_draft
+responsible: HBU;TZA
 deadline: 2021-02-12
 history:
     v1:
         date: 2021-02-05
         comment: created initially
+    v2:
+        date: 2021-02-10
+        comment: added new information
 ---
 
 ## Why is there need for such a decision?
@@ -50,8 +53,8 @@ n/a
 
 ## Resolution Details
 
-TODO: [Wiki](https://github.com/EVATool/evatool-backend/wiki/impact-api-spec)
+[Wiki](https://github.com/EVATool/evatool-backend/wiki/impact-api-spec)
 
 ## Reasons for the resolution
 
-(any reasoning and explanations => in the wiki)
+(any reasoning and explanations => in the [wiki](https://github.com/EVATool/evatool-backend/wiki/impact-api-spec))

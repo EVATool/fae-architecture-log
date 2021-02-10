@@ -5,7 +5,7 @@ title: >
     Tools and rulessets for code quality
 decision_type: must
 belongs_to: devops
-status: _2_draft
+status: _4_stakeholder_checked
 responsible: MHA
 deadline: 2021-02-12
 history:

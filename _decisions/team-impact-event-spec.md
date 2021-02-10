@@ -41,8 +41,8 @@ n/a
 
 ## Resolution Details
 
-- [Wiki](https://github.com/EVATool/evatool-backend/wiki/impact-event-spec)
+- [Wiki](https://github.com/EVATool/evatool-backend/wiki/Impact-Event-Spec)
 
 ## Reasons for the resolution
 
-(any reasoning and explanations => in the [wiki](https://github.com/EVATool/evatool-backend/wiki/impact-event-spec))
+(any reasoning and explanations => in the [wiki](https://github.com/EVATool/evatool-backend/wiki/Impact-Event-Spec))

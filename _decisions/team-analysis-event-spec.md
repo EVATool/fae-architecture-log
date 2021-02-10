@@ -41,7 +41,7 @@ This decision will be based on team decisions as well as the different domain mo
 
 ## Resolution Details
 
-Further details in [wiki](https://github.com/EVATool/evatool-backend/wiki/analysis-Events)
+Further details in [wiki](https://github.com/EVATool/evatool-backend/wiki/Analysis-Events)
 
 ## Reasons for the resolution
 

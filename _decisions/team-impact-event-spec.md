@@ -38,6 +38,7 @@ n/a
 
 ## Resolution Details
 
+[Wiki](https://github.com/EVATool/evatool-backend/wiki/impact-event-spec)
 (please add link to wiki)
 
 ## Reasons for the resolution

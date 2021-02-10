@@ -50,7 +50,7 @@ n/a
 
 ## Resolution Details
 
-(please add link to wiki)
+TODO: [Wiki](https://github.com/EVATool/evatool-backend/wiki/impact-api-spec)
 
 ## Reasons for the resolution
 

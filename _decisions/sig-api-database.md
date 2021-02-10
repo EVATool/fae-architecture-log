@@ -55,5 +55,10 @@ Both database systems behaved the same. There were no noticeable differences. In
 
 
 ## Reasons for the resolution
-The will use MySQL
+The will use MySQL.
+Tables get the name of the dev team as prefex:
+ANA_TableName
+REQ_TableName
+VAR_TableName
+IMP_TableName 
 

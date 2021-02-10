@@ -5,7 +5,7 @@ title: >
     Domain model for team "Analysis"  
 decision_type: team
 belongs_to: analysis
-status: _5_presented
+status: _3_team_agreed
 responsible: MHA;FOB
 deadline: 2021-01-29
 history:

@@ -50,8 +50,8 @@ n/a
 
 ## Resolution Details
 
-(please add link to wiki)
+[Requirements API specification](https://github.com/EVATool/evatool-backend/wiki/Requirements-API-specification)
 
 ## Reasons for the resolution
 
-(any reasoning and explanations => in the wiki)
+Any reasoning and explanations => in the [wiki](https://github.com/EVATool/evatool-backend/wiki/Requirements-API-specification)

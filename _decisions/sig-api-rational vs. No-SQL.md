@@ -1,11 +1,11 @@
 ---
 type: decision
-acronym: sig-api-database
+acronym: sig-api-database-rational
 title: >
     Rational DB vs. NO-SQL DB
 decision_type: must
 belongs_to: apis
-status: _5_presented
+status: _3_sig_agreed
 responsible: MTO;FOB
 deadline: 2021-02-12
 history:

@@ -1,8 +1,8 @@
 ---
 type: decision
-acronym: sig-api-database
+acronym: sig-api-database-version-control
 title: >
-    Choice of database
+    Database Version Control
 decision_type: must
 belongs_to: apis
 status: _2_draft

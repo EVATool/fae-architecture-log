@@ -4,7 +4,7 @@ acronym: team-variants-api-spec
 title: API Specification for Team "Variants"  
 decision_type: team
 belongs_to: variants
-status: _3_sig_agreed
+status: _3_team_agreed
 responsible: DUZ;AKO
 deadline: 2021-02-12
 history:

@@ -4,7 +4,7 @@ acronym: team-variants-event-spec
 title: Event Specification for Team "Variants"  
 decision_type: team
 belongs_to: variants
-status: _3_sig_agreed
+status: _3_team_agreed
 responsible: KRU
 deadline: 2021-02-12
 history:

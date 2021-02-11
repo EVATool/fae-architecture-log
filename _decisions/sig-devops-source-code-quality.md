@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-devops-source-code-quality
 title: >
-    Tools and rulessets for code quality
+    SonarLint and SonarCloud are used as code-quality tools
 decision_type: must
 belongs_to: devops
 status: _4_stakeholder_checked
@@ -86,14 +86,16 @@ The general focus instead was more on the automatic code-quality tools with thei
 mentioned code-quality tools were tested with the help of a deliberately poorly written code. The results can be seen on the [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) 
 page.
 
-It turned out that SonarLint is much more accurate and compact than the other tools, which ultimately led to the decision 
-in favor of SonarLint.
+It turned out that SonarLint is much more accurate and compact than the other tools. In combination with the available 
+cloud-based code-quality tools, a permanent static code analysis can be guaranteed. The resulting results can be viewed 
+in a unified dashboard.
 
 ## Reasons for the resolution
 
-The advantage that SonarLint can also be extended with a cloud extension (SonarQube / SonarCloud) led to the final decision 
-in favor of the source-code-quality tool SonarLint. However, it must be mentioned here that an implementation of a cloud-based 
-extension (SonarQube / SonarCloud) would not be worthwhile for the remaining time of this project.
+In general, the results from SonarLint look much more detailed than from the other tools. The decision to use SonarCloud 
+as the central database instead of SonarQube is based on the fact that SonarCloud is much easier to implement into the 
+project, maintenance is also much easier. Both cloud tools have the same functionality, which is why the decision was 
+ultimately made to use SonarLint as a local IDE plugin and SonarCloud as a central database.
 
 
 

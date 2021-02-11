@@ -4,13 +4,16 @@ acronym: team-variants-api-spec
 title: API Specification for Team "Variants"  
 decision_type: team
 belongs_to: variants
-status: _1_open
-responsible:
+status: _3_sig_agreed
+responsible: DUZ;AKO
 deadline: 2021-02-12
 history:
     v1:
         date: 2021-02-05
         comment: created initially
+    v2:
+        date: 2021-02-11
+        comment: added resolution and reason of the resolution
 ---
 
 ## Why is there need for such a decision?
@@ -50,8 +53,8 @@ n/a
 
 ## Resolution Details
 
-(please add link to wiki)
+The Resolution of the [Variant API-Specification](https://github.com/EVATool/evatool-backend/wiki/Variant-API-specification) can be found in the wiki.
 
 ## Reasons for the resolution
 
-(any reasoning and explanations => in the wiki)
+Detailed Reasons for this resolution of the [Variant API-Specification](https://github.com/EVATool/evatool-backend/wiki/Variant-API-specification) can be found in the wiki.

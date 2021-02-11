@@ -4,7 +4,7 @@ acronym: sig-api-database
 title: >
     Choice of database
 decision_type: must
-belongs_to: API
+belongs_to: apis
 status: _2_draft
 responsible: MTO;FOB
 deadline: 2021-02-12

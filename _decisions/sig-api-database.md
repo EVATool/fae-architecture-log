@@ -4,7 +4,7 @@ acronym: sig-api-database
 title: >
     Choice of database
 decision_type: must
-belongs_to: API
+belongs_to: apis
 status: _3_sig_agreed
 responsible: MTO;FOB
 deadline: 2021-02-12
@@ -53,12 +53,13 @@ After implementing the concept, the following findings emerged:
 
 Both database systems behaved the same. There were no noticeable differences. In our opinion, this is more a matter of taste. In the end we decided to use the MySQL databases. Due to our experience with this database, this decision was easy for us. 
 
+Tables get the name of the dev team as Prefix:
+- ANA_TableName 
+- REQ_TableName
+- VAR_TableName
+- IMP_TableName
 
 ## Reasons for the resolution
-The will use MySQL.
-Tables get the name of the dev team as prefex:
-ANA_TableName
-REQ_TableName
-VAR_TableName
-IMP_TableName 
+Based on personal experiences and testing both systems. The better choice is Mysql.
+
 

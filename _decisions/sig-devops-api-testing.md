@@ -1,11 +1,10 @@
 ---
 type: decision
-acronym: devops-api-testing
-title: >
-    API Testing
+acronym: sig-devops-api-testing
+title: API Testing
 decision_type: must
 belongs_to: devops
-status: _2_draft
+status: _5_presented
 responsible: HBU
 deadline: 2021-02-05
 todos: 
@@ -23,6 +22,9 @@ history:
     v4:
         date: 2021-02-04
         comment: added sources
+    v5: 
+        date: 2021-02-05
+        comment: presented                
 ---
 
 ## Why is there need for such a decision?

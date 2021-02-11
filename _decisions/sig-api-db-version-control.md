@@ -17,7 +17,7 @@ history:
 
 ## Why is there need for such a decision?
 We need a tool that helps us to migrate. Migrations from database systems or individual tables.
-
+We need a version controll for our database.
 ## Additional sources for better understanding the background
 
 [Liquibase](https://www.liquibase.org/)
@@ -42,11 +42,10 @@ We need a tool that helps us to migrate. Migrations from database systems or ind
  
  
 ## Resolution Details
-
-
-
+In the context of our project, we chose Flyway. 
+Flyway and Liquibase offer the same functionalities. Whereby Liquibase is a real powerhouse. Flyway is a ligth version and easier to use. Migrations are written with SQL. Liquibase, on the other hand, offers several ways to migrate a database, for example SQL, XML, YAML and more. However, SQL is completely sufficient 
 
 ## Reasons for the resolution
-
+We will chose Flyway as version controll tool for our database.
 
 

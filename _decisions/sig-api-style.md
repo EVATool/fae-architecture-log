@@ -9,7 +9,7 @@ status: _4_stakeholder_checked
 responsible: JLÜ;JSP
 deadline: 2021-02-12
 todos:
-    - How-to for link generation should be added 
+    
 history:
     v1:
         date: 2021-01-11

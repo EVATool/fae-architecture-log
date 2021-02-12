@@ -10,7 +10,6 @@ todos:
     - implement and test PoC with GitHub-Actions
     - research Jenkins-Server solution
     - get access to server from UID (with SSH)
-    - try to use personal machines as a public available server 
     - create wiki
 responsible: TZA;HBU
 deadline: 2021-02-19
@@ -30,6 +29,9 @@ history:
     v5:
         date: 2021-02-09
         comment: added new TODOs and some new information
+    v6:
+        date: 2021-02-12
+        comment: Refined evaluation and did TODOs
 ---
 
 ## Why is there need for such a decision?
@@ -56,13 +58,6 @@ The decision `devops-testing-automation` was a short-term solution to enable tes
 - [GitHub vs Jenkins - Blog on bitsrc](https://blog.bitsrc.io/github-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8)
 - [GitHub vs Jenkins - Blog on medium](https://medium.com/swlh/will-github-actions-kill-off-jenkins-f85e614bb8d3)
 
-### Questions and others (temporary)
-
-* How to build? (see sig-devops-buildtools)
-* How to test? (see sig-devops-testing-automation)
-* How to deploy? (see sig-devops-container)
-* How to run? (see sig-devops-container)
-
 ## Viable Options
 
 - Realize build pipeline using GitHub Actions (Execute all steps that can run on GitHub on GitHub and deploy to the server + run the application)
@@ -78,8 +73,10 @@ The decision `devops-testing-automation` was a short-term solution to enable tes
 - It must be free (except the remote server)
 - It should be resistant to changes happening in the project
 - The open source nature of the project should not be put in jeopardy
-
-TODO: add more criteria
+- Multiple build jobs concurrently
+- Solution must be able to listen to GitHub push event (full automation)
+- Jenkins: Check if plugins required
+- Jenkins: Check available GitHub events
 
 ## Resolution Details
 
@@ -87,31 +84,27 @@ TODO: add more criteria
 
 TODO: make CI work with UID server...
 
-Advantages of using GitHub Actions:
-- Free
+Unique features of using GitHub Actions:
 - No need to worry about infrastructure and scaling/running it
-- GitHub is well known for open source projects (repo staying on GitHub)
 - GitHub Actions can be run locally and in the cloud
-- No installation/setup required
+- No installation/setup required (!)
 - No extra plugins that need to be kept up to date
-- Asynchronous, no concurrency (multiple independant workflows possible, workflow diagram)
-- GitHub Actions are a series of cloud-based docker runs (easy to run and debug)
-- There is a GitHub Action for ever GitHub event
-- The actions themself exist as yaml files and can be shared/reused like normal code
-- GitHub Actions are tightly intertwined with the source control on GitHub itself
-- Access to GitHub API (cross-repo update of code, automated pull requests etc.)
-- Easily shared and used via GitHub Marketplace
-- Deployment: App is stopped -> new docker image is loaded -> docker image is started again (maybe 15 seconds down time?) and no other down time or workload on the server
-- What is in 5/10/20 years? Can UID still provide the server?
-- Bigger community, more releases of new actions onto the marketplace
-- Even if paid, cheaper than Jenkins on server
-- Requires less testing than Jenkins
+- GitHub Actions workflow visualization (job graph)
+- There is a GitHub Action for every GitHub event
+- Configuration files can be managed in GitHub; no need to manually copy to server in order to build
+- GitHub as host for repo as well as build pipeline (centralized)
+- Easy access to GitHub API (Jenkins might require token?)
+- GitHub Marketplace (over 4000 actions published since GitHub introduced CI tools)
 
-Advantages of Jenkins on the remote server:
+Unique features of Jenkins on the remote server:
 - Independant of GitHub (Microsoft)
 - Plugins are available for cashing support
+- To be researched
+
+Our decision is GitHub Actions
 
 ## Reasons for the resolution
 
-The open source nature of GitHub and the nature of the project make GitHub Actions the far more superior solution.
-The initial setup and running costs of Jenkins do not fit the project.
+The initial setup of Jenkins do not fit the project at the moment and could lead to a time shortage
+(This decision could be re-evaluated in the future depending on where the project stands).
+The open source nature of GitHub Actions and the nature of the project make GitHub Actions the far more superior solution.

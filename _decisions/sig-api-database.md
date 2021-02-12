@@ -1,13 +1,16 @@
 ---
 type: decision
 acronym: sig-api-database
-title: >
-    Choice of database
+title: MYSQL used as database
 decision_type: must
 belongs_to: apis
 status: _3_sig_agreed
 responsible: MTO;FOB
 deadline: 2021-02-12
+todos:
+    - please add wiki entry with the prefix convention (see below)
+    - please add a How-To for taking the DB into use (or implement directly)
+    - we also need a How-To for auch mixed configuration, Dev = H2, prod = MySQL
 history:
     v1:
         date: 2021-01-13

@@ -20,9 +20,8 @@ We need a tool that helps us to migrate. Migrations from database systems or ind
 We need a version controll for our database.
 ## Additional sources for better understanding the background
 
-[Liquibase](https://www.liquibase.org/)
-
-[Flyway](https://flywaydb.org/)
+* [Liquibase](https://www.liquibase.org/)
+*   [Flyway](https://flywaydb.org/)
 
 
 ## Viable Options

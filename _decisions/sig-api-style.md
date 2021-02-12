@@ -9,7 +9,7 @@ status: _4_stakeholder_checked
 responsible: JLÜ;JSP
 deadline: 2021-02-12
 todos:
-    - How-to for link generation should be added 
+    
 history:
     v1:
         date: 2021-01-11
@@ -91,6 +91,7 @@ the decision:
 ## Resolution Details
 
 The Decision is that Rest must be used as api style. In specific Rest level 3 must be used.
+An example of how to implement can be found in the PoC [Rest Level 3](https://github.com/EVATool/evatool-poc/tree/main/RestLv3).
 
 
 ## Reasons for the resolution

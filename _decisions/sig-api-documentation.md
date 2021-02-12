@@ -76,3 +76,13 @@ Our team is using the tool Swagger. Swagger offers an library for our Spring-Boo
 * Assistant tool with high usability 
 
 Mainly we choosed this resoution due to its large offers of transparent informations in contrast to Spring Rest Docs and its JSON-format.
+
+For our code documentation, each team will need to use at least the following annotations:
+@Api(description = "txt") and @ApiOperation (value = "txt")
+
+@Api should describe the respective rest-controller class with one sentence.
+
+@ApiOperation should describe the respective method in the rest-controller class with a record. 
+
+More informations: [Swagger Docs](https://docs.swagger.io/swagger-core/current/apidocs/)
+

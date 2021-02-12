@@ -1,22 +1,26 @@
 ---
 type: decision
-acronym: sig-devops-debugging
+acronym: sig-devops-sonar-quality-gate
 title: >
-    Debugging - local and remote
+    Definition of Quality Gate in sonarcloud
 decision_type: should
 belongs_to: devops
 status: _1_open
-responsible: TZA
-deadline: 2021-02-19
-todos:
-    - implement PoC
+responsible:
+deadline: 2021-03-02
 history:
     v1:
-        date: 2021-02-05
+        date: 2021-02-12
         comment: created initially
 ---
 
 ## Why is there need for such a decision?
+
+We need to define what our quality Standards for our Code are.
+
+At the moment it is set to default value.
+
+![sonarcloud quality gates](../assets/sonar-quality-gates.png)
 
 (Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
 must / should / team)

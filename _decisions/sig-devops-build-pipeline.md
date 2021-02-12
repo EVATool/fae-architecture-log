@@ -2,10 +2,10 @@
 type: decision
 acronym: sig-devops-delivery
 title: >
-    Application delivery - Tool Chain for Build Pipeline
+    Tool Chain for Build Pipeline - GitHub Actions vs. Jenkins
 decision_type: must
 belongs_to: devops
-status: _2_draft
+status: _3_sig_agreed
 todos:
     - implement and test PoC with GitHub-Actions
     - research Jenkins-Server solution
@@ -97,7 +97,7 @@ Unique features of using GitHub Actions:
 - GitHub Marketplace (over 4000 actions published since GitHub introduced CI tools)
 
 Unique features of Jenkins on the remote server:
-- Independant of GitHub (Microsoft)
+- Independent of GitHub (Microsoft)
 - Plugins are available for cashing support
 - To be researched
 
@@ -107,4 +107,4 @@ Our decision is GitHub Actions
 
 The initial setup of Jenkins do not fit the project at the moment and could lead to a time shortage
 (This decision could be re-evaluated in the future depending on where the project stands).
-The open source nature of GitHub Actions and the nature of the project make GitHub Actions the far more superior solution.
+The open source nature of GitHub Actions, and the nature of the project make GitHub Actions the far more superior solution.

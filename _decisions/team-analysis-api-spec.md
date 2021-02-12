@@ -4,7 +4,7 @@ acronym: team-analysis-api-spec
 title: API Specification for Team "Analysis"  
 decision_type: team
 belongs_to: analysis
-status: _1_open
+status: _3_team_agreed
 responsible: FOB
 deadline: 2021-02-12
 history:

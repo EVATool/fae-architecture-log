@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-api-database-rational
 title: >
-    Rational DB vs. NO-SQL DB
+    Relational db vs. NO-SQL DB
 decision_type: must
 belongs_to: apis
 status: _3_sig_agreed

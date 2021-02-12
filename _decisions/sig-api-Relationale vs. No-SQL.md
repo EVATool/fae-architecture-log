@@ -16,7 +16,7 @@ history:
         date: 2021-02-06
         comment: add Resolution
     v3:
-        date:2021-02-12
+        date: 2021-02-12
         comment: Reasons for the resolution
    
 ---

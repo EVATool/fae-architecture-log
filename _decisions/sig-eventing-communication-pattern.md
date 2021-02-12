@@ -1,14 +1,18 @@
 ---
 type: decision
-acronym: sig-eventing-pattern
+acronym: sig-eventing-communication-pattern
 title: >
-    Communication Pattern
+    Communication pattern for events is "Full-Payload" 
 decision_type: must
 belongs_to: eventing
-status: _4_stakeholder_checked
+status: _5_presented
 todos:
 responsible: KRU;DUZ
 deadline: 2021-02-05
+todos: 
+    - link to wiki page
+    - wiki page is currently empty - could e.g. briefly describe the pattern used, and reference the event
+     specifications 
 history:
     v1:
         date: 2021-01-13
@@ -25,6 +29,9 @@ history:
     v4:
         date: 2021-02-03
         comment: checked by stakeholder
+    v5: 
+        date: 2021-02-05
+        comment: presented        
 ---
 
 ## Why is there need for such a decision?

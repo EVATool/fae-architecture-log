@@ -2,12 +2,15 @@
 type: decision
 acronym: sig-devops-source-code-quality
 title: >
-    Tools and rulessets for code quality
+    SonarLint and SonarCloud are used as code-quality tools
 decision_type: must
 belongs_to: devops
-status: _2_draft
+status: _4_stakeholder_checked
 responsible: MHA
 deadline: 2021-02-12
+todos: 
+    - please add precise How-To for developers
+    - Wiki documentation should describe only the chosen options, not the ones not considered
 history:
     v1:
         date: 2021-01-21
@@ -18,6 +21,9 @@ history:
     v3:
         date: 2021-02-04
         comment: added way of evaluation
+    v4:
+        date: 2021-02-07
+        comment: resolution details / reasons for the resolution added
 ---
 
 ## Why is there need for such a decision?
@@ -44,25 +50,28 @@ All teams must focus on one code-quality-tool or rulesset.
 #### Manual Rulessets
 - Over-the-shoulder-code-review (fast project-integration, useful and fast results)
 - Pair programming (fast project-integration, useful and fast results)
+- Peer-reviews (fast project-integration, useful and fast results)
+  
+Further information on specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) page.
   
 #### Automatic Tools- and Rulessets
 - Find Bugs (IDE plugin)
 - Check Style (IDE plugin)
-- Gerrit (Open source, easy to use, useful features, can be combined with git)
 - SonarQube
     - Sonar Lint (Local Analysis IDE plugin)
     - SonarCloud (Free Open Source static code analysis cloud (quality profiles, git repository analysis, dashboard, workflows
       etc.))
     - SonarQube (Equals to SonarCloud, must be installed on own server, much effort, few advantages)
 
-More information on specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) page.
+Further information on specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) page.
 
 ## Alternatives not seriously considered
 
-There are many **medium/high-priced commercial** code-quality-tools, which can't be used in this project:
+There are many **medium/high-priced commercial** or just to laborious code-quality-tools, which can't be used in this project:
 - Helix Core
 - Klocwork
 - Upsource
+- Gerrit (Positive: connectable with git, negative: check of every single commit, just too old)  
 - ...
 
 ## How is this decision evaluated?
@@ -73,12 +82,23 @@ some basic "bad-code", which will be analyzed with this tools. The best performi
  
 ## Resolution Details
 
-tbd...
-Complete Resolution Details can be found [here](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality).
+The manual methods mentioned before are suitable for the normal developer's everyday life, however, not as a main procedure
+for ensuring source-code-quality. For this reason, they were not considered further for this decision.
 
+The general focus instead was more on the automatic code-quality tools with their rulessets. Here, the previously 
+mentioned code-quality tools were tested with the help of a deliberately poorly written code. The results can be seen on the [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) 
+page.
 
+It turned out that SonarLint is much more accurate and compact than the other tools. In combination with the available 
+cloud-based code-quality tools, a permanent static code analysis can be guaranteed. The resulting results can be viewed 
+in a unified dashboard.
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
+In general, the results from SonarLint look much more detailed than from the other tools. The decision to use SonarCloud 
+as the central database instead of SonarQube is based on the fact that SonarCloud is much easier to implement into the 
+project, maintenance is also much easier. Both cloud tools have the same functionality, which is why the decision was 
+ultimately made to use **SonarLint** as a local IDE plugin and **SonarCloud** as a central database.
+
+
 

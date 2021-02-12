@@ -4,7 +4,7 @@ acronym: team-requirements-api-spec
 title: API Specification for Team "Requirements"  
 decision_type: team
 belongs_to: requirements
-status: _1_open
+status: _3_team_agreed
 responsible: JSP;MTO
 deadline: 2021-02-12
 history:
@@ -50,8 +50,8 @@ n/a
 
 ## Resolution Details
 
-(please add link to wiki)
+[Requirements API specification](https://github.com/EVATool/evatool-backend/wiki/Requirements-API-specification)
 
 ## Reasons for the resolution
 
-(any reasoning and explanations => in the wiki)
+Any reasoning and explanations => in the [wiki](https://github.com/EVATool/evatool-backend/wiki/Requirements-API-specification)

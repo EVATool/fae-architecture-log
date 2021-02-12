@@ -1,14 +1,15 @@
 ---
 type: decision
 acronym: sig-api-Documentation 
-title: >
-    API-Documentation
+title: API-Documentation is done using Swagger
 decision_type: must
 belongs_to: apis
-status: _5_presented
+status: _4_stakeholder_checked
 todos:
+    - please add how-to for developers
+    - merge with sig-api-documentation-standard.md - there seems to be some duplication
 responsible: FOB
-deadline: 2021-02-05
+deadline: 2021-02-12
 history:
     v1:
         date: 2021-01-13
@@ -28,6 +29,9 @@ history:
     v6:
         date: 2021-02-01
         comment: add Resolution
+    v7:    
+        date: 2021-02-12
+        comment: back to 4, to be presented again with how-to
 ---
 
 ## Why is there need for such a decision?
@@ -72,3 +76,13 @@ Our team is using the tool Swagger. Swagger offers an library for our Spring-Boo
 * Assistant tool with high usability 
 
 Mainly we choosed this resoution due to its large offers of transparent informations in contrast to Spring Rest Docs and its JSON-format.
+
+For our code documentation, each team will need to use at least the following annotations:
+@Api(description = "txt") and @ApiOperation (value = "txt")
+
+@Api should describe the respective rest-controller class with one sentence.
+
+@ApiOperation should describe the respective method in the rest-controller class with a record. 
+
+More informations: [Swagger Docs](https://docs.swagger.io/swagger-core/current/apidocs/)
+

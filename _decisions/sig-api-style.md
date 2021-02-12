@@ -5,11 +5,11 @@ title: >
     API Style is REST Level 3  
 decision_type: must
 belongs_to: apis
-status: _5_presented
+status: _4_stakeholder_checked
 responsible: JLÜ;JSP
-deadline: 2021-01-29
+deadline: 2021-02-12
 todos:
-   
+    - How-to for link generation should be added 
 history:
     v1:
         date: 2021-01-11
@@ -29,6 +29,9 @@ history:
     v6:
         date: 2021-01-28
         comment: add Resolution
+    v7:
+        date: 2021-02-12
+        comment: state back to 4, how-to needed
 ---
 
 ## Why is there need for such a decision?

@@ -1,11 +1,11 @@
 ---
 type: decision
-acronym: sig-api-database
+acronym: sig-api-database-rational
 title: >
-    Rational DB vs. NO-SQL DB
+    Relational db vs. NO-SQL DB
 decision_type: must
-belongs_to: API
-status: _5_presented
+belongs_to: apis
+status: _3_sig_agreed
 responsible: MTO;FOB
 deadline: 2021-02-12
 history:
@@ -45,9 +45,9 @@ This decision based on the experience and knowledge of the students.
  
 ## Resolution Details
 
-we will choose an Relational Database. Most of the students works with Relational DB! We are already use a temporary in memory database (h2).
+Many projects use a Relational DB! We are already use it temporary in the integrated memory database (h2).
 
 ## Reasons for the resolution
 
-Our current Spring-Boot project use an in memory database. So we will continue using an relational database.
+Our current Spring-Boot project use an in memory database. So we will continue using relational database.
 

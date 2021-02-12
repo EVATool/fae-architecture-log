@@ -4,13 +4,16 @@ acronym: team-variants-event-spec
 title: Event Specification for Team "Variants"  
 decision_type: team
 belongs_to: variants
-status: _1_open
-responsible: 
+status: _3_team_agreed
+responsible: KRU
 deadline: 2021-02-12
 history:
     v1:
         date: 2021-02-05
         comment: created initially
+    v2: 
+        date: 2021-02-11
+        comment: added resolution and reason of the resolution
 ---
 
 ## Why is there need for such a decision?
@@ -38,8 +41,8 @@ n/a
 
 ## Resolution Details
 
-(please add link to wiki)
+The Resolution of the [Variant Event-Specification](https://github.com/EVATool/evatool-backend/wiki/Variants-Events-Specification) can be found in the wiki.
 
 ## Reasons for the resolution
 
-(any reasoning and explanations => in the wiki)
+Detailed Reasons for this resolution of the [Variant Event-Specification](https://github.com/EVATool/evatool-backend/wiki/Variants-Events-Specification) can be found in the wiki.

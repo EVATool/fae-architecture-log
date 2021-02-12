@@ -5,11 +5,9 @@ title: >
     Domain model for team "Analysis"  
 decision_type: team
 belongs_to: analysis
-status: _2_draft
+status: _3_team_agreed
 responsible: MHA;FOB
 deadline: 2021-01-29
-todos:
-    - can this be moved to _3_team_agreed?
 history:
     v1:
         date: 2021-01-08

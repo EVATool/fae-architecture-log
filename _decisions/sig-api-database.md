@@ -1,13 +1,16 @@
 ---
 type: decision
 acronym: sig-api-database
-title: >
-    Choice of database
+title: MYSQL used as database
 decision_type: must
-belongs_to: API
+belongs_to: apis
 status: _3_sig_agreed
 responsible: MTO;FOB
 deadline: 2021-02-12
+todos:
+    - please add wiki entry with the prefix convention (see below)
+    - please add a How-To for taking the DB into use (or implement directly)
+    - we also need a How-To for auch mixed configuration, Dev = H2, prod = MySQL
 history:
     v1:
         date: 2021-01-13
@@ -49,11 +52,17 @@ Commercial database-systems are unsuitable for open source projects.
  
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+After implementing the concept, the following findings emerged: 
 
+Both database systems behaved the same. There were no noticeable differences. In our opinion, this is more a matter of taste. In the end we decided to use the MySQL databases. Due to our experience with this database, this decision was easy for us. 
+
+Tables get the name of the dev team as Prefix:
+- ANA_TableName 
+- REQ_TableName
+- VAR_TableName
+- IMP_TableName
 
 ## Reasons for the resolution
+Based on personal experiences and testing both systems. The better choice is Mysql.
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
 

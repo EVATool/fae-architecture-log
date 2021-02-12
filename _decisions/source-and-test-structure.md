@@ -3,14 +3,11 @@ type: decision
 acronym: source-and-test-structure
 title: Source code and test structure (and how to run applications and tests)
 decision_type: must
-belongs_to: 
-status: _1_open
+belongs_to: HBU
+status: _2_draft
 responsible: 
 deadline: 2021-02-19
 todos: 
-    - description how to organize source code and pom.xml in the wiki
-    - how-to for developers - how to start application, how to run tests
-    - implement a central starting point for unit tests
 history:
     v1:
         date: 2021-02-19
@@ -37,10 +34,9 @@ n/a
 
 Based on the group discussions.
 
- 
 ## Resolution Details
 
-(add wiki link here)
+[Wiki](https://github.com/EVATool/evatool-backend/wiki/source-and-test-structure)
 
 ## Reasons for the resolution
 

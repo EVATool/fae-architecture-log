@@ -1,7 +1,8 @@
 ---
 type: decision
 acronym: sig-api-database
-title: MYSQL used as database
+title: >
+    MYSQL used as database
 decision_type: must
 belongs_to: apis
 status: _3_sig_agreed

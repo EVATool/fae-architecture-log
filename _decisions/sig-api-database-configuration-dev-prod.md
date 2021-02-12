@@ -1,7 +1,8 @@
 ---
 type: decision
-acronym: database-configuration-dev-prod
-title: Configuration database state dev and prod
+acronym: sig-api-database-configuration-dev-prod
+title: > 
+    Configuration database state dev and prod
 decision_type: must
 belongs_to: apis
 status: _2_draft

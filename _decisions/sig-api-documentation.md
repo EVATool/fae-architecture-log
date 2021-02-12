@@ -75,6 +75,8 @@ Our team is using the tool Swagger. Swagger offers an library for our Spring-Boo
 * No further programming skill is needed
 * Assistant tool with high usability 
 
+[wiki](https://github.com/EVATool/evatool-backend/wiki/Swagger-Docu)
+
 Mainly we choosed this resoution due to its large offers of transparent informations in contrast to Spring Rest Docs and its JSON-format.
 
 For our code documentation, each team will need to use at least the following annotations:

@@ -88,6 +88,7 @@ the decision:
 ## Resolution Details
 
 The Decision is that Rest must be used as api style. In specific Rest level 3 must be used.
+An example of how to implement can be found in the PoC [Rest Level 3](https://github.com/EVATool/evatool-poc/tree/main/RestLv3).
 
 
 ## Reasons for the resolution

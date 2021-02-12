@@ -1,6 +1,6 @@
 ---
 type: decision
-acronym: sig-devops-delivery
+acronym: sig-devops-build-pipeline
 title: >
     Tool Chain for Build Pipeline - GitHub Actions vs. Jenkins
 decision_type: must

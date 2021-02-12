@@ -1,6 +1,6 @@
 ---
 type: decision
-acronym: sig-devops-buildtools
+acronym: sig-devops-maven-vs-gradle
 title: >
     Maven is used as build tool 
 decision_type: must

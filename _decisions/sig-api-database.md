@@ -1,28 +1,30 @@
 ---
 type: decision
 acronym: sig-api-database
-title: MYSQL used as database
+title: >
+    MYSQL used as database
 decision_type: must
 belongs_to: apis
 status: _3_sig_agreed
 responsible: MTO;FOB
 deadline: 2021-02-12
-todos:
-    - please add wiki entry with the prefix convention (see below)
-    - please add a How-To for taking the DB into use (or implement directly)
-    - we also need a How-To for auch mixed configuration, Dev = H2, prod = MySQL
 history:
     v1:
         date: 2021-01-13
         comment: created initially
-    v1:
+    v2:
         date: 2021-01-28
         comment: need for decision
+    v3:
+        date: 2021-02-12
+        comment: edit Resolution Details, todos
+
+
 ---
 
 ## Why is there need for such a decision?
 
-There are many different database systems for different purposes. It is therefore important to find a database system that is useful for our project.
+There are many database systems for different purposes. It is therefore important to find a database system that is useful for our project.
 A database is needed to centrally manage the data. This database allows us to store data persistently.
 
 
@@ -56,11 +58,11 @@ After implementing the concept, the following findings emerged:
 
 Both database systems behaved the same. There were no noticeable differences. In our opinion, this is more a matter of taste. In the end we decided to use the MySQL databases. Due to our experience with this database, this decision was easy for us. 
 
-Tables get the name of the dev team as Prefix:
-- ANA_TableName 
-- REQ_TableName
-- VAR_TableName
-- IMP_TableName
+[Database table prefix convention.](https://github.com/EVATool/evatool-backend/wiki/Database-table-prefix-convention)
+
+[Setup spring database connection.](https://github.com/EVATool/evatool-backend/wiki/Setup-spring-database-connection)
+
+[Database version controlling with Flyway.](https://github.com/EVATool/evatool-backend/wiki/Database-version-controlling-with-Flyway)
 
 ## Reasons for the resolution
 Based on personal experiences and testing both systems. The better choice is Mysql.

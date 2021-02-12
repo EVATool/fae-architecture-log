@@ -4,13 +4,10 @@ acronym: sig-devops-api-testing
 title: API Testing
 decision_type: must
 belongs_to: devops
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: HBU
 deadline: 2021-02-12
 todos: 
-    - How-To in the wiki could be a little more explanatory - e.g. with links to code in team Impact
-    - link to decision [conventions-for-rest-return-codes] to be added
-    - present again with some hands-on intro for your fellow developers
 history:
     v1:
         date: 2021-01-13
@@ -43,6 +40,7 @@ API calls must be tested like any other runnable code in a project.
 - [Spring Boot Testing](https://www.baeldung.com/spring-boot-testing)
 - [RESTful API Tutorial](https://restfulapi.net/)
 - [Entity to DTO conversion in Spring](https://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application )
+- [Rest Return Codes](https://solidgeargroup.com/en/best-practices-rest-api/)
 
 ## Viable Options
 

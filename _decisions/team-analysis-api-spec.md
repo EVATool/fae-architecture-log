@@ -5,7 +5,7 @@ title: API Specification for Team "Analysis"
 decision_type: team
 belongs_to: analysis
 status: _1_open
-responsible: 
+responsible: FOB
 deadline: 2021-02-12
 history:
     v1:

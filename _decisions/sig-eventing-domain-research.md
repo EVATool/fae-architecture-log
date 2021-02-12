@@ -66,14 +66,6 @@ Therefore, it must also be evaluated whether the methods can be carried out onli
 Finally, a tool is needed that supports collaborative online work.
 
 
-<!--(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.)-->
-
- 
 ## Resolution Details
 
 We decided to use Domain Storytelling because it is best suited for domain modeling on remote. See further details

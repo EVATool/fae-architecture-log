@@ -8,6 +8,9 @@ belongs_to: devops
 status: _4_stakeholder_checked
 responsible: MHA
 deadline: 2021-02-12
+todos: 
+    - please add precise How-To for developers
+    - Wiki documentation should describe only the chosen options, not the ones not considered
 history:
     v1:
         date: 2021-01-21

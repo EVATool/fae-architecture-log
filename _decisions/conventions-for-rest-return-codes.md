@@ -6,12 +6,12 @@ decision_type: must
 belongs_to: apis
 status: _1_open
 responsible: 
-deadline: 2021-02-19
+deadline: 2021-02-12
 todos: 
     - describe conventions for HTTP return codes
 history:
     v1:
-        date: 2021-02-19
+        date: 2021-02-12
         comment: created initially
 ---
 

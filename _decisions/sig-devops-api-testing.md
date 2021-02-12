@@ -4,11 +4,13 @@ acronym: sig-devops-api-testing
 title: API Testing
 decision_type: must
 belongs_to: devops
-status: _5_presented
+status: _4_stakeholder_checked
 responsible: HBU
-deadline: 2021-02-05
+deadline: 2021-02-12
 todos: 
-    - Ask: Decision - conventions for returned http status and error handling?
+    - How-To in the wiki could be a little more explanatory - e.g. with links to code in team Impact
+    - link to decision [conventions-for-rest-return-codes] to be added
+    - present again with some hands-on intro for your fellow developers
 history:
     v1:
         date: 2021-01-13
@@ -24,7 +26,10 @@ history:
         comment: added sources
     v5: 
         date: 2021-02-05
-        comment: presented                
+        comment: presented        
+    v6: 
+        date: 2021-02-12
+        comment: state set back to 4            
 ---
 
 ## Why is there need for such a decision?

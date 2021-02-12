@@ -2,7 +2,7 @@
 type: decision
 acronym: domain-model
 title: We maintain a high-level global "Domain Story Telling" model
-decision_type: must
+decision_type: must 
 belongs_to: eventing
 status: _2_draft
 todos:

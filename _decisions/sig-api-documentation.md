@@ -1,14 +1,15 @@
 ---
 type: decision
 acronym: sig-api-Documentation 
-title: >
-    API-Documentation
+title: API-Documentation is done using Swagger
 decision_type: must
 belongs_to: apis
-status: _5_presented
+status: _4_stakeholder_checked
 todos:
+    - please add how-to for developers
+    - merge with sig-api-documentation-standard.md - there seems to be some duplication
 responsible: FOB
-deadline: 2021-02-05
+deadline: 2021-02-12
 history:
     v1:
         date: 2021-01-13
@@ -28,6 +29,9 @@ history:
     v6:
         date: 2021-02-01
         comment: add Resolution
+    v7:    
+        date: 2021-02-12
+        comment: back to 4, to be presented again with how-to
 ---
 
 ## Why is there need for such a decision?

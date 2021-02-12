@@ -5,7 +5,7 @@ title: Conventions for REST return codes and error handling
 decision_type: must
 belongs_to: apis
 status: _1_open
-responsible: 
+responsible: JLÜ
 deadline: 2021-02-12
 todos: 
     - describe conventions for HTTP return codes

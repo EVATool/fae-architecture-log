@@ -5,12 +5,9 @@ title: >
     SonarLint and SonarCloud are used as code-quality tools
 decision_type: must
 belongs_to: devops
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: MHA
 deadline: 2021-02-12
-todos: 
-    - please add precise How-To for developers
-    - Wiki documentation should describe only the chosen options, not the ones not considered
 history:
     v1:
         date: 2021-01-21
@@ -41,10 +38,9 @@ All teams must focus on one code-quality-tool or rulesset.
 - [What is Static Analysis? And What Is Static Code Analysis?](https://www.perforce.com/blog/sca/what-static-analysis)
 - [Why Source Code Quality Is Crucial in Software Product Development](https://www.rabitse.com/blog/why-source-code-quality-is-crucial/)
 - [Top 5 Open-Source and Commercial Secure Code Review Tools](https://resources.infosecinstitute.com/topic/top-5-open-source-and-commercial-secure-code-review-tools/)
-- [SonarCloud](https://sonarcloud.io/)
 - [SonarQube](https://www.sonarqube.org/)
 - [SonarQube Documentation + SonarLint](https://docs.sonarqube.org/latest/)
-
+- [SonarCloud](https://sonarcloud.io/)
 
 ## Viable Options
 #### Manual Rulessets
@@ -55,10 +51,10 @@ All teams must focus on one code-quality-tool or rulesset.
 Further information on specific [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) page.
   
 #### Automatic Tools- and Rulessets
-- Find Bugs (IDE plugin)
-- Check Style (IDE plugin)
+- FindBugs (IDE plugin)
+- CheckStyle (IDE plugin)
 - SonarQube
-    - Sonar Lint (Local Analysis IDE plugin)
+    - SonarLint (Local Analysis IDE plugin)
     - SonarCloud (Free Open Source static code analysis cloud (quality profiles, git repository analysis, dashboard, workflows
       etc.))
     - SonarQube (Equals to SonarCloud, must be installed on own server, much effort, few advantages)
@@ -86,12 +82,14 @@ The manual methods mentioned before are suitable for the normal developer's ever
 for ensuring source-code-quality. For this reason, they were not considered further for this decision.
 
 The general focus instead was more on the automatic code-quality tools with their rulessets. Here, the previously 
-mentioned code-quality tools were tested with the help of a deliberately poorly written code. The results can be seen on the [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) 
-page.
+mentioned code-quality tools were tested with the help of a deliberately poorly written code. Some of the results can be seen on 
+the [wiki](https://github.com/EVATool/evatool-backend/wiki/Tools-and-Rulessets-for-Source-Code-Quality) page. It should be 
+mentioned here that the two tools FindBugs and CheckStyle did not achieve the desired results. For 
+this reason, these tools were not considered further.
 
 It turned out that SonarLint is much more accurate and compact than the other tools. In combination with the available 
 cloud-based code-quality tools, a permanent static code analysis can be guaranteed. The resulting results can be viewed 
-in a unified dashboard.
+in a unified [dashboard](https://sonarcloud.io).
 
 ## Reasons for the resolution
 

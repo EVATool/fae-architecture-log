@@ -6,7 +6,7 @@ title: >
 decision_type: must
 belongs_to: devops
 status: _3_sig_agreed;
-responsible: JBS
+responsible: JSP
 deadline: 2021-02-19
 history:
     v1:

@@ -5,7 +5,7 @@ title: >
     Logging Strategy
 decision_type: must
 belongs_to: devops
-status: _3_sig_agreed;
+status: _3_sig_agreed
 responsible: JSP
 deadline: 2021-02-19
 history:

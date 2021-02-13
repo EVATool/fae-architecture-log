@@ -6,7 +6,7 @@ title: >
 decision_type: should
 belongs_to: devops
 status: _1_open
-responsible:
+responsible: MHA
 deadline: 2021-03-02
 history:
     v1:

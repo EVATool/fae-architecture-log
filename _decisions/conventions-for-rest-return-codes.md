@@ -6,7 +6,7 @@ decision_type: must
 belongs_to: apis
 status: _1_open
 responsible: JLÜ
-deadline: 2021-02-12
+deadline: 2021-02-19
 todos: 
     - describe conventions for HTTP return codes
 history:

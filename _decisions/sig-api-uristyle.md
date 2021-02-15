@@ -5,9 +5,9 @@ title: >
     The Uri style is lower camel case
 decision_type: must
 belongs_to: apis
-status: _3_sig_agreed
+status: _4_stakeholder_checked
 responsible: JLÜ
-deadline: 2021-02-12
+deadline: 2021-02-19
 history:
     v1:
         date: 2021-02-12

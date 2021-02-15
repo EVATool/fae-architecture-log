@@ -39,7 +39,7 @@ No evaluation needed.
  
 ## Resolution Details
 
-(add wiki link here)
+The resolution details can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/httpreturncodes)
 
 ## Reasons for the resolution
 

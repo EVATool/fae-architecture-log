@@ -96,7 +96,7 @@ in a unified [dashboard](https://sonarcloud.io).
 In general, the results from SonarLint look much more detailed than from the other tools. The decision to use SonarCloud 
 as the central database instead of SonarQube is based on the fact that SonarCloud is much easier to implement into the 
 project, maintenance is also much easier. Both cloud tools have the same functionality, which is why the decision was 
-ultimately made to use **SonarLint** as a local IDE plugin and **SonarCloud** as a central database.
+ultimately made to use ***SonarLint*** as a local IDE plugin and ***SonarCloud*** as a central database.
 
 
 

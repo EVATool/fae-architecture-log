@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-devops-sonar-quality-gate
 title: >
-    Definition of Quality Gates in sonarcloud
+    Definition of Quality Gates in Sonarcloud
 decision_type: should
 belongs_to: devops
 status: _3_sig_agreed
@@ -21,7 +21,7 @@ history:
 
 We need to define what our quality standards for our project are.
 
-At the moment it is set to default value.
+At the moment it is set to a default value.
 
 ## Additional sources for better understanding the background
 

@@ -5,7 +5,7 @@ title: >
     Definition of Quality Gate in sonarcloud
 decision_type: should
 belongs_to: devops
-status: _3_sig_agreed
+status: _1_open
 responsible: MHA
 deadline: 2021-02-19
 history:

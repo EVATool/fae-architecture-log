@@ -2,17 +2,18 @@
 type: decision
 acronym: sig-devops-sonar-quality-gate
 title: >
-    Definition of Quality Gate in sonarcloud
+    Definition of Quality Gates in sonarcloud
 decision_type: should
 belongs_to: devops
-status: _1_open
+status: _3_sig_agreed
 responsible: MHA
 deadline: 2021-02-19
 history:
     v1:
         date: 2021-02-12
         comment: created initially
-    v2: date: 2021-02-17
+    v2: 
+        date: 2021-02-17
         comment: added way of evaluation / resolution details
 ---
 

@@ -1,8 +1,8 @@
 ---
 type: decision
-acronym: sig-devops-sonar-quality-gates
+acronym: sig-devops-sonar-quality-gate
 title: >
-    Definition of Quality Gates in sonarcloud
+    Definition of Quality Gate in sonarcloud
 decision_type: should
 belongs_to: devops
 status: _3_sig_agreed

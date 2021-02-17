@@ -16,18 +16,29 @@ history:
 ---
 
 ## Why is there need for such a decision?
+Currently we use two different databases (MySQL and H2), with different configurations. This decision is to ensure that we use only one database. 
 
 ## Additional sources for better understanding the background
+[MySQL](https://www.mysql.com/de/)
+[H2](https://www.h2database.com/html/main.html)
+[DB config](https://evatool.github.io/fae-architecture-log/decisions/sig-api-database.html)
 
 ## Viable Options
+MySQL
+PostgreSQL
+H2
 
 ## Alternatives not seriously considered
+Oracle DB
+IBM DB2
 
 ## How is this decision evaluated?
+This decision depends on the database.
 
 ## Resolution Details
+To avoid possible errors, we will use only one database.
 
 ## Reasons for the resolution
-
+We will use MySQL DB as Database for dev and prod.
 
 

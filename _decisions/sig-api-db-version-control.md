@@ -5,9 +5,10 @@ title: >
     Database version control
 decision_type: must
 belongs_to: apis
-status: _2_draft
+status: _5_presented
 responsible: MTO;FOB
 deadline: 2021-02-19
+implemented: false
 history:
     v1:
         date: 2021-02-06

@@ -7,7 +7,11 @@ decision_type: must
 belongs_to: apis
 status: _2_draft
 responsible: MTO;FOB
-deadline: 2021-02-19
+deadline: 2021-03-02
+todos: 
+    - options Docker vs. dual database (MySql + H2)
+    - it would be strong benefit if someone could clone the repo and get started right away (with H2)
+    - trial implementation needed
 history:
     v1:
         date: 2021-02-12

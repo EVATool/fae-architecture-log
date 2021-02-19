@@ -15,6 +15,9 @@ history:
     v2:
         date: 2021-02-19
         comment: add link to wiki
+    v3:
+        date: 2021-02-19
+        comment: change decision due to change in project structure
 ---
 
 ## Why is there need for such a decision?
@@ -29,7 +32,7 @@ n/a
 
 ## Viable Options
 
-* add a global module to store the events  
+* the domain packages include a public package for events
 
 
 ## Alternatives not seriously considered
@@ -44,8 +47,12 @@ n/a
  
 ## Resolution Details
 
-how to use and to store the events can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/eventstructure).
+Due to the change in the project structure a different approach for events is needed.
+Instead of having a 'global' module to save  the events. The events now will be stored in the domain specific packages.
+This package must be public, so the other domains can access the defined events.
+
 
 
 ## Reasons for the resolution
 
+n/a

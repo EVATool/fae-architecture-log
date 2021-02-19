@@ -2,7 +2,7 @@
 type: decision
 acronym: location-for-events
 title: >
-    Events need to be defined in module global
+    Events need to be defined in a public package within the domain
 decision_type: must
 belongs_to: eventing
 status: _2_draft

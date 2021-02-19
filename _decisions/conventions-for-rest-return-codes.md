@@ -4,11 +4,11 @@ acronym: conventions-for-rest-return-codes
 title: Conventions for REST return codes and error handling
 decision_type: must
 belongs_to: apis
-status: _1_open
+status: _2_draft
 responsible: JLÜ
 deadline: 2021-02-19
 todos: 
-    - describe conventions for HTTP return codes
+    
 history:
     v1:
         date: 2021-02-12

@@ -8,8 +8,8 @@ belongs_to: eventing
 status: _5_presented
 responsible: JLÜ
 deadline: 2021-02-19
-    todos: 
-        - create wiki
+    todos:
+        -fill wiki with content
         - try out with new structure
 history:
     v1:

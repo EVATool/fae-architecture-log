@@ -8,15 +8,15 @@ status: _5_presented
 responsible: JLÜ
 deadline: 2021-02-19
 todos: 
-    - 404 needs to be covered in wiki (automatically if the URI is not there, if entity not there, then we need to
-     throw)
-    - explain 405 as "method is not allowed", as e.g. "DELETE /requirements". Needs not to be implemented by the
-        developer.  
-    - 422 for all kind of semantic errors in the dto
-    - 400 for generic client 
-    - 403 is thrown by keycloak
-    - 409 we don't need currently (conflict), might come in the future
-    - 204 is not used (use 200 or 201 instead)
+        - 404 needs to be covered in wiki (automatically if the URI is not there, if entity not there, then we need to
+         throw)
+        - explain 405 as "method is not allowed", as e.g. "DELETE /requirements". Needs not to be implemented by the
+            developer.  
+        - 422 for all kind of semantic errors in the dto
+        - 400 for generic client 
+        - 403 is thrown by keycloak
+        - 409 we don't need currently (conflict), might come in the future
+        - 204 is not used (use 200 or 201 instead)
 history:
     v1:
         date: 2021-02-12

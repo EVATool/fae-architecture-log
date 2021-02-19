@@ -5,9 +5,11 @@ title: >
     Development model is "Single Repo"
 decision_type: must
 belongs_to: devops
-status: _3_sig_agreed
+status: _5_presented
 responsible: JSP;SBE
 deadline: 2021-01-29
+todos: 
+    - please adapt the text (decision now covers only the repo, not the project structure)
 history:
     v1:
         date: 2021-01-15

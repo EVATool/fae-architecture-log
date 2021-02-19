@@ -5,9 +5,10 @@ title: >
     MYSQL used as database
 decision_type: must
 belongs_to: apis
-status: _3_sig_agreed
+status: _5_presented
 responsible: MTO;FOB
-deadline: 2021-02-12
+deadline: 2021-02-19
+implemented: false
 history:
     v1:
         date: 2021-01-13

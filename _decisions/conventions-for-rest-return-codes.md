@@ -7,8 +7,6 @@ belongs_to: apis
 status: _5_presented
 responsible: JLÜ
 deadline: 2021-02-19
-todos:
-       
 history:
     v1:
         date: 2021-02-12

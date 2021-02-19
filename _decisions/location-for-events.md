@@ -5,9 +5,12 @@ title: >
     Events need to be defined in a public package within the domain
 decision_type: must
 belongs_to: eventing
-status: _2_draft
+status: _5_presented
 responsible: JLÜ
 deadline: 2021-02-19
+    todos: 
+        - create wiki
+        - try out with new structure
 history:
     v1:
         date: 2021-01-08

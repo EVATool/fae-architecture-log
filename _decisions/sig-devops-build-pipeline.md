@@ -13,6 +13,7 @@ todos:
     - create wiki
 responsible: TZA;HBU
 deadline: 2021-02-19
+implemented: partially
 history:
     v1:
         date: 2021-01-13

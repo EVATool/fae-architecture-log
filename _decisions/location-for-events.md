@@ -5,55 +5,47 @@ title: >
     Events need to be defined in module global
 decision_type: must
 belongs_to: eventing
-status: _1_open
+status: _2_draft
 responsible: JLÜ
 deadline: 2021-02-19
 history:
     v1:
         date: 2021-01-08
         comment: created initially
+    v2:
+        date: 2021-02-19
+        comment: add link to wiki
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+Events used by the domains need to be visible for the other domains. In order to achieve this, a not domain specific structure
+has to handle the events. 
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
+n/a
 
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
+* add a global module to store the events  
 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
+n/a
 
 
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
-
+n/a
  
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+how to use and to store the events can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/eventstructure).
 
 
 ## Reasons for the resolution
-
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
 

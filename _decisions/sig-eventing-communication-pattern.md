@@ -9,10 +9,7 @@ status: _5_presented
 todos:
 responsible: KRU;DUZ
 deadline: 2021-02-05
-todos: 
-    - link to wiki page
-    - wiki page is currently empty - could e.g. briefly describe the pattern used, and reference the event
-     specifications 
+todos:
 history:
     v1:
         date: 2021-01-13
@@ -31,7 +28,10 @@ history:
         comment: checked by stakeholder
     v5: 
         date: 2021-02-05
-        comment: presented        
+        comment: presented
+    v6:
+        date: 2021-02-19
+        comment: completed todos
 ---
 
 ## Why is there need for such a decision?
@@ -65,6 +65,8 @@ The system is based on a modulith design-pattern and all subsystems should commu
 ## Resolution Details
 
 We choose the pattern "Full-Payload" (Event carried state Transfer) for the internal communication, between the components.
+
+General Information and an Example can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/Communication-Pattern-is-Full-Payload).
 
 ## Reasons for the resolution
 

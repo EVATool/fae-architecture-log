@@ -23,6 +23,9 @@ history:
     v3:
         date: 2021-01-22
         comment: added a resolution and resolution details
+    v4:
+        date: 2021-02-19
+        comment: completed todos and added link to wiki
 ---
 
 ## Why is there need for such a decision?
@@ -75,6 +78,8 @@ The proof of concepts are designed to be very similar to the actual use case. So
 We recommend **Spring Eventing** as a solid default, since it is already included in the spring-web libraries we already use.
 RabbitMQ presents a viable alternative, should the need arise for a broker based eventing solution 
 (docker container highly recommended). 
+
+General Information and Code Examples can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/Spring-Eventing).
 
 ## Reasons for the resolution
 

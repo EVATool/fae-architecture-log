@@ -1,15 +1,13 @@
 ---
 type: decision
 acronym: sig-devops-debugging
-title: >
-    Debugging - local and remote
+title: Local Debugging using Docker
 decision_type: should
 belongs_to: devops
-status: _2_draft
+status: _5_presented
 responsible: TZA
 deadline: 2021-02-19
 todos:
-    - implement remote PoC
 history:
     v1:
         date: 2021-02-05

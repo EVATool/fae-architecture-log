@@ -2,10 +2,10 @@
 type: decision
 acronym: single-repo-development
 title: >
-    Development model is "Single Repo" / "Single Spring Project" in the evatool-backend Repository
+    Development model is "Single Repo"
 decision_type: must
 belongs_to: devops
-status: _5_presented
+status: _3_sig_agreed
 responsible: JSP;SBE
 deadline: 2021-01-29
 history:
@@ -24,6 +24,9 @@ history:
     v5: 
         date: 2021-01-29
         comment: done todos
+    v6: 
+        date: 2021-02-19
+        comment: rename decision
 ---
 
 ## Why is there need for such a decision?

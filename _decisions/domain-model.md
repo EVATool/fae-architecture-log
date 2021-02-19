@@ -4,7 +4,7 @@ acronym: domain-model
 title: We maintain a high-level global "Domain Story Telling" model
 decision_type: must 
 belongs_to: eventing
-status: _3_sig_agreed
+status: _5_presented
 todos:
 responsible: KRU;DUZ
 deadline: 2021-02-19

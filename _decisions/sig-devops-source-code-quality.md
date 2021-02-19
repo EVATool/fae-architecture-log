@@ -5,7 +5,7 @@ title: >
     SonarLint and SonarCloud are used as code-quality tools
 decision_type: must
 belongs_to: devops
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: MHA
 deadline: 2021-02-12
 todos: 

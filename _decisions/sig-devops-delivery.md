@@ -5,12 +5,8 @@ title: >
     Application delivery - Tool Chain for Build Pipeline
 decision_type: must
 belongs_to: devops
-status: _2_draft
+status: _5_presented
 todos:
-    - implement and test PoC with GitHub-Actions
-    - research Jenkins-Server solution
-    - get access to server from UID (with SSH)
-    - create wiki
 responsible: TZA;HBU
 deadline: 2021-02-19
 history:
@@ -75,14 +71,10 @@ The decision `devops-testing-automation` was a short-term solution to enable tes
 - The open source nature of the project should not be put in jeopardy
 - Multiple build jobs concurrently
 - Solution must be able to listen to GitHub push event (full automation)
-- Jenkins: Check if plugins required
-- Jenkins: Check available GitHub events
 
 ## Resolution Details
 
 [Wiki](https://github.com/EVATool/evatool-backend/wiki/DevOps-Delivery)
-
-TODO: make CI work with UID server...
 
 Unique features of using GitHub Actions:
 - No need to worry about infrastructure and scaling/running it
@@ -99,7 +91,6 @@ Unique features of using GitHub Actions:
 Unique features of Jenkins on the remote server:
 - Independant of GitHub (Microsoft)
 - Plugins are available for cashing support
-- To be researched
 
 Our decision is GitHub Actions
 

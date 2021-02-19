@@ -4,7 +4,7 @@ acronym: team-impact-api-spec
 title: API Specification for Team "Impact"  
 decision_type: team
 belongs_to: impact
-status: _2_draft
+status: _5_presented
 responsible: HBU;TZA
 deadline: 2021-02-12
 todos:

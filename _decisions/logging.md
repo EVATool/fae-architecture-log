@@ -8,6 +8,10 @@ belongs_to: devops
 status: _3_sig_agreed
 responsible: JSP
 deadline: 2021-02-19
+implemented: partially
+todos:
+    - enhance logging style to "GET /uri"
+    - a bit more detailed description for the logging
 history:
     v1:
         date: 2021-02-13

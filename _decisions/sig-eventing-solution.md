@@ -7,10 +7,6 @@ decision_type: must
 belongs_to: eventing
 status: _5_presented
 todos:
-    - status is not "open" anymore, as there is some content available
-    - please update the title, so that the decision made is clear from it
-    - PoC description to be added
-    - documentation to be added in Github wiki
 responsible: AKO
 deadline: 2021-01-22
 history:

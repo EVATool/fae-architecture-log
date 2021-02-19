@@ -9,6 +9,7 @@ status: _5_presented
 todos: 
 responsible: HBU
 deadline: 2021-01-29
+implemented: partially
 history:
     v1:
         date: 2021-01-13

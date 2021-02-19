@@ -5,7 +5,7 @@ title: >
     Tool Chain for Build Pipeline - GitHub Actions vs. Jenkins
 decision_type: must
 belongs_to: devops
-status: _3_sig_agreed
+status: _5_presented
 todos:
     - implement and test PoC with GitHub-Actions
     - research Jenkins-Server solution

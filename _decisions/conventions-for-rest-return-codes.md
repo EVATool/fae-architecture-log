@@ -4,11 +4,9 @@ acronym: conventions-for-rest-return-codes
 title: Conventions for REST return codes and error handling
 decision_type: must
 belongs_to: apis
-status: _1_open
-responsible: 
-deadline: 2021-02-12
-todos: 
-    - describe conventions for HTTP return codes
+status: _5_presented
+responsible: JLÜ
+deadline: 2021-02-19
 history:
     v1:
         date: 2021-02-12
@@ -39,7 +37,7 @@ No evaluation needed.
  
 ## Resolution Details
 
-(add wiki link here)
+The resolution details can be found in the [wiki](https://github.com/EVATool/evatool-backend/wiki/httpreturncodes)
 
 ## Reasons for the resolution
 

@@ -4,7 +4,7 @@ acronym: conventions-for-rest-uris
 title: Conventions for REST URIs
 decision_type: must
 belongs_to: apis
-status: _2_draft
+status: _5_presented
 responsible: SBE
 deadline: 2021-02-12
 history:

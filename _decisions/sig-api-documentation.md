@@ -4,7 +4,7 @@ acronym: sig-api-Documentation
 title: API-Documentation is done using Swagger
 decision_type: must
 belongs_to: apis
-status: _4_stakeholder_checked
+status: _5_presented
 todos:
     - please add how-to for developers
     - merge with sig-api-documentation-standard.md - there seems to be some duplication

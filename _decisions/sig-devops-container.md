@@ -2,7 +2,7 @@
 type: decision
 acronym: sig-devops-container
 title: >
-    Containerization - application hosting  
+    Containerization - VM vs. Docker  
 decision_type: must
 belongs_to: devops
 status: _5_presented

@@ -2,10 +2,10 @@
 type: decision
 acronym: API Code Framework
 title: >
-    Spring Data REST vs. Web MVC with manual link
+    Web MVC with manual link
 decision_type: should
 belongs_to: apis
-status: _4_stakeholder_checked
+status: _5_presented
 responsible: JSP
 deadline: 2021-02-12
 history:

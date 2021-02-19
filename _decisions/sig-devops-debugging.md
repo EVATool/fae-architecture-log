@@ -1,61 +1,57 @@
 ---
 type: decision
 acronym: sig-devops-debugging
-title: >
-    Development debugging local and remote
+title: Local Debugging using Docker
 decision_type: should
 belongs_to: devops
-status: _1_open
+status: _5_presented
 responsible: TZA
 deadline: 2021-02-19
 todos:
-    - implement PoC
 history:
     v1:
         date: 2021-02-05
         comment: created initially
+    v2:
+        date: 2021-02-19
+        comment: added decision info
 ---
 
 ## Why is there need for such a decision?
 
-(Please explain in 1-2 sentences why this is necessary to decide, and why it is a decision on the respective level
-must / should / team)
+The development team must be able to debug the code.
+Both with the help of the embedded application server (local)
+and in the development software landscape (remote / dev-server)
 
 ## Additional sources for better understanding the background
 
-(Please list some sources where a reader can get a better understanding of the topic at hand)
-
+None.
 
 ## Viable Options
 
-(Please list those options that you seriously consider as a possible solution. Simple bulleted list with a brief 
-1-sentence explanation is sufficient.)
-
+* embedded spring boot tomcat only
+* remote dev application\
+  (The application runs on a remote server in a dedicated Dev-Docker container) 
 
 ## Alternatives not seriously considered
 
-(Here comes a list of alternatives that you can exclude right away, without an in-depth evaluation. Format: 
-Simple bulleted list with a brief 1-sentence explanation is sufficient.)
-
-
+None.
 
 ## How is this decision evaluated?
 
-(**Before** you start working in this, please write down how you will evaluate this decision, and plan to 
-come to a resolution. 
-It is  **not sufficient** to perform a brief Google search, and then write  the "result" down. Any decision must
-**always** be based on a thorough evaluation - if possible hands-on, i.e. by coding a brief proof-of-concept.
-if this doesn't apply, then some other means of proper research must be given here - e.g. an evaluation of 
-the most relevant literature or IT community sources.) 
+* Simplicity of the setup
+* How well the demands of development are met
+* Needs of the project at the moment
 
  
 ## Resolution Details
 
-(If the resolation cannot be explained in 1-2 sentences, usually this section would contain a link to some
-documentation in the Github wiki.)
+Debugging with IntelliJ features, and the embedded Spring Boot Tomcat
+is an easy way to go at the moment.
 
+See [Wiki](https://github.com/EVATool/evatool-backend/wiki/Debugging)
 
 ## Reasons for the resolution
 
-(Please explain in 1-2 sentences, why you ultimately opted for this resolution, and not for an alternative one.)
-
+In the course of the project no debugging on a remote instance was necessary until now,
+but this decision can be re-evaluated in the future.

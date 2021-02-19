@@ -4,7 +4,7 @@ acronym: domain-model
 title: We maintain a high-level global "Domain Story Telling" model
 decision_type: must 
 belongs_to: eventing
-status: _2_draft
+status: _5_presented
 todos:
 responsible: KRU;DUZ
 deadline: 2021-02-19
@@ -12,6 +12,9 @@ history:
     v1:
         date: 2021-02-12
         comment: created initially
+    v2: 
+        date: 2021-02-17
+        comment: added Wiki-Link
 ---
 
 ## Why is there need for such a decision?
@@ -43,7 +46,7 @@ We have conducted several domain story telling sessions, plus afterwork by the d
 
 ## Resolution Details
 
-(please add wiki link)
+The detailed Resolution can be found in the [Github-Wiki](https://github.com/EVATool/evatool-backend/wiki/Domain-Storytelling-Model).
 
 
 ## Reasons for the resolution

@@ -21,7 +21,7 @@ history:
 ## Why is there need for such a decision?
 
 In case of problems at the production, it is importend to find informations about the scenario to resolve it at a local system.
-For that a good logging strategy is importanf
+For that a good logging strategy is important.
 
 ## Additional sources for better understanding the background
 

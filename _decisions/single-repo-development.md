@@ -8,8 +8,6 @@ belongs_to: devops
 status: _5_presented
 responsible: JSP;SBE
 deadline: 2021-01-29
-todos: 
-    - please adapt the text (decision now covers only the repo, not the project structure)
 history:
     v1:
         date: 2021-01-15

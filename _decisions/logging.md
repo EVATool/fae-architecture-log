@@ -10,12 +10,14 @@ responsible: JSP
 deadline: 2021-02-19
 implemented: partially
 todos:
-    - enhance logging style to "GET /uri"
     - a bit more detailed description for the logging
 history:
     v1:
         date: 2021-02-13
         comment: created initially
+    v1:
+        date: 2021-02-22
+        comment: done one todo
 ---
 
 ## Why is there need for such a decision?
@@ -29,7 +31,7 @@ For that a good logging strategy is important.
 
 ## How is this decision evaluated?
 
-There is not a really evaluated. It was choosen by the default which spring give you.
+There is not a really evaluated. The logging strategy is oriented at the logging-level strategy which you can find in the wiki.
 
  
 ## Resolution Details

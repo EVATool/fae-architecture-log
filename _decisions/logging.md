@@ -15,7 +15,7 @@ history:
     v1:
         date: 2021-02-13
         comment: created initially
-    v1:
+    v2:
         date: 2021-02-22
         comment: done one todo
 ---

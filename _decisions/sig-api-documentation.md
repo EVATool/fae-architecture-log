@@ -6,8 +6,6 @@ decision_type: must
 belongs_to: apis
 status: _5_presented
 todos:
-    - please add how-to for developers
-    - merge with sig-api-documentation-standard.md - there seems to be some duplication
 responsible: FOB
 deadline: 2021-02-12
 history:

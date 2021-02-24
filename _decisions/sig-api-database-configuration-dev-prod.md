@@ -24,7 +24,9 @@ Due to our different branches (Dev and Prod) two different databases might be ne
 
 ## Additional sources for better understanding the background
 [MySQL](https://www.mysql.com/de/)
+
 [H2](https://www.h2database.com/html/main.html)
+
 [DB config](https://evatool.github.io/fae-architecture-log/decisions/sig-api-database.html)
 
 ## Viable Options

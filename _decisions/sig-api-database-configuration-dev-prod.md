@@ -20,7 +20,7 @@ history:
 ---
 
 ## Why is there need for such a decision?
-Currently we use two different databases (MySQL and H2), with different configurations. This decision is to ensure that we use only one database. 
+Due to our different branches (Dev and Prod) two different databases might be needed! Due to the different databases, different configurations are needed.
 
 ## Additional sources for better understanding the background
 [MySQL](https://www.mysql.com/de/)
@@ -29,11 +29,14 @@ Currently we use two different databases (MySQL and H2), with different configur
 
 ## Viable Options
 MySQL
+
 PostgreSQL
+
 H2
 
 ## Alternatives not seriously considered
 Oracle DB
+
 IBM DB2
 
 ## How is this decision evaluated?

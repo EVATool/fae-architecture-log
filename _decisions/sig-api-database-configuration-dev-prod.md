@@ -29,6 +29,8 @@ Due to our different branches (Dev and Prod) two different databases might be ne
 
 [DB config](https://evatool.github.io/fae-architecture-log/decisions/sig-api-database.html)
 
+[Dual DB config](https://riptutorial.com/spring-boot/example/21856/dev-and-prod-environment-using-different-datasources)
+
 ## Viable Options
 Dual DB (MYSQL and H2)
 

@@ -9,8 +9,6 @@ status: _5_presented
 responsible: JSP
 deadline: 2021-02-19
 implemented: partially
-todos:
-    - a bit more detailed description for the logging
 history:
     v1:
         date: 2021-02-13
@@ -18,6 +16,9 @@ history:
     v2:
         date: 2021-02-22
         comment: done one todo
+    vv:
+        date: 2021-02-25
+        comment: clear todo
 ---
 
 ## Why is there need for such a decision?

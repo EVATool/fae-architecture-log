@@ -30,16 +30,11 @@ Due to our different branches (Dev and Prod) two different databases might be ne
 [DB config](https://evatool.github.io/fae-architecture-log/decisions/sig-api-database.html)
 
 ## Viable Options
-MySQL
+Dual DB (MYSQL and H2)
 
-PostgreSQL
-
-H2
-
+Docker image 
 ## Alternatives not seriously considered
-Oracle DB
 
-IBM DB2
 
 ## How is this decision evaluated?
 This decision depends on the database.

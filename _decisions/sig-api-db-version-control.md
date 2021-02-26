@@ -9,9 +9,6 @@ status: _5_presented
 responsible: MTO;FOB
 deadline: 2021-02-19
 implemented: false
-todos:
-    - please check if the version naming schema can contain strings
-    - needs to be synchronized against version number for each module (to be done)
 history:
     v1:
         date: 2021-02-06
@@ -29,7 +26,6 @@ We need a version control for our database.
 
 
 ## Viable Options
-
 * liquibase
 * Flyway
 
@@ -48,19 +44,23 @@ We need a version control for our database.
 In the context of our project, we chose Flyway. 
 Flyway and Liquibase offer the same functionalities. Whereby Liquibase is a real powerhouse. Flyway is a ligth version and easier to use. Migrations are written with SQL. Liquibase, on the other hand, offers several ways to migrate a database, for example SQL, XML, YAML and more. However, SQL is completely sufficient 
 
-Developing with feature branches:
-To avoid problems with a database versioning with multiple branches, the versioning number is time-stamped.
+# Developing with feature branches
+To avoid problems with a database versioning with multiple branches, there are two possibilities.
+
+## Possibility 1: Add a timestamp to the versioning number.
 
 Example for our project:
-V_<span style="color:#ffb42b">3</span>_<span style="color:#2b76ff">13</span> _<span style="color:#6cbd1f">145</span> _<span style="color:#b42bff">2020_07_08_11_10</span> __<span style="color:#2bffcf">fix_column_lengths</span>.sql
+V<span style="color:#ffb42b">3</span>.<span style="color:#2b76ff">13</span>.<span style="color:#6cbd1f">145</span> .<span style="color:#b42bff">2020.07.08.11.10</span> __<span style="color:#2bffcf">fix_column_lengths</span>.sql
 
-- <span style="color:#ffb42b">The first digits (3) means the major release.</span> 
-- <span style="color:#2b76ff">The second digits (13) means minor changes.</span> 
-- <span style="color:#6cbd1f">The third digits (145) means the patches or mere bug fixes.</span> 
-- <span style="color:#b42bff">The further digits are part of the timestamp. Format: Year_Month_Day_Hour_Minute.</span> 
+- <span style="color:#ffb42b">The first digits (3) means the major release.</span>
+- <span style="color:#2b76ff">The second digits (13) means minor changes.</span>
+- <span style="color:#6cbd1f">The third digits (145) means the patches or mere bug fixes.</span>
+- <span style="color:#b42bff">The further digits are part of the timestamp. Format: Year.Month.Day.Hour.Minute.</span>
 - <span style="color:#2bffcf">At the end of the description a comment of the version is needed.</span>
 
-You can read here the meaning of the [version naming](https://flywaydb.org/documentation/concepts/migrations.html#naming). 
+You can read here the meaning of the [version naming](https://flywaydb.org/documentation/concepts/migrations.html#naming).
+Only numeric characters are allowed: Only 0..9 and . are allowed.
+
 
 "This will prevent version number conflicts from happening (I’m assuming including hours and minutes suffices for this) but creates another problem: versions will not be guaranteed to be merged back to master in order.
 
@@ -69,6 +69,25 @@ That means that Flyway could run against a database to apply a migration like ab
 By default Flyway will consider this an error and your migration will fail. However, you can simply tell Flyway that this is all expected and that it should simply execute all migrations that haven’t been applied yet by setting its **outOfOrder** property to true."
 
 Source: [Come Fly With Me: Flyway usage patterns part I](https://blog.trifork.com/2018/08/17/come-fly-with-me-flyway-usage-patterns-part-i/)
+
+## Possibility 2: Add a team number to the versioning number.
+Each team has a fixed version number.
+
+```
+Impact: 1
+Analysis: 2
+Requirements: 3
+Variants: 4
+```
+
+Example for our project:
+V<span style="color:#ffb42b">3</span>.<span style="color:#2b76ff">13</span>.<span style="color:#6cbd1f">145</span> .<span style="color:#b42bff">[Team number]</span> __<span style="color:#2bffcf">fix_column_lengths</span>.sql
+
+- <span style="color:#ffb42b">The first digits (3) means the major release.</span>
+- <span style="color:#2b76ff">The second digits (13) means minor changes.</span>
+- <span style="color:#6cbd1f">The third digits (145) means the patches or mere bug fixes.</span>
+- <span style="color:#b42bff">The other digits are part of the team number.</span>
+- <span style="color:#2bffcf">At the end of the description a comment of the version is needed.</span>
 
 Here in the wiki is a guide on how to proceed in the flyway:
 [Database version controlling with Flyway.](https://github.com/EVATool/evatool-backend/wiki/Database-version-controlling-with-Flyway)

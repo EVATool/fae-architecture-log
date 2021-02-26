@@ -4,11 +4,9 @@ acronym: team-impact-api-spec
 title: API Specification for Team "Impact"  
 decision_type: team
 belongs_to: impact
-status: _2_draft
+status: _3_team_agreed
 responsible: HBU;TZA
 deadline: 2021-02-19
-todos:
-    - Swagger UI for specification
 history:
     v1:
         date: 2021-02-05

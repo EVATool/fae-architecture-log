@@ -4,7 +4,7 @@ acronym: team-impact-event-spec
 title: Event Specification for Team "Impact"  
 decision_type: team
 belongs_to: impact
-status: _2_draft
+status: _3_team_agreed
 responsible: HBU;TZA 
 deadline: 2021-02-19
 history:
@@ -24,7 +24,7 @@ Each team needs to declare their business events, so that other sub-domains can 
 
 * Decision: [Domain Story Telling as a method to generate such events](./sig-eventing-domain-research)
 * Decision: [Event Technology Decision](./sig-eventing-solution) 
-* Decision: [Payload Model for Events](./sig-eventing-pattern)
+* Decision: [Communication pattern for events is "Full-Payload"](./sig-eventing-communication-pattern)
 
 
 ## Viable Options

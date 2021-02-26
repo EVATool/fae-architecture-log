@@ -20,21 +20,23 @@ history:
 ---
 
 ## Why is there need for such a decision?
-Currently we use two different databases (MySQL and H2), with different configurations. This decision is to ensure that we use only one database. 
+Due to our different branches (Dev and Prod) two different databases might be needed! Due to the different databases, different configurations are needed.
 
 ## Additional sources for better understanding the background
 [MySQL](https://www.mysql.com/de/)
+
 [H2](https://www.h2database.com/html/main.html)
+
 [DB config](https://evatool.github.io/fae-architecture-log/decisions/sig-api-database.html)
 
-## Viable Options
-MySQL
-PostgreSQL
-H2
+[Dual DB config](https://riptutorial.com/spring-boot/example/21856/dev-and-prod-environment-using-different-datasources)
 
+## Viable Options
+Dual DB (MYSQL and H2)
+
+Docker image 
 ## Alternatives not seriously considered
-Oracle DB
-IBM DB2
+
 
 ## How is this decision evaluated?
 This decision depends on the database.

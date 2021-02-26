@@ -47,7 +47,7 @@ Its effect must ripple through the rest of the project’s activities accordingl
 
 ## Viable Options
 
-* business data model (germ.: Fachliches Datenmodell)
+* conceptual data model (germ.: Fachliches Datenmodell)
 * logical data model (germ.: Logisches Datenmodell)
 
 ## Resolution Details
@@ -63,7 +63,7 @@ For this decision, the domain model was created in two steps:
   
 * Then more details like attributes and association directions were added.
   In addition, it was determined which objects represent an entity.
-  hese were the basics for creating a
+  These were the basics for creating a
   [logical data model](https://en.wikipedia.org/wiki/Logical_schema)
 
 ### [Impact Wiki](https://github.com/EVATool/evatool-backend/wiki/Impact)

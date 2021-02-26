@@ -8,8 +8,6 @@ belongs_to: devops
 status: _5_presented
 responsible: JSP;SBE
 deadline: 2021-01-29
-todos: 
-    - please adapt the text (decision now covers only the repo, not the project structure)
 history:
     v1:
         date: 2021-01-15
@@ -29,43 +27,34 @@ history:
     v6: 
         date: 2021-02-19
         comment: rename decision
+    v7: 
+        date: 2021-02-19
+        comment: corrected text   
 ---
 
 ## Why is there need for such a decision?
 
-This decision is important, because it will decide which project structure will be. 
+This decision is important, because it will decide how the project will store in git. 
 
 
 ## Viable Options
 
-* single src-folder with packages for every sub-domain
-* one root src-folder with a modules-folder which have src-folders for every sub-domain.
-
-
-## Alternatives not seriously considered
-
-* one repo for every sub-domain (multi-repo), was ruled out as too complex, since we deploy in one piece 
-    (see [Modulith decision](./modulith))
-
+* single repo
+* one repo for every sub-domain (multi-repo)
 
 ## How is this decision evaluated?
 
-The decision is based on a discussion, and the decision for the branching-strategy (both was decided at the same day).
-
+The decision is based on a history of the project structure.
  
 ## Resolution Details
 
-It was decided to use a root src-folder, but a modules-folder with a src-folder for every sub-domain.
-* the root src-folder is only use for classes that every sub-domain use. 
-Nobody of the sub-domains can be an owners of those classes.
-* every sub-domain have a folder in the modules-folder. This sub-domains have own src-,
-test-,resource-folder and an individual .pom file with the project as parent.
+There will be one repo for the whole project at [git](https://github.com/EVATool/evatool-backend/).
 
 ## Reasons for the resolution
 
-The root src-folder with modules-folder is more like the modulith system as the one src-folder with packages
-for every sub-domain. For this reason, the sub-domains are more encapsulated from each other.
-
-[wiki](https://github.com/EVATool/evatool-backend/wiki/Repo-structure)
+To understand this decision it is good to know the project structure
+[project structure](https://evatool.github.io/fae-architecture-log/decisions/single-project-folder.html)
+with his history.
+The fact that there is only one src folder with domain packages eliminates the need for a multi-repo.
 
 [branching-rules](https://evatool.github.io/fae-architecture-log/decisions/branching-strategy.html)

@@ -39,7 +39,7 @@ Each new version of application will be created as a docker image.
 Then it should be transferred to server and run as a docker container. 
 UID is providing a remote server.
 
-The decision `devops-testing-automation` was a short-term solution to enable testing automation earlier in the project.
+The decision [Testing Automation with GitHub Actions](./sig-devops-testing-automation) was a short-term solution to enable testing automation earlier in the project.
 
 ## Additional sources for better understanding the background
 
@@ -57,7 +57,12 @@ The decision `devops-testing-automation` was a short-term solution to enable tes
 
 ## Viable Options
 
-- Realize build pipeline using GitHub Actions (Execute all steps that can run on GitHub on GitHub and deploy to the server + run the application)
+- Realize build pipeline using GitHub Actions
+    - build
+    - test
+    - transfer `jar` (deploy) to the server 
+    - run the application
+
 - Realize build pipeline using Jenkins (Execute the whole pipeline on the server with Jenkins)
 
 ## Alternatives not seriously considered

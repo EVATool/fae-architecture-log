@@ -1,8 +1,8 @@
 ---
 type: decision
-acronym: branching-strategy
+acronym: branch-strategy
 title: >
-    Rules regarding Git-Push/Merges
+    Branch strategy during development
 decision_type: must
 belongs_to: devops
 status: _5_presented
@@ -19,8 +19,8 @@ history:
 
 ## Why is there need for such a decision?
 
-All domain-teams have to agree on rules regarding the shared git-environment to avoid conflicts and assign
- responsibilities during each step.
+All domain-teams have to agree on rules regarding the shared git-environment to avoid conflicts
+and assign responsibilities during each step.
 
 ## Additional sources for better understanding the background
 
@@ -42,11 +42,9 @@ All domain-teams have to agree on rules regarding the shared git-environment to 
 
 Pull-Requests are too much effort with sub-domain teams that would have to synchronize their work.
 
-
 ## How is this decision evaluated?
 
 The decision is based on a discussion and an analysis of possible problems during testing and merging. 
-
  
 ## Resolution Details
 
@@ -55,6 +53,8 @@ The decision is based on a discussion and an analysis of possible problems durin
     This requires a definition of done (e.g. successful Maven tests).
 * dev-branch + master-branch
     * dev-branch gets merged into master once tests are successful on github as well.
+
+See also: [Rules regarding Git-Merge](./git-merge-rules)
 
 ## Reasons for the resolution
 

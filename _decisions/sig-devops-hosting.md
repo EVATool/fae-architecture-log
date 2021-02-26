@@ -66,7 +66,7 @@ There are many ways in which this can be done.
 ## Resolution Details
 
 It was decided to use the hosting option from one of the main stakeholders ([UID](https://www.uid.com)).
-A Linux server will be provided. The development team should be able to connect and to control the server using SSH (to be verified).
+A Linux server will be provided. The development team should be able to connect and to control the server using SSH.
 
 ## Reasons for the resolution
 
@@ -80,4 +80,3 @@ As can be seen from the sources, setting up an application on a cloud platform h
 In addition, the cloud platform solution would also be vendor lock-in (proprietary solution)
 
 Backups come with extra price by rented solutions.
-

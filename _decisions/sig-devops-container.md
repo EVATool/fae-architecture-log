@@ -94,6 +94,7 @@ The installation of the solutions on the basis of both VM and Docker are at a si
 
 **Input from main Stakeholder (UID)**
 * The server used in the project will be a Microsoft Windows machine
+  (update: Linux Server)
 
 **Proprietary solution**
 * Both VM and Docker solutions are more or less platform independent (but the VM has more overhead)

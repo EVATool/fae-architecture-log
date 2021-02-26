@@ -9,8 +9,7 @@ status: _5_presented
 responsible: JLÜ
 deadline: 2021-02-19
 todos:
-     -fill wiki with content
-     - try out with new structure
+    
 history:
     v1:
         date: 2021-01-08
@@ -54,7 +53,7 @@ n/a
 ## Resolution Details
 
 Due to the change in the project structure a different approach for events is needed.
-The module global will be a package within the application. All domains have to store the events in this package.
+The package global will be a package within the application. All domains have to store the events in the subpackage 'event'.
 
 The resolution is described in the [wiki](https://github.com/EVATool/evatool-backend/wiki/eventlocation).
 

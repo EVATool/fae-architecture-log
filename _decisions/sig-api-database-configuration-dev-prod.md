@@ -42,9 +42,9 @@ Docker image
 This decision depends on the database.
 
 ## Resolution Details
-To avoid possible errors, we will use only one database.
+We will use dual databases. The effort to containerize the databases with Docker would calculate the time frame for this decision. Since familiarization with Docker is necessary. 
 
 ## Reasons for the resolution
-We will use MySQL DB as Database for dev and prod.
+We will use teo different application.prop. [WIKI](...)
 
 

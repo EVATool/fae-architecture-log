@@ -45,6 +45,6 @@ This decision depends on the database.
 We will use dual databases. The effort to containerize the databases with Docker would calculate the time frame for this decision. Since familiarization with Docker is necessary. 
 
 ## Reasons for the resolution
-We will use teo different application.prop. [WIKI](...)
+We will use teo different application.prop. [WIKI](https://github.com/EVATool/evatool-backend/wiki/Database-Configuration)
 
 

@@ -3,9 +3,9 @@ type: decision
 acronym: source-and-test-structure
 title: Source code and test structure (and how to run applications and tests)
 decision_type: must
-belongs_to: HBU
-status: _2_draft
-responsible: 
+belongs_to: devops
+status: _5_presented
+responsible: HBU
 deadline: 2021-02-19
 todos: 
 history:

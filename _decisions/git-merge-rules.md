@@ -5,7 +5,7 @@ title: >
     Rules regarding Git-Merge (Merge-Workflow)
 decision_type: should
 belongs_to: devops
-status: _2_draft
+status: _5_presented
 responsible: TZA    
 deadline: 2021-03-02
 history:

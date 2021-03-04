@@ -5,7 +5,7 @@ title: >
     Configuration database state dev and prod
 decision_type: must
 belongs_to: apis
-status: _2_draft
+status: _5_presented
 responsible: MTO;FOB
 deadline: 2021-03-02
 todos: 

@@ -37,7 +37,7 @@ Events must be tested like any other runnable code in a project.
 
 ## Viable Options
 
-- Mocking spring events in Unit Tests (Mockito, Bean, Cucumber, etc.)
+- Spring event Testing
 
 ## Alternatives not seriously considered
 

@@ -1,0 +1,6 @@
+---
+layout: none
+---
+acronym;title;url;decision_type;belongs_to;status;responsible1;responsible2;responsible3;responsible4;
+{% assign decisions = site.decisions %}{% for dec in decisions %}{{ dec.acronym }};{{ dec.title | strip }};{{ site.url }}{{ dec.url | relative_url }};{{ dec.decision_type }};{{ dec.belongs_to }};{{ dec.status }};{{ dec.responsible }};
+{% endfor %}
